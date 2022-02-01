@@ -1,0 +1,198 @@
+/* normalize.css tu télécharges le fichier css et tu peux le lier dans l'html */ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+html{
+    font-size: 20px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+
+/* header */
+nav{
+    display: flex;
+    width:100%;
+    height: 100px;
+    max-width:1024px;
+    margin:auto;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+nav ul{
+    list-style: none; 
+    display: flex;  
+    margin: 0;
+    align-items: flex-end;
+    padding:0;
+}
+nav ul li{
+    position: relative;
+    margin:0 15px;
+}
+nav ul a{
+    text-decoration: none;
+    color: #403038;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+    transition: .5s;
+}
+nav ul a:hover{
+    border-bottom: 3px solid #750663;
+}
+
+/* nav sous menu*/
+.sub { 
+    background: #edd961;
+    position: absolute; 
+    max-height: 0;
+    transition: .5s;  
+    overflow: hidden;
+}
+.sub li{
+    white-space: nowrap;
+}
+.sub li a{
+    font-size: 0.7rem;
+    text-transform: capitalize;
+    border:none;
+    padding:8px;
+    color:#403038;
+}
+.sub li a:hover{
+    background: white;
+}
+li:hover .sub{
+    max-height: 50px;
+}
+.logo{
+    width: 100%;
+}
+
+/* nav partie pictos*/
+.userMenu{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+.userMenu a{
+    display: block;
+    margin: 0 10px;
+}
+.userMenu img{
+    width: 28px;
+}
+
+/* les titres */
+h1{
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 1rem;
+    color: #403038;
+    padding: 0;
+    margin: 0;
+    max-width: 50%;
+    margin: auto;
+    line-height: 2rem;
+}
+h1 span{
+    background: white;
+    padding: 0.3rem;
+    box-shadow: 1rem 0px 0px white, -1rem 0px 0px white; /* pour ajouter du blanc à gauche et à droite afin que ça ne soit pas collé sur le bord du texte*/
+}
+h2{
+    text-align: center;
+    position: relative;
+    font-size: 1rem;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    color: #403038;
+}
+h2:after{
+    content: "";
+    background-image: url(img/double-fleche.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+    left: calc(50% - 25px); /* permet de bien centrer car la deco fait 50px divisé par 2 = 25px*/
+    padding-bottom: 20px;
+}
+h3{
+    font-size: 0.9rem;
+    text-align: center;
+    padding-top: 30px;
+    color: #403038;
+}
+h4{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #403038;
+}
+
+
+/* Footer */
+footer{
+    background: #403038;
+    height: 300px;
+    display: flex;
+    padding: 20px 80px;
+}
+.footerBox{
+    display: block;
+    margin: auto;
+    width: 25%;
+}
+.footerBox img{
+    width: 50%;
+}
+.footerBox p{
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: white;
+}
+.footerBox ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 2rem;
+}
+.footerBox ul{
+    list-style: none;
+}
+.facebook{
+    position: relative;
+}
+.facebook:before{
+    content: "";
+    background-image: url(img/akar-icons_facebook-fill.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    left: -40px;
+    top: 0.5px;
+}
+.instagram{
+    position: relative;
+}
+.instagram:before{
+    content: "";
+    background-image: url(img/akar-icons_instagram-fill.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    left: -40px;
+    top: 0.5px;
+}

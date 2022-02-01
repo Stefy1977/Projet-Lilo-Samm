@@ -1,0 +1,201 @@
+/* header banner image sur toutes les pages .css - changer juste le lien de l'image !*/
+.headerImage{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 350px;
+    background-image: url(img/banner-lumieres.jpg); /* < ici !*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+/* ------------------------------------------------------------------------------------------------- */
+
+/* main giftIdeas */
+.giftIdeasBackground{
+    display: flex;
+    margin: auto;
+    background: #edd961;
+}
+.giftIdeas{ /* box fond blanc*/
+    width: 80%;
+    display: flex;
+    margin: auto;
+    background: white;
+}
+.giftIdeasBloc{
+    width: 25%;
+}
+.giftIdeasBloc a{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    background: #750663;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+.giftIdeasBloc img{
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
+    display: block;
+}
+
+/* bouton voir la boutique */
+.cta{
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    background: #750663;
+    color: white;
+    padding: 10px;
+    width: 25%;
+    margin: 60px auto;
+    transition: all .5s ease;
+}
+
+/* les petites nouveautés - en fixe */
+.news{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+.news:before{
+    content: "";
+    background-image: url(img/simple-fleche.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+    left: -50px;
+    bottom: 180px;
+}
+.news:after{
+    content: "";
+    background-image: url(img/simple-fleche.svg);
+    transform: rotate(180deg);
+    background-repeat: no-repeat;
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+    right: -50px;
+    bottom: 180px;
+}
+.product{
+    display: block;
+    position: relative;
+    padding-bottom: 40px;
+}
+.infoNew{
+    display: flex;
+    width: 80px;
+    font-size: 0.8rem;
+    padding: 0px 10px;
+    background: #edd961;
+    position: absolute;
+    text-transform: uppercase;
+    top: 10px;
+}
+.heart{
+    display: flex;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: -95px;
+    top: 10px;
+}
+.product img{
+    width: 100%;
+    display: block;
+}
+.product figcaption{
+    font-size: 0.7rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+.productTitle{
+    display: flex;
+    justify-content: space-between;
+}
+.product a{
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    background: #750663;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    margin: auto;
+}
+
+/* main testimonials */
+.testimonials{
+    background: #edd961;
+}
+
+.polaBox{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+.polaroid{
+    background-color: white;
+    display: block;
+    padding: 10px;
+    width: 25%;
+    /* margin: auto; */
+    box-shadow: 5px 5px 5px #ccba55;
+}
+.polaroid img{
+    width: 100%;
+    display: block;
+
+}
+.polaroid figcaption{
+    font-size: 0.6rem;
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+}
+
+/* Infos */
+.infos{
+    display: flex;
+    padding: 60px 80px;
+    justify-content: space-between;
+}
+.infosBox{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+}
+.circlePurple{
+    background: #750663;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    align-items: center;
+}
+
+.infosBox figcaption{
+    color: #750663;
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding-top: 20px;
+}
