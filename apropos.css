@@ -1,0 +1,64 @@
+/* header banner image sur toutes les pages .css - changer juste le lien de l'image !*/
+.headerImage{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 350px;
+    background-image: url(img/banner-a-propos.jpeg); /* < ici !*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+/* ------------------------------------------------------------------------------------------------- */
+
+.container {
+    display: flex;
+    margin: auto;
+    width: 60%; 
+    background-color: white;
+    flex-direction: column;
+}
+.container p {
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding: 50px;
+    margin: 0%;
+    width: 50%;
+    box-sizing: border-box;  
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.container img {
+    object-fit: cover;
+    width: 50%;
+    height: 100%;
+    display: block;
+}
+.container div {
+    
+    display: flex;
+    height: 400px;
+}
+/* DIV FIRST (photo : lilo) */
+
+.first p {
+    background: #edd961;
+    color: #403038;
+} 
+
+/* DIV SECOND (photo : café) */
+.second p {
+    background: #403038;
+    color: white;
+    order: 1;
+}
+.second img {
+    order: 2;
+}
+/* DIV THIRD (photo : étagères) */
+
+.third p {
+    background: #750663;
+    color: white;
+}
