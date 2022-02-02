@@ -19,7 +19,7 @@
     flex-direction: column;
 }
 .container p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 300;
     padding: 50px;
     margin: 0%;
@@ -40,14 +40,14 @@
     display: flex;
     height: 400px;
 }
-/* DIV FIRST (photo : lilo) */
+/*---------- DIV FIRST (photo : lilo) */
 
 .first p {
     background: #edd961;
     color: #403038;
 } 
 
-/* DIV SECOND (photo : café) */
+/*---------- DIV SECOND (photo : café) */
 .second p {
     background: #403038;
     color: white;
@@ -55,10 +55,50 @@
 }
 .second img {
     order: 2;
+    
 }
-/* DIV THIRD (photo : étagères) */
-
+/*---------- DIV THIRD (photo : étagères) */
+.third {
+    padding-bottom: 40px;
+}
 .third p {
     background: #750663;
     color: white;
+    
 }
+
+/* ---------------- MEDIAQUERIES -------------- */
+
+@media screen and (max-width: 768px) {
+    .container {
+        align-items: center;
+        display: block;
+        min-width: 60%;
+    }
+    
+    .first {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 200%;
+        align-items: center;
+    }
+    .second {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 200%;
+        align-items: center;
+    }
+    .third {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 200%;
+        align-items: center;
+    }
+}
+
+
+
+
