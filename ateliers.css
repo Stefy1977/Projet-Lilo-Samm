@@ -10,3 +10,12 @@
     display: flex;
 }
 /* ------------------------------------------------------------------------------------------------- */
+
+.mainAteliers p{
+    text-align: center;
+    color: #403038;
+    font-size: 0.8rem;
+    max-width: 800px;
+    margin: auto;
+    padding-bottom: 20px;
+}
