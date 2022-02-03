@@ -51,14 +51,15 @@
     width: 80%;
     margin: auto;
     position: relative;
+    padding-bottom: 80px;
+}
+figure{
+    margin: 0;
 }
 .product{
     display: block;
     position: relative;
-    padding-bottom: 40px;
-}
-.imageProduct{
-    position: relative;
+    padding: 0 20px;
 }
 .infoNew{
     display: flex;
@@ -75,7 +76,6 @@
     position: absolute;
     width: 30px;
     height: 30px;
-    right: -95px;
     top: 10px;
 }
 .product img{
@@ -109,11 +109,13 @@
 /* main testimonials */
 .testimonials{
     background: #edd961;
+    padding-bottom: 40px;
+    margin: auto;
 }
 
 .polaBox{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0 80px;
 }
 .polaroid{
@@ -127,7 +129,6 @@
 .polaroid img{
     width: 100%;
     display: block;
-
 }
 .polaroid figcaption{
     font-size: 0.6rem;
