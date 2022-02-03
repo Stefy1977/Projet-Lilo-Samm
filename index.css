@@ -1,6 +1,7 @@
 /* header banner image sur toutes les pages .css - changer juste le lien de l'image !*/
 .headerImage{
     padding: 0;
+    padding-top: 80px;
     margin: 0;
     width: 100%;
     height: 350px;
@@ -42,22 +43,6 @@
     width: 100%;
     height: 50%;
     display: block;
-}
-
-/* bouton voir la boutique */
-.cta{
-    display: block;
-    font-size: 0.9rem;
-    font-weight: 300;
-    text-transform: uppercase;
-    text-decoration: none;
-    text-align: center;
-    background: #750663;
-    color: white;
-    padding: 10px;
-    width: 25%;
-    margin: 60px auto;
-    transition: all .5s ease;
 }
 
 /* les petites nouveautés - en fixe */

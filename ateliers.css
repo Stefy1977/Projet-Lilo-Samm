@@ -19,3 +19,22 @@
     margin: auto;
     padding-bottom: 20px;
 }
+.bigBox1{
+    display: flex;
+    margin: 0;
+}
+.bigBox2{
+    display: flex;
+    margin: 0;
+}
+.boxDouble{
+    margin: 0;
+    width: 33%;
+}
+.boxSimple{
+    margin: 0;
+}
+.workshopPictures{
+    margin: auto;
+
+}
