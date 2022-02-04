@@ -23,3 +23,39 @@
     z-index: 2;
 }
 /* ------------------------------------------------------------------------------------------------- */
+
+.actu {
+padding: 25px 25px;
+width: 100%;
+}
+
+.date {
+    background-color: #EDD961;
+    width: 15%;
+    margin: 0;
+    padding: 27px 34px;
+}
+
+.textFloat {
+position: absolute;
+}
+
+.flexDate {
+    display: flex;
+    margin-left: 25px;
+}
+
+.flexDate p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.flexLieu {
+    display: flex;
+    margin-left: 25px;
+}
+
+.flexLieu p {
+    margin: 0;
+    font-size: 14px;
+}
