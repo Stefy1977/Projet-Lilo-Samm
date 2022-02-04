@@ -5,7 +5,7 @@
     margin: 0;
     width: 100%;
     height: 350px;
-    background-image: url(img/banner-badges.jpg); /* < ici !*/
+    background-image: url(img/banner-shop-all-products.jpg); /* < ici !*/
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -23,3 +23,106 @@
     z-index: 2;
 }
 /* ------------------------------------------------------------------------------------------------- */
+
+/* Main */
+.mainShop{
+    width: 80%;
+    margin: auto;
+}
+
+/* Ligne articles trouvés et rechercher */
+
+.itemsFound{
+    font-size: 0.8rem;
+    font-weight: 300;
+    padding-right: 10px;
+}
+.lineSearch{
+    display: flex;
+    padding: 40px 0px;
+}
+.search{
+    display: flex;
+    margin-left: auto;
+}
+.search input{
+    border-style: none;
+    border-bottom: #403038 solid 1px;
+}
+.lineSearch button{
+    border-style: none;
+    background-color: white;
+}
+
+
+/* la grille de produits */
+
+.productGrid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1100px;
+    margin: auto;
+    padding-bottom: 80px;
+}
+.productGrid figure{
+    margin: 0;
+}
+.productGrid .product{
+    display: block;
+    position: relative;
+    max-width: 320px;
+    padding: 0 20px;
+}
+.productGrid .infoNew{
+    display: flex;
+    width: 80px;
+    font-size: 0.8rem;
+    padding: 0px 10px;
+    background: #edd961;
+    position: absolute;
+    text-transform: uppercase;
+    top: 10px;
+}
+.like{
+    display: flex;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    right: 30px;
+    padding: 5px;
+    border-radius: 10%;
+    background-color: white;
+}
+.like:hover{
+    background-color: #edd961;
+}
+.productGrid .product img{
+    width: 100%;
+    display: block;
+}
+.productGrid .product figcaption{
+    font-size: 0.7rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+.productGrid .productTitle{
+    display: flex;
+    justify-content: space-between;
+}
+.buy{
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    background: #750663;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+}

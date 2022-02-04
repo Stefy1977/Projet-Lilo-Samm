@@ -102,6 +102,32 @@ li:hover .sub{
     max-height: 45px;
 }
 
+/* Fil d'ariane */
+.breadcrumb ul {
+    display: flex;
+    font-size: 0.7rem;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    color: #403038;
+}
+.breadcrumb ul li a{
+    font-size: 0.7rem;
+    font-weight: 300;
+    color: #403038;
+    text-decoration: none;
+}
+
+.breadcrumb li::before {
+    content: "> ";
+    margin-left: 5px;
+    color: #403038;
+}
+    
+.breadcrumb li:first-child::before {
+    content: "";
+}
+
 /* les titres */
 h1{
     text-align: center;
@@ -176,7 +202,6 @@ h4{
     margin: 60px auto;
     transition: all .5s ease;
 }
-
 
 /* Footer */
 footer{

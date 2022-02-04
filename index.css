@@ -59,7 +59,7 @@
     display: block;
 }
 
-/* les petites nouveautés - en fixe */
+/* la grille produits "nouveautés" */
 .news{
     display: flex;
     width: 80%;
