@@ -23,39 +23,86 @@
     z-index: 2;
 }
 /* ------------------------------------------------------------------------------------------------- */
-
-.actu {
-padding: 25px 25px;
-width: 100%;
+main {
+    height: 1080px;
 }
 
-.date {
-    background-color: #EDD961;
-    width: 15%;
-    margin: 0;
-    padding: 27px 34px;
+form {
+    text-align: right;
+    padding-right: 320px;
+    padding-top: 50px;
+}
+
+.actu {
+    position: relative;
+    margin: 0 10px;
+    padding-bottom: 50px;
 }
 
 .textFloat {
-position: absolute;
+    position: absolute;
+    width: 100%;
+}
+
+.textInfo {
+    background: #403038;
+    color: white;
+    margin-top: 156px;
+    padding: 30px 54.5px 30px 30px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.date {
+    background: #EDD961;
+    margin: 0;
+    padding: 15px;
+    width: 24%;
+    text-align: center;
 }
 
 .flexDate {
     display: flex;
-    margin-left: 25px;
+    margin-top: auto;
+    align-items: center;
 }
 
 .flexDate p {
+    font-size: 11px;
     margin: 0;
-    font-size: 14px;
+    font-weight: 200;
+    padding-left: 8px;
+}
+
+.flexDate img {
+    text-align: center;
 }
 
 .flexLieu {
     display: flex;
-    margin-left: 25px;
+    padding-top: 17px;
+    align-items: center;
 }
 
 .flexLieu p {
+    font-size: 11px;
     margin: 0;
-    font-size: 14px;
+    font-weight: 400;
+    padding-left: 15px;
+}
+
+.titreActu {
+    margin: 0;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+
+.flexEvenement {
+    display: flex;
+    justify-content:center;
+    width: 80%;
+    margin: auto;
+    max-width: 1000px;
+    padding: 10px 0;
 }
