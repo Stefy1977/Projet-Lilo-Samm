@@ -41,6 +41,7 @@
     display: flex;
     justify-content: center;
     align-items: center ;
+    
 }
 .container img {
     object-fit: cover;
@@ -65,6 +66,7 @@
     background: #403038;
     color: white;
     order: 1;
+    
 }
 .second img {
     order: 2;
@@ -82,36 +84,30 @@
 
 /* ---------------- MEDIAQUERIES -------------- */
 
-@media screen and (max-width: 768px) {
-    .container {
-        align-items: center;
-        display: block;
-        min-width: 60%;
-    }
-    
-    .first {
-        display: flex;
+@media screen and (max-width: 1024px) {
+  
+    .container div{
         flex-direction: column;
-        position: relative;
-        width: 200%;
-        align-items: center;
+        height: auto;
     }
-    .second {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        width: 200%;
-        align-items: center;
+    .container div img, .container div p {
+        width: 100%;
+        min-height: 400px;
     }
-    .third {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        width: 200%;
-        align-items: center;
+    .container .second p {
+        order: 2;
     }
+  
+
 }
 
 
-
-
+ 
+@media screen and (max-width : 768px){
+    .container {
+        width: 90%;
+    }
+    .container p {
+        padding: 15px 30px;
+    }
+}
