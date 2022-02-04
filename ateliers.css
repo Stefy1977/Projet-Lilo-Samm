@@ -92,3 +92,6 @@ figure img{
     max-height: 25vw;
     overflow: hidden;
 }
+.workshopPictures figure:first-of-type{
+    margin-top: 0; /* pour que la première ligne soit à niveau avec les autres */
+}
