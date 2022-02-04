@@ -4,9 +4,73 @@
     margin: 0;
     width: 100%;
     height: 350px;
-    background-image: url(img/banner-ateliers.jpg); /* < ici !*/
+    background-image: url(img/banner-blog.jpg); /* < ici !*/
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
 }
 /* ------------------------------------------------------------------------------------------------- */
+
+.article {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-top: 50px;
+}
+
+.article img {
+    width: 30%;
+}
+
+time {
+    position: absolute;
+    padding: 10px 40px;
+    z-index: 10;
+    top: -8%;
+    left: 50%;
+    transform: translateX(-50%) ;
+    font-size: 14px;
+    font-weight: 100;
+    color: white;
+    background: #403038;
+}
+
+.infoArticle {
+    position: absolute;
+    width: 400px;
+    height: 70%;
+    z-index: 1;
+    top: 20%;
+    left: 62%;
+    border: #403038 4px solid;
+    background: white;
+}
+
+.infoArticle h5 {
+    padding:60px 45px 0 45px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.infoArticle p {
+    padding: 0 45px 15px 45px;
+    font-size: 16px;
+}
+
+.boutonArticle {
+    width: 50%;
+    padding: 10px 10px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background: #8C337D;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+main {
+    height: 1000px;
+    margin-left: -350px;
+}
