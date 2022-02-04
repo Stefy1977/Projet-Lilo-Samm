@@ -34,7 +34,7 @@
 }
 
 /* partie avec les visuels */
-.bigBox1{
+/* .bigBox1{
     display: flex;
     margin: 0;
 }
@@ -62,9 +62,33 @@
 }
 .boxSimple img{
     object-fit: cover;
-}
-.workshopPictures{
+} */
+
+/* .workshopPictures{
+    display: flex;
+    flex-wrap: wrap;
     width: 80%;
     margin: auto;
     padding-bottom: 80px;
+}
+.workshopPictures figure{
+    margin: 0;
+    flex-basis: 30%;
+} */
+
+.workshopPictures{
+    column-width: 25vw;
+    width: 80%;
+    column-gap: 0px;
+    margin: auto;
+    padding-bottom: 80px;
+}
+figure img{
+    display: block;
+    width: 100%;
+}
+.workshopPictures figure{
+    margin: 20px 10px;
+    max-height: 25vw;
+    overflow: hidden;
 }
