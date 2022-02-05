@@ -5,7 +5,7 @@
     margin: 0;
     width: 100%;
     height: 350px;
-    background-image: url(img/banner-ateliers.jpg); /* < ici !*/
+    background-image: url(img/banner-cgdv.jpg); /* < ici !*/
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -27,7 +27,7 @@
 
 /* ------------------------------ CONDITIONS GENERALES DE VENTE MAIN -------------------------------------------------------------- */
 .container {
-   
+    
     margin: auto;
     width: 60%; 
     background-color: white;
@@ -41,6 +41,27 @@
     
 }
 
+.article1:before {
+    
+    content: "";
+    background-image: url(img/guillemetsOuverture.png);
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    float:left ;
+    min-width: auto;
+    margin: 0px 20px 20px 0px;
+}
+.article4::before  {
+    content: "";
+    background-image: url(img/guillemetsFerme.png);
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    float: right;
+    min-width: auto;
+    margin: 20px 0px 0px 20px;
+}
 
 
 
@@ -60,8 +81,12 @@
     .container .second p {
         order: 2;
     }
-  
-
+    .article1:before {
+        display: none;
+    }
+    .article4:after {
+        display: none;
+    }
 }
 
 
