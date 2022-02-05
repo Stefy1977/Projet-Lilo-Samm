@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="shop.css">
+    <script src="main.js" defer></script>
     <title>Boutique</title>
 </head>
 
@@ -61,8 +62,8 @@
         <div class="lineSearch">
             <span class="itemsFound">140 articles trouvés</span>
             <div class="search">
-                <input type="search" id="site-search" name="Rechercher" aria-label="Search through site content">
-                <button><img src="img/mdi_magnify.svg" alt=""></button>
+                <input type="search" id="site-search" name="q" placeholder="RECHERCHER" aria-label="Recherche dans les produits">
+                <button><img src="img/mdi_magnify.svg" alt="Bouton loupe de recherche"></button>
             </div>
         </div>
         <div class="productGrid">
@@ -85,7 +86,7 @@
                     <figcaption>Badge</figcaption>
                 </figure>
                 <div class="productTitle">
-                    <h4>"Il faut croître en soi"</h4>
+                    <h4>"A fleur de peau de vache"</h4>
                     <h4>5,00€</h4>
                 </div>
                 <a class="buy" href="#">Ajouter au panier</a>
@@ -97,7 +98,7 @@
                     <figcaption>Badge</figcaption>
                 </figure>
                 <div class="productTitle">
-                    <h4>"Il faut croître en soi"</h4>
+                    <h4>"Mille-feuille émotionnel"</h4>
                     <h4>5,00€</h4>
                 </div>
                 <a class="buy" href="#">Ajouter au panier</a>
@@ -105,11 +106,23 @@
             <div class="product">
                 <a class="like" href=""><img src="img/mdi_cards-heart-outline.svg" alt=""></a>
                 <figure class="imageProduct"> 
-                    <img src="img/product/badge-bon-chips.jpg" alt="badge il faut croitre en soi">
+                    <img src="img/product/badge-bon-chips.jpg" alt="badge doré pailleté">
                     <figcaption>Badge</figcaption>
                 </figure>
                 <div class="productTitle">
-                    <h4>"Il faut croître en soi"</h4>
+                    <h4>"Bon chips, bon genre"</h4>
+                    <h4>5,00€</h4>
+                </div>
+                <a class="buy" href="#">Ajouter au panier</a>
+            </div>
+            <div class="product">
+                <a class="like" href=""><img src="img/mdi_cards-heart-outline.svg" alt=""></a>
+                <figure class="imageProduct"> 
+                    <img src="img/product/badge-tchin.jpg" alt="badge visuel apéro">
+                    <figcaption>Badge</figcaption>
+                </figure>
+                <div class="productTitle">
+                    <h4>"Tchin"</h4>
                     <h4>5,00€</h4>
                 </div>
                 <a class="buy" href="#">Ajouter au panier</a>
@@ -118,25 +131,12 @@
                 <span class="infoNew">Nouveau</span>
                 <a class="like" href=""><img src="img/mdi_cards-heart-outline.svg" alt=""></a>
                 <figure class="imageProduct"> 
-                    <img src="img/product/badge-tchin.jpg" alt="badge il faut croitre en soi">
-                    <figcaption>Badge</figcaption>
-                </figure>
-                <div class="productTitle">
-                    <h4>"Il faut croître en soi"</h4>
-                    <h4>5,00€</h4>
-                </div>
-                <a class="buy" href="#">Ajouter au panier</a>
-            </div>
-            <div class="product">
-                <span class="infoNew">Nouveau</span>
-                <a class="like" href=""><img src="img/mdi_cards-heart-outline.svg" alt=""></a>
-                <figure class="imageProduct"> 
-                    <img src="img/product/papeterie-fille-craquante.jpg" alt="badge il faut croitre en soi">
+                    <img src="img/product/papeterie-fille-craquante.jpg" alt="carte postale allumettes">
                     <figcaption>Carte postale</figcaption>
                 </figure>
                 <div class="productTitle">
-                    <h4>"Il faut croître en soi"</h4>
-                    <h4>5,00€</h4>
+                    <h4>"Fille craquante"</h4>
+                    <h4>2,00€</h4>
                 </div>
                 <a class="buy" href="#">Ajouter au panier</a>
             </div>
@@ -144,44 +144,47 @@
                 <span class="infoNew">Nouveau</span>
                 <a class="like" href=""><img src="img/mdi_cards-heart-outline.svg" alt=""></a>
                 <figure class="imageProduct"> 
-                    <img src="img/product/bo-arc-bleu.jpg" alt="badge il faut croitre en soi">
+                    <img src="img/product/bo-arc-bleu.jpg" alt="boucles d'oreilles polymère">
                     <figcaption>Boucles d'oreilles</figcaption>
                 </figure>
                 <div class="productTitle">
-                    <h4>"Il faut croître en soi"</h4>
-                    <h4>5,00€</h4>
+                    <h4>"Polymère bleu roi"</h4>
+                    <h4>15,00€</h4>
                 </div>
                 <a class="buy" href="#">Ajouter au panier</a>
             </div>
             <div class="product">
-                <span class="infoNew">Nouveau</span>
                 <a class="like" href=""><img src="img/mdi_cards-heart-outline.svg" alt=""></a>
                 <figure class="imageProduct"> 
-                    <img src="img/product/badge-humoureuse.jpg" alt="badge il faut croitre en soi">
+                    <img src="img/product/badge-humoureuse.jpg" alt="badge je suis humoureuse">
                     <figcaption>Badge</figcaption>
                 </figure>
                 <div class="productTitle">
-                    <h4>"Il faut croître en soi"</h4>
+                    <h4>"Je suis humoureuse"</h4>
                     <h4>5,00€</h4>
                 </div>
                 <a class="buy" href="#">Ajouter au panier</a>
             </div>
             <div class="product">
-                <span class="infoNew">Nouveau</span>
                 <a class="like" href=""><img src="img/mdi_cards-heart-outline.svg" alt=""></a>
                 <figure class="imageProduct"> 
                     <img src="img/product/bo-trio-red-purple.jpg" alt="badge il faut croitre en soi">
                     <figcaption>Boucles d'oreilles</figcaption>
                 </figure>
                 <div class="productTitle">
-                    <h4>"Il faut croître en soi"</h4>
-                    <h4>5,00€</h4>
+                    <h4>"Polymères trio"</h4>
+                    <h4>20,00€</h4>
                 </div>
                 <a class="buy" href="#">Ajouter au panier</a>
             </div>
-            <div class="paging">
-                <a href="">page précédente</a>
-                <a href="">page suivante</a>
+            <div class="pagination" aria-label="pagination">
+                <span class="previousPage">
+                    <a href="">Page précédente</a>
+                </span>
+                <span class="page">1/12</span>
+                <span class="nextPage">
+                    <a href="">Page suivante</a>
+                </span>
             </div>
         </div>
 
@@ -205,10 +208,9 @@
                 <li><a class="facebook" href="#">Facebook</a></li>
                 <li><a class="instagram" href="#">Instagram</a></li>
             </ul>
-
         </div>
-
     </footer>
+    <button onclick="topFunction()" id="scroll"></button>
 
 </body>
 
