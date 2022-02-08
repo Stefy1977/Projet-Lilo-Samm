@@ -51,6 +51,10 @@ nav ul a{
 nav ul a:hover{
     border-bottom: 3px solid #750663;
 }
+.active nav ul a{
+    border-bottom: 3px solid #750663 !important;
+}
+
 .logo{
     width: 120px;
     min-width: 120px;
