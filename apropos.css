@@ -23,6 +23,12 @@
     z-index: 2;
 }
 /* ------------------------------------------------------------------------------------------------- */
+h6 {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #403038;
+    margin: 0px;
+}
 
 .container {
     display: flex;
@@ -31,7 +37,9 @@
     background-color: white;
     flex-direction: column;
 }
-.container p {
+/* ----- tous les p ---- */
+ p {
+  
     font-size: 0.8rem;
     font-weight: 300;
     padding: 50px;
@@ -43,26 +51,39 @@
     align-items: center ;
     
 }
-.container img {
+ img {
     object-fit: cover;
     width: 50%;
     height: 100%;
     display: block;
 }
-.container div {
-    
+.container div {  
     display: flex;
     height: 400px;
 }
-/*---------- DIV FIRST (photo : lilo) */
+/*---------- DIV FIRST ( avec la photo : lilo) */
 
-.first p {
+ .firstInfo  {
     background: #edd961;
     color: #403038;
+    width: auto;
+    display: flex;
+    flex-direction: column;
 } 
 
-/*---------- DIV SECOND (photo : café) */
-.second p {
+.firstInfo p {
+    position: relative;
+    width: 100%;
+}
+.firstInfo h6 {
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    left: 100px;
+}
+
+/*---------- DIV SECOND ( avec la photo : café) */
+.secondInfo {
     background: #403038;
     color: white;
     order: 1;
@@ -73,15 +94,27 @@
     
 }
 /*---------- DIV THIRD (photo : étagères) */
-.third {
-    padding-bottom: 80px;
-}
-.third p {
+
+.thirdInfo {
     background: #750663;
     color: white;
     
 }
 
+/* -------- DIV FOUR (photo : ) */
+.fourInfo  {
+    background: #edd961;
+    color: #403038;
+} 
+
+.four {
+    padding-bottom: 80px;
+    order: 2;
+}
+
+.four img{
+    order: 4 ;
+}
 /* ---------------- MEDIAQUERIES -------------- */
 
 @media screen and (max-width: 1024px) {
