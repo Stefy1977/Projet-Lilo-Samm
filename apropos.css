@@ -64,7 +64,7 @@ h6 {
     font-size: 0.8rem;
     font-weight: 500;
     margin: 0px;
-    padding-left: 50px;
+    padding: 0px 0px 10px 50px;
 }
 
 
@@ -118,7 +118,11 @@ texte  {
 /* ---------------- MEDIAQUERIES -------------- */
 
 @media screen and (max-width: 1024px) {
-  
+    .container p {
+        padding: 15px 30px;
+        font-size: 0.3 rem;
+        max-height: 350px;
+    }
     .container div{
         flex-direction: column;
         height: auto;
@@ -127,11 +131,12 @@ texte  {
         width: 100%;
         min-height: 400px;
     }
-    .container .second p {
-        order: 2;
-    }
   
+    .second img {
+        order : 3;
+    }
 
+    
 }
 
 
@@ -140,7 +145,9 @@ texte  {
     .container {
         width: 90%;
     }
-    .container p {
+     p {
         padding: 15px 30px;
+        font-size: 0.3 rem;
+        max-height: 350px;
     }
 }
