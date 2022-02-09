@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="badges.css">
-    <title>Les badges</title>
+    <link rel="stylesheet" href="product.css">
+    <script src="main.js" defer></script>
+    <title>Produit</title>
 </head>
 
 <body>
@@ -16,7 +17,7 @@
             <a href="index.html" title="les ateliers de lilo"><img class="logo" src="img/ladl-logo-dark.svg" alt="logo"></a>
             <ul class="hamburger">
                 <li><a href="index.html">Accueil</a></li>
-                <li><a href="shop.html">Boutique</a>
+                <li><a class="active" href="shop.html">Boutique</a>
                     <ul class="sub">
                         <li><a href="shop.html">Voir tout</a></li>
                         <li><a href="bijoux.html">Bijoux</a></li>
@@ -47,32 +48,77 @@
             </div>
         </nav>
     </header>
+
     <div class="headerImage">
         <p><span>Boutique</span></p>
     </div>
+
     <main>
         <div class="breadcrumb">
             <ul>
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="">Boutique</a></li>
-                <li><span aria-current="page">Badges</span></li>
+                <li><a href="">Voir tout</a></li>
+                <li><span aria-current="page">Badge "Il faut croître en soi"</span></li>
             </ul>
         </div>
-        <h1>Tous les badges</h1>
-        
-        
+
+        <section class="productDescription">
+            
+        </section>
+
+        <section class="productGrid">
+            <div class="product">
+                <a class="like" href=""><img src="img/mdi_cards-heart-outline.svg" alt=""></a>
+                <figure class="imageProduct"> 
+                    <a href=""><img src="img/product/badge-croitre-en-soi.jpeg" alt="badge il faut croitre en soi"></a>
+                    <figcaption>Badge</figcaption>
+                </figure>
+                <div class="productTitle">
+                    <span>"Il faut croître en soi"</span>
+                    <span class="price">5,00€</span>
+                </div>
+                <a class="buy" href="#">Ajouter au panier</a>
+            </div>
+            <div class="product">
+                <a class="like" href=""><img src="img/mdi_cards-heart-outline.svg" alt=""></a>
+                <figure class="imageProduct"> 
+                    <a href=""><img src="img/product/badge-a-fleur-de-peau.jpeg" alt="badge a fleur de peau"></a>
+                    <figcaption>Badge</figcaption>
+                </figure>
+                <div class="productTitle">
+                    <span>"A fleur de peau de vache"</span>
+                    <span class="price">5,00€</span>
+                </div>
+                <span class="outOfStock">Zut, c’est en rupture de stock...</span>
+            </div>
+            <div class="product">
+                <a class="like" href=""><img src="img/mdi_cards-heart-outline.svg" alt=""></a>
+                <figure class="imageProduct"> 
+                    <a href=""><img src="img/product/badge-mille-feuille.jpeg" alt="badge il faut croitre en soi"></a>
+                    <figcaption>Badge</figcaption>
+                </figure>
+                <div class="productTitle">
+                    <span>"Mille-feuille émotionnel"</span>
+                    <span class="price">5,00€</span>
+                </div>
+                <a class="buy" href="#">Ajouter au panier</a>
+            </div>
+        </section>
+
     </main>
     <footer>
         <div class="footerBox">
             <img src="img/ladl-logo-white.svg" alt="logo les ateliers de Lilo">
-            <p>Rue Arthur Duquesne, 53<br>7032 Spiennes<br>Belgique</p>
+            <p>Rue Arthur Duquesne, 53<br>7032 Spiennes<br>Belgique<br>TVA: BE0XXX-XXX-XXX</p>
         </div>
         <div class="footerBox">
             <ul>
-                <li><a href="#">Points de vente</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">CGDV</a></li>
+                <li><a href="pointsdevente.html">Points de vente</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cgdv.html">CGDV</a></li>
+                <li><a href="rgpd.html">RGPD</a></li>
             </ul>
         </div>
         <div class="footerBox">
@@ -81,10 +127,9 @@
                 <li><a class="facebook" href="#">Facebook</a></li>
                 <li><a class="instagram" href="#">Instagram</a></li>
             </ul>
-
         </div>
-
     </footer>
+    <button onclick="topFunction()" id="scroll"></button>
 
 </body>
 
