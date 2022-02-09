@@ -26,54 +26,62 @@
 }
 /* ------------------------------------------------------------------------------------------------- */
 
-.article {
+.articleFirst {
     display: flex;
     justify-content: center;
-    position: relative;
     padding-top: 50px;
 }
 
-.article img {
-    width: 30%;
+.articleSecond {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding-top: 50px;
+    padding-bottom: 80px;
 }
 
-time {
-    position: absolute;
-    padding: 10px 40px;
-    z-index: 10;
-    top: -8%;
-    left: 50%;
-    transform: translateX(-50%) ;
-    font-size: 14px;
-    font-weight: 100;
-    color: white;
+.articleFirst img {
+    width: 600px;
+    height: 600px;
+}
+
+.articleSecond img {
+    width: 600px;
+    height: 600px;
+}
+
+.infoArticleFirst {
+    background: #EDD961;
+    width: 600px;
+    height: 600px;
+}
+
+.info {
+    padding: 150px 0;
+}
+
+.infoArticleSecond {
     background: #403038;
+    width: 600px;
+    height: 600px;
 }
 
-.infoArticle {
-    position: absolute;
-    width: 400px;
-    height: 70%;
-    z-index: 1;
-    top: 20%;
-    left: 62%;
-    border: #403038 4px solid;
-    background: white;
-}
-
-.infoArticle h5 {
-    padding:60px 45px 0 45px;
+.infoArticleFirst h5 {
+    padding:0 170px;
     margin: 0;
     font-size: 20px;
+    color: #403038;
+    font-weight: 500;
 }
 
-.infoArticle p {
-    padding: 0 45px 15px 45px;
+.infoArticleFirst p {
+    padding: 0 170px 15px 170px;
     font-size: 16px;
+    color: #403038;
 }
 
 .boutonArticle {
-    width: 50%;
+    width: 40%;
     padding: 10px 10px;
     display: block;
     margin: 0 auto;
@@ -85,7 +93,35 @@ time {
     text-decoration: none;
 }
 
+.firstDate {
+    padding: 0px 170px;
+    font-size: 14px;
+    font-weight: 100;
+    color: #403038;
+}
+
+.infoArticleSecond h5 {
+    padding:0 170px;
+    margin: 0;
+    font-size: 20px;
+    color: white;
+}
+
+.infoArticleSecond p {
+    padding: 0 170px 15px 170px;
+    font-size: 16px;
+    color: white;
+}
+
+.secondDate {
+    padding: 0px 170px;
+    font-size: 14px;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+
 main {
-    height: 1000px;
-    margin-left: -350px;
+    width: 80%;
+    margin: 0 auto;
 }
