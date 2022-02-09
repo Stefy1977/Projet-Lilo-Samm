@@ -51,8 +51,8 @@ nav ul a{
 nav ul a:hover{
     border-bottom: 3px solid #750663;
 }
-.active nav ul a{
-    border-bottom: 3px solid #750663 !important;
+ul a.active{
+    border-bottom: 3px solid #750663;
 }
 
 .logo{
@@ -114,6 +114,8 @@ li:hover .sub{
     list-style: none;
     padding: 0;
     color: #403038;
+    margin: 0;
+    margin-top: 10px;
 }
 .breadcrumb ul li a{
     font-size: 0.7rem;
