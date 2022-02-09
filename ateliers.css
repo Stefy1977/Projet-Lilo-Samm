@@ -4,7 +4,7 @@
     padding-top: 80px;
     margin: 0;
     width: 100%;
-    height: 350px;
+    height: 200px;
     background-image: url(img/banner-ateliers.jpg); /* < ici !*/
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@
     content: "";
     background-color: #403038;
     width: 100%;
-    height: 350px;
+    height: 200px;
     position: absolute;
     opacity: 0.6;
     z-index: 1;
@@ -25,11 +25,11 @@
 /* ------------------------------------------------------------------------------------------------- */
 
 .mainAteliers p{
-    text-align: center;
+    text-align: left;
     color: #403038;
     font-size: 0.8rem;
     font-weight: 300;
-    max-width: 800px;
+    width: 80%;
     margin: auto;
     padding-bottom: 20px;
 }
