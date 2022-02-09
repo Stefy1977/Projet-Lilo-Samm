@@ -183,6 +183,12 @@ h2{
     color: #403038;
 }
 
+h3 {
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px 0px 10px 50px;
+}
 /* h5 {
     font-size: 0.8rem;
     font-weight: 500;
