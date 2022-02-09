@@ -40,7 +40,7 @@
 
 
 
-p {
+.paragraphe {
     font-size: 0.8rem;
     font-weight: 300;
     padding: 15px 50px;
@@ -118,7 +118,7 @@ texte  {
 /* ---------------- MEDIAQUERIES -------------- */
 
 @media screen and (max-width: 1024px) {
-    .container p {
+    .container .paragraphe {
         padding: 15px 30px;
         font-size: 0.3 rem;
         max-height: 350px;
