@@ -77,10 +77,21 @@
     padding: 0 10px;
     margin: 0;
     scroll-snap-align: start;
+    position: relative;
 }
 .carousel-items ul{
     list-style: none;
 
+}
+.carousel-item .infoNew{
+    display: flex;
+    width: 80px;
+    font-size: 0.8rem;
+    padding: 0px 10px;
+    background: #edd961;
+    position: absolute;
+    text-transform: uppercase;
+    top: 20px;
 }
 
 /* ::-webkit-scrollbar-track {
