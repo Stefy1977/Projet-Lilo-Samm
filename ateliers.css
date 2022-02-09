@@ -23,14 +23,18 @@
     z-index: 2;
 }
 /* ------------------------------------------------------------------------------------------------- */
-/* MAIN */
+
+/* Main */
+main{
+    width: 80%;
+    margin: auto;
+}
 
 .mainAteliers p{
     text-align: left;
     color: #403038;
     font-size: 0.8rem;
     font-weight: 300;
-    width: 80%;
     margin: auto;
     padding-bottom: 20px;
 }
@@ -39,7 +43,6 @@
 
 .workshopPictures{
     column-width: 25vw;
-    width: 80%;
     column-gap: 0px;
     margin: auto;
     padding-bottom: 80px;
