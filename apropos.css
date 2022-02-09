@@ -23,13 +23,8 @@
     z-index: 2;
 }
 /* ------------------------------------------------------------------------------------------------- */
-h6 {
-    font-size: 0.8rem;
-    font-weight: 500;
-    color: #403038;
-    margin: 0px;
-}
 
+/*  ----- MAIN ----- */
 .container {
     display: flex;
     margin: auto;
@@ -37,86 +32,89 @@ h6 {
     background-color: white;
     flex-direction: column;
 }
-/* ----- tous les p ---- */
- p {
-  
+
+.container div {  
+    display: flex;
+    height: 400px;
+}
+
+
+
+p {
     font-size: 0.8rem;
     font-weight: 300;
-    padding: 50px;
+    padding: 15px 50px;
     margin: 0%;
-    width: 50%;
+    max-width: 431.09px;
+    max-height: 255px;
     box-sizing: border-box;  
     display: flex;
     justify-content: center;
-    align-items: center ;
-    
+    align-items: center ; 
 }
- img {
+
+img {
     object-fit: cover;
     width: 50%;
     height: 100%;
     display: block;
 }
-.container div {  
-    display: flex;
-    height: 400px;
-}
-/*---------- DIV FIRST ( avec la photo : lilo) */
-.first img ~ h6 p {
-    background-color: aqua;
-}
- .firstInfo  {
-    background: #edd961;
-    color: #403038;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-} 
 
-.firstInfo p {
-    position: relative;
-    width: 100%;
-}
-.firstInfo h6 {
-    position: absolute;
-    width: 100%;
-    top: 100px;
-    left: 100px;
+h6 {
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 0px;
+    padding-left: 50px;
 }
 
-/*---------- DIV SECOND ( avec la photo : café) */
-.secondInfo {
+
+texte  {
+    display: inline-block;
+    margin: auto; 
+}
+
+/*---------- Premier Bloc "MARIE-LAURE, c'est elle" */
+
+
+.first {
+    background-color:#edd961 ;
+}
+
+
+/*---------- deuxième bloc " elle fait quoi? */
+.second {
     background: #403038;
     color: white;
-    order: 1;
-    
+   
 }
 .second img {
     order: 2;
     
 }
-/*---------- DIV THIRD (photo : étagères) */
+/*---------- troisième bloc "Et elle fait ça comment ?" */
 
-.thirdInfo {
+.third {
     background: #750663;
     color: white;
     
 }
 
-/* -------- DIV FOUR (photo : ) */
-.fourInfo  {
+/* ------- quatrième bloc  "Son challenge ?" */
+
+.four  {
     background: #edd961;
     color: #403038;
+    margin-bottom: 80px;
+    order: 2;
 } 
 
-.four {
-    padding-bottom: 80px;
-    order: 2;
-}
 
 .four img{
     order: 4 ;
 }
+
+
+
 /* ---------------- MEDIAQUERIES -------------- */
 
 @media screen and (max-width: 1024px) {
