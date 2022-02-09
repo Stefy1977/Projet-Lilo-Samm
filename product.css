@@ -1,0 +1,151 @@
+/* header banner image sur toutes les pages .css - changer juste le lien de l'image !*/
+.headerImage{
+    padding: 0;
+    padding-top: 80px;
+    margin: 0;
+    width: 100%;
+    height: 200px;
+    background-image: url(img/banner-badges.jpg); /* < ici !*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.headerImage:after{
+    content: "";
+    background-color: #403038;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    opacity: 0.6;
+    z-index: 1;
+}
+.headerImage p{
+    z-index: 2;
+}
+/* ------------------------------------------------------------------------------------------------- */
+
+/* Main */
+main{
+    width: 80%;
+    margin: auto;
+}
+
+/* Block description du produit choisi */
+.productDescription{
+    padding-top: 40px;
+}
+
+/* la grille de produits */
+
+.productGrid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1280px;
+    margin: auto;
+}
+.productGrid figure{
+    margin: 0;
+}
+.productGrid .product{
+    display: block;
+    position: relative;
+    max-width: 280px;
+    padding: 0 20px;
+}
+.productGrid .infoNew{
+    display: flex;
+    width: 80px;
+    font-size: 0.8rem;
+    padding: 0px 10px;
+    background: #edd961;
+    position: absolute;
+    text-transform: uppercase;
+    top: 20px;
+}
+.productGrid .infoPromo{
+    display: flex;
+    width: 60px;
+    font-size: 0.8rem;
+    padding: 0px 10px;
+    background: #ff005c;
+    color: white;
+    position: absolute;
+    text-transform: uppercase;
+    top: 20px;
+}
+.outOfStock{
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-align: center;
+    padding: 10px 0px;
+    border-top: #403038 solid 1px;
+    border-bottom: #403038 solid 1px;
+}
+.like{
+    display: flex;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0px;
+    right: 20px;
+    padding: 5px;
+    background-color: white;
+}
+.like:hover{
+    background-color: #edd961;
+}
+.productGrid .product img{
+    width: 100%;
+    display: block;
+}
+.productGrid .product figcaption{
+    font-size: 0.7rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+.productGrid .productTitle{
+    display: flex;
+    justify-content: space-between;
+}
+.productTitle span{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #403038;
+    margin: 10px 0px;
+}
+
+span.crossPrice{
+    text-decoration: line-through;
+    color: #c6c1c4;
+}
+span.promo{
+    color: #ff005c;
+}
+
+.buy{
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    background: #750663;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 80px;
+    position: relative;
+}
+.buy:before{
+    content: "";
+    position: absolute;
+    background-image: url(img/mdi_shopping-outline-white.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    left: 20px;
+}
