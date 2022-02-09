@@ -182,19 +182,13 @@ h2{
     margin: 0;
     color: #403038;
 }
-/* h4{
+
+/* h5 {
     font-size: 0.8rem;
     font-weight: 500;
     color: #403038;
     margin: 10px 0px;
 } */
-
-h5 {
-    font-size: 0.8rem;
-    font-weight: 500;
-    color: #403038;
-    margin: 10px 0px;
-}
 
 /* bouton voir la boutique */
 .cta{
