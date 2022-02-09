@@ -134,8 +134,9 @@ li:hover .sub{
     content: "";
 }
 
-/* les titres */
-h1{
+/* description sur les banners images */
+
+.headerImage p{
     text-align: center;
     font-family: 'Special Elite', cursive;
     font-size: 1.2rem;
@@ -147,7 +148,7 @@ h1{
     line-height: 2.2rem;
 }
 
-h1.error {
+.headerImage p.error {
     text-align: center;
     font-family: 'Special Elite', cursive;
     font-size: 3rem;
@@ -159,52 +160,34 @@ h1.error {
     line-height: 2.2rem;
 }
 
-h1 span{
+.headerImage p span{
     background: white;
     padding: 0.3rem;
     box-shadow: 1rem 0px 0px white, -1rem 0px 0px white; /* pour ajouter du blanc à gauche et à droite afin que ça ne soit pas collé sur le bord du texte*/
 }
-h2{
+
+/* les titres */
+h1{
     font-size: 1.2rem;
     font-weight: 300;
     color: #750663;
     padding: 40px 0;
     text-align: center;
 }
-/* ancienne version du H2 - a garder on sait jamais */
-/* h2{
-    text-align: center;
-    position: relative;
-    font-size: 1rem;
-    padding-bottom: 50px;
-    padding-top: 20px;
-    color: #403038;
-} */
-/* h2:after{
-    content: "";
-    background-image: url(img/double-fleche.svg);
-    background-repeat: no-repeat;
-    position: absolute;
-    display: block;
-    width: 50px;
-    height: 50px;
-    left: calc(50% - 25px); /* permet de bien centrer car la deco fait 50px divisé par 2 = 25px*/
-    /* padding-bottom: 20px;
-} */ 
 
-h3{
+h2{
     font-size: 0.9rem;
     text-align: center;
     padding: 40px 0px;
     margin: 0;
     color: #403038;
 }
-h4{
+/* h4{
     font-size: 0.8rem;
     font-weight: 500;
     color: #403038;
     margin: 10px 0px;
-}
+} */
 
 h5 {
     font-size: 0.8rem;

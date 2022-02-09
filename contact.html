@@ -7,13 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="contact.css">
+    <script src="main.js"></script>
     <title>Contact</title>
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="#" title="les ateliers de lilo"><img class="logo" src="img/ladl-logo-dark.svg" alt="logo"></a>
+            <a href="index.html" title="les ateliers de lilo"><img class="logo" src="img/ladl-logo-dark.svg" alt="logo"></a>
             <ul class="hamburger">
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="shop.html">Boutique</a>
@@ -35,7 +36,7 @@
                 </li>
                 <li><a href="ateliers.html">Ateliers</a></li>
                 <li><a href="pointsdevente.html">Points de vente</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
             </ul>
             <div class="userMenu">
                 <a href="#" title="mes favoris"> <img src="img/mdi_cards-heart-outline.svg"
@@ -47,25 +48,28 @@
             </div>
         </nav>
     </header>
+
     <div class="headerImage">
-        <h1><span>Des créations artisanales, authentiques et originales fabriquées avec amour en Belgique</span></h1>
+        <p><span>Restons en contact !</span></p>
     </div>
+
     <main>
-        <h2>Des idées cadeaux aux ateliers de Lilo</h2>
+        <h1>Une question ? Contactez-moi !</h1>
         
         
     </main>
     <footer>
         <div class="footerBox">
             <img src="img/ladl-logo-white.svg" alt="logo les ateliers de Lilo">
-            <p>Rue Arthur Duquesne, 53<br>7032 Spiennes<br>Belgique</p>
+            <p>Rue Arthur Duquesne, 53<br>7032 Spiennes<br>Belgique<br>TVA: BE0XXX-XXX-XXX</p>
         </div>
         <div class="footerBox">
             <ul>
-                <li><a href="#">Points de vente</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">CGDV</a></li>
+                <li><a href="pointsdevente.html">Points de vente</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cgdv.html">CGDV</a></li>
+                <li><a href="rgpd.html">RGPD</a></li>
             </ul>
         </div>
         <div class="footerBox">
@@ -74,10 +78,9 @@
                 <li><a class="facebook" href="#">Facebook</a></li>
                 <li><a class="instagram" href="#">Instagram</a></li>
             </ul>
-
         </div>
-
     </footer>
+    <button onclick="topFunction()" id="scroll"></button>
 
 </body>
 

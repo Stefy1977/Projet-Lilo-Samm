@@ -19,13 +19,13 @@
     opacity: 0.6;
     z-index: 1;
 }
-.headerImage h1{
+.headerImage p{
     z-index: 2;
 }
 /* ------------------------------------------------------------------------------------------------- */
 
 /* Main */
-.mainShop{
+main{
     width: 80%;
     margin: auto;
 }
@@ -36,6 +36,7 @@
     list-style: none;
     margin: 0;
     padding: 0px;
+    cursor: pointer;
 }
 
 ul li.active{
@@ -129,6 +130,15 @@ ul li.active{
     text-transform: uppercase;
     top: 20px;
 }
+.outOfStock{
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-align: center;
+    padding: 10px 0px;
+    border-top: #403038 solid 1px;
+    border-bottom: #403038 solid 1px;
+}
 .like{
     display: flex;
     position: absolute;
@@ -137,7 +147,6 @@ ul li.active{
     top: 0px;
     right: 20px;
     padding: 5px;
-    /* border-radius: 10%; */
     background-color: white;
 }
 .like:hover{
@@ -157,6 +166,21 @@ ul li.active{
     display: flex;
     justify-content: space-between;
 }
+.productTitle span{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #403038;
+    margin: 10px 0px;
+}
+
+span.crossPrice{
+    text-decoration: line-through;
+    color: #c6c1c4;
+}
+span.promo{
+    color: #ff005c;
+}
+
 .buy{
     display: block;
     font-size: 0.8rem;
@@ -170,6 +194,16 @@ ul li.active{
     width: 100%;
     margin: auto;
     margin-bottom: 80px;
+    position: relative;
+}
+.buy:before{
+    content: "";
+    position: absolute;
+    background-image: url(img/mdi_shopping-outline-white.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    left: 20px;
 }
 
 /* Pagination fin de page */
