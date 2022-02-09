@@ -1,20 +1,20 @@
 /* header banner image sur toutes les pages .css - changer juste le lien de l'image !*/
 .headerImage{
     padding: 0;
-    padding-top: 80px;
     margin: 0;
     width: 100%;
-    height: 200px;
-    background-image: url(img/banner-pointsDeVente.jpg); /* < ici !*/
+    height: 1009px;
+    background-image: url(img/banner-error404.jpg); /* < ici !*/
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
+    flex-direction: column;
 }
 .headerImage:after{
     content: "";
     background-color: #403038;
     width: 100%;
-    height: 200px;
+    height: 1009px;
     position: absolute;
     opacity: 0.6;
     z-index: 1;
@@ -24,21 +24,16 @@
 }
 /* ------------------------------------------------------------------------------------------------- */
 
-
-/* --------------------------- MAIN ----------------------- */
-
-
-/* ----- FIL ARIANNE -----*/
-.breadcrumb ul {
-    display: flex;
-}
-    
-.breadcrumb li::before {
-    content: "<";
-}
-    
-.breadcrumb li:first-child::before {
-    content: "";
+.errorButton {
+    z-index: 2;
+    margin: auto;
 }
 
-
+.errorButton a {
+    background: chartreuse;
+    max-width: 20%;
+    padding: 10px 10px;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+}
