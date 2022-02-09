@@ -29,6 +29,68 @@ main {
     margin: 0 auto;
 }
 
+.textArticle {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.date {
+    background: #EDD961;
+    padding: 10px 20px;
+}
+
+.article {
+    padding: 40px 0 80px 0 ;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+.pagination a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #403038;
+}
+.pagination .previousPage{
+    padding: 0 20px;
+    position: relative;
+}
+.pagination .previousPage:after{
+    content: "";
+    position: absolute;
+    background-image: url(img/fleche-left-20px.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    top: 5px;
+}
+.pagination .nextPage{
+    padding: 0 20px;
+    position: relative;
+}
+.pagination .nextPage:before{
+    content: "";
+    position: absolute;
+    background-image: url(img/fleche-right-20px.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    left: -2px;
+}
+.page{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #403038;
+    padding: 0 20px;
+    padding-top: 3px;
+}
+
 
 
 /* ---------------- MEDIAQUERIES -------------- */
