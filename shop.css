@@ -19,7 +19,7 @@
     opacity: 0.6;
     z-index: 1;
 }
-.headerImage h1{
+.headerImage p{
     z-index: 2;
 }
 /* ------------------------------------------------------------------------------------------------- */
@@ -172,9 +172,15 @@ ul li.active{
     color: #403038;
     margin: 10px 0px;
 }
+
 span.crossPrice{
     text-decoration: line-through;
+    color: #c6c1c4;
 }
+span.promo{
+    color: #ff005c;
+}
+
 .buy{
     display: block;
     font-size: 0.8rem;
