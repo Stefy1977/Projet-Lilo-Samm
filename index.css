@@ -135,7 +135,9 @@
     display: block;
 }
 .polaroid figcaption{
-    font-size: 0.6rem;
+    color: #403038;
+    min-height: 60px;
+    font-size: 0.7rem;
     text-align: center;
     padding: 10px 10px 0px 10px;
 }
