@@ -295,3 +295,46 @@ footer{
 #scroll:hover{
     background-color: #75066341
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {   
+    html{
+        font-size: 18px;
+    }
+}
+
+
+ 
+@media screen and (max-width : 767px){
+    html{
+        font-size: 16px;
+    }
+
+    /* Fil d'ariane (breadcrumb) */
+.breadcrumb ul {
+    display: flex;
+    font-size: 0.6rem;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    color: #403038;
+    margin: 0;
+    margin-top: 10px;
+}
+.breadcrumb ul li a{
+    font-size: 0.6rem;
+    font-weight: 300;
+    color: #403038;
+    text-decoration: none;
+}
+
+.breadcrumb li::before {
+    content: "> ";
+    margin-left: 5px;
+    color: #403038;
+}
+    
+.breadcrumb li:first-child::before {
+    content: "";
+}
+
+}
