@@ -29,7 +29,7 @@ header{
 nav{
     display: flex;
     background-color: white;
-    justify-content: space-between;
+    justify-content: space-around;
     /* padding: 0 80px; */
     align-items: flex-end;
     padding-bottom: 10px;
@@ -38,7 +38,7 @@ nav ul{
     list-style: none; 
     display: flex;
     margin: 0;
-    align-items: flex-end;
+    /* align-items: flex-end; */
     /* height: 80px; */
 }
 nav ul li{
@@ -64,7 +64,7 @@ ul a.active{
     width: 120px;
     min-width: 120px;
     padding-top: 25px;
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
 
 /* nav partie pictos*/
@@ -328,13 +328,7 @@ footer{
         width: 120px;
         min-width: 120px;
     }
-    nav ul{
-        list-style: none; 
-        display: flex;
-        margin: 0;
-        align-items: flex-end;
-        height: 80px;
-    }
+
 
     /* nav partie pictos*/
     .userMenu{
