@@ -18,6 +18,9 @@ img{
 .menuBurger{
     display: none;
 }
+#burger{
+    display: none;
+}
 header{
     position: fixed;
     width: 100%;
@@ -34,10 +37,9 @@ nav{
 nav ul{
     list-style: none; 
     display: flex;
-    /* justify-content: center; */
     margin: 0;
-    align-items: flex-end;
-    height: 80px;
+    /* align-items: flex-end; */
+    /* height: 80px; */
 }
 nav ul li{
     position: relative;
@@ -61,6 +63,8 @@ ul a.active{
 .logo{
     width: 120px;
     min-width: 120px;
+    padding-top: 25px;
+    /* padding-left: 10px; */
 }
 
 /* nav partie pictos*/
@@ -303,6 +307,136 @@ footer{
     html{
         font-size: 18px;
     }
+
+    /* header menu top */
+
+    .menuDesktop{
+        display: none;
+    }
+    .hamburger{
+        display: flex;
+    }
+    #burger{
+        display: flex;
+    }
+    header{
+        position: fixed;
+        width: 100%;
+        z-index: 10000;
+    }
+    .logo{
+        width: 120px;
+        min-width: 120px;
+    }
+
+
+    /* nav partie pictos*/
+    .userMenu{
+        display: flex;
+        align-items: center;
+        padding: 0px;
+    }
+    .userMenu a{
+        display: block;
+        margin: 0 15px;
+    }
+    .userMenu img{
+        display: block;
+        width: 28px;
+        min-width: 28px;
+    }
+
+    /* --------- STEPHANE exercice ------------------ */
+
+    /* body{
+        margin:0;
+    } */
+
+    /* .menu ul{
+        margin:0;
+        padding:0;
+        list-style:none;
+        display:flex;
+        flex-direction: column;
+        background: #28222c;
+        top:40px;
+        width:100%;   
+        height: 100vh;
+        max-height:0;
+        position: fixed;
+        overflow: hidden;
+        transform-origin: top;
+        transition: .5s;
+    }
+
+    ul a{
+        display:block;
+        padding:10px 15px;
+        text-decoration: none;
+        color:#fff;
+        text-align: center;
+        font-size: 30px;
+        font-family: sans-serif;
+        line-height: 60px;
+        border-bottom:1px solid rgb(85, 85, 85)
+    } */
+
+    #burger{ /* ici c'est le bloc - la zone où vont venir les lignes du burger */
+        width: 30px;
+        margin: 10px;
+        height: 15px;
+        position: relative;
+    }
+    #burger button{  /* c'est la ligne du burger du milieu*/
+        background: #403038;
+        border: none;
+        width: 100%;
+        height: 3px;
+        color: white;
+        font-size: 25px;
+        text-indent: -9999px; /* texte ne se voit plus car indenté en négatif... permet de ne plus le voir attention aux moteurs de recherche */
+        position: absolute;
+        top: 6px;
+        opacity: 1;
+        transition: .3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+    #burger:before{ /* c'est la ligne burger du haut*/
+        content: '';
+        background: #403038;
+        width: 100%;
+        height: 3px;
+        display: block;
+        position: absolute;
+        top: 0px;
+        transform-origin: 9px 5px;
+        transition: .3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+    #burger:after{ /* c'est la ligne burger du bas*/
+        content: '';
+        background: #403038;
+        width: 100%;
+        height: 3px;
+        display: block;
+        position: absolute;
+        top: 12px;
+        transform-origin: 7px -1px;
+        transition: .3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+
+    .opened #burger button{
+        opacity: 0;
+    }
+    .opened #burger:before{
+        transform: rotate(45deg);
+    }
+    .opened #burger:after{
+        transform: rotate(-45deg);
+    }
+    .opened ul{ /* ouverture du menu */
+        /* transform: scaleY(1); */
+        max-height: 100vh;
+    }
+    
 }
 
 
@@ -339,132 +473,6 @@ footer{
 .breadcrumb li:first-child::before {
     content: "";
 }
-
-/* header menu top */
-
-.menuDesktop{
-    display: none;
-}
-.hamburger{
-    display: inline;
-}
-header{
-    position: fixed;
-    width: 100%;
-    z-index: 10000;
-}
-.logo{
-    width: 120px;
-    min-width: 120px;
-}
-
-/* nav partie pictos*/
-.userMenu{
-    display: flex;
-    align-items: center;
-    padding: 0px;
-}
-.userMenu a{
-    display: block;
-    margin: 0 15px;
-}
-.userMenu img{
-    display: block;
-    width: 28px;
-    min-width: 28px;
-}
-
-/* --------- STEPHANE exercice ------------------ */
-
-/* body{
-    margin:0;
-} */
-
-/* .menu ul{
-    margin:0;
-    padding:0;
-    list-style:none;
-    display:flex;
-    flex-direction: column;
-    background: #28222c;
-    top:40px;
-    width:100%;   
-    height: 100vh;
-    max-height:0;
-    position: fixed;
-    overflow: hidden;
-    transform-origin: top;
-    transition: .5s;
-}
-
-ul a{
-    display:block;
-    padding:10px 15px;
-    text-decoration: none;
-    color:#fff;
-    text-align: center;
-    font-size: 30px;
-    font-family: sans-serif;
-    line-height: 60px;
-    border-bottom:1px solid rgb(85, 85, 85)
-} */
-
-#burger{ /* ici c'est le bloc - la zone où vont venir les lignes du burger */
-    width: 30px;
-    margin: 10px;
-    height: 15px;
-    position: relative;
-}
-#burger button{  /* c'est la ligne du burger du milieu*/
-    background: #403038;
-    border: none;
-    width: 100%;
-    height: 3px;
-    color: white;
-    font-size: 25px;
-    text-indent: -9999px; /* texte ne se voit plus car indenté en négatif... permet de ne plus le voir attention aux moteurs de recherche */
-    position: absolute;
-    top: 6px;
-    opacity: 1;
-    transition: .3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
-#burger:before{ /* c'est la ligne burger du haut*/
-    content: '';
-    background: #403038;
-    width: 100%;
-    height: 3px;
-    display: block;
-    position: absolute;
-    top: 0px;
-    transform-origin: 9px 5px;
-    transition: .3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
-#burger:after{ /* c'est la ligne burger du bas*/
-    content: '';
-    background: #403038;
-    width: 100%;
-    height: 3px;
-    display: block;
-    position: absolute;
-    top: 12px;
-    transform-origin: 7px -1px;
-    transition: .3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
-
-.opened #burger button{
-    opacity: 0;
-}
-.opened #burger:before{
-    transform: rotate(45deg);
-}
-.opened #burger:after{
-    transform: rotate(-45deg);
-}
-.opened ul{ /* ouverture du menu */
-    /* transform: scaleY(1); */
-    max-height: 100vh;
-}
-/* -------------------------------- */
 
 
 
