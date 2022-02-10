@@ -142,60 +142,63 @@ h3 {
 
 
 /* ---------------- MEDIAQUERIES -------------- */
-/* 
-@media screen and (max-width: 1024px) {
-    .container .paragraphe {
-        padding: 15px 30px;
-        max-height: 350px;
-    }
-    h3 {
-        font-size: 0.7rem;
-        padding-left: 30px;
-    } */
 
-
-
-
-
-
-
-
-
-
-/* @media screen and (max-width: 1024px) {
-    .container .paragraphe {
-        padding: 15px 30px;
-        font-size: 0.3 rem;
-        max-height: 350px;
-    }
-    .container div{
-        flex-direction: column;
-        height: auto;
-    }
-    .container div img, .container div p {
-        width: 100%;
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    
+    .container article {
+        flex-flow: column wrap;
+        width: 400px;
         min-height: 400px;
-    }
-  
-    .second img {
-        order : 3;
     }
 
     
+    .texte {
+        min-height: 400px;
+    }
+
+    .second .texte {
+        order: 2;
+    }
+
+    .four .texte {
+        order: 4;
+    }
 }
 
 
- 
 @media screen and (max-width : 768px){
+    main {
+        width: 100%;
+        margin-left: 180px;
+    }
     .container {
-        width: 90%;
+        width: 300px;
     }
-     p {
-        padding: 15px 30px;
-        font-size: 0.3 rem;
-        max-height: 350px;
+
+   .container article {
+        flex-flow: column wrap;
+        justify-content: center;
+        width: 300px;
+        min-height: 300px;
     }
-} 
-*/
+   
+    .texte {
+        min-height: 300px;
+    }
+
+    .second .texte {
+        order: 2;
+    }
+
+    .four .texte {
+        order: 4;
+    }
+}
+
+
+
+
+
 
 
