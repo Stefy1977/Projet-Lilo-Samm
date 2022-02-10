@@ -23,3 +23,15 @@ function topFunction() {
     document.body.scrollTop = 0; // Safari
     document.documentElement.scrollTop = 0; // Chrome...
 }
+
+///////////////////////// Menu burger ///////////////////////////////////
+
+const $ = document.querySelector.bind(document);
+
+const burger=document.querySelector("#burger");
+
+burger.addEventListener("click",showHideMenu);
+
+function showHideMenu(){
+   document.querySelector("html").classList.toggle('opened');
+}
