@@ -24,7 +24,7 @@ nav{
     display: flex;
     background-color: white;
     justify-content: space-around;
-    padding: 0 80px;
+    /* padding: 0 80px; */
     align-items: flex-end;
     padding-bottom: 10px;
 }

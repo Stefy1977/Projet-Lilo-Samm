@@ -25,19 +25,23 @@
 /* ------------------------------------------------------------------------------------------------- */
 
 /*  ----- MAIN ----- */
-.container {
-    display: flex;
+main {
+    width: 80%;
     margin: auto;
-    width: 60%; 
+}
+
+.container {
+    /* display: flex; */
+    width: 100%; 
     background-color: white;
     flex-direction: column;
+    justify-content: center;
 }
 
 .container div {  
     display: flex;
-    height: 400px;
-}
 
+}
 
 
 .paragraphe {
@@ -45,18 +49,16 @@
     font-weight: 300;
     padding: 15px 50px;
     margin: 0%;
-    max-width: 431.09px;
-    max-height: 255px;
-    box-sizing: border-box;  
+    width: 440px;
+    height: 400px;
     display: flex;
+    box-sizing: border-box;  
     justify-content: center;
     align-items: center ; 
 }
 
 .images {
     object-fit: cover;
-    width: 50%;
-    height: 100%;
     display: block;
 }
 
@@ -64,13 +66,13 @@ h3 {
     font-size: 0.8rem;
     font-weight: 500;
     margin: 0px;
-    padding: 0px 0px 10px 50px;
+    padding: 0px 0px 1px 50px;
 }
 
 
 texte  {
     display: inline-block;
-    margin: auto; 
+    /* margin: auto;  */
 }
 
 /*---------- Premier Bloc "MARIE-LAURE, c'est elle" */
@@ -87,7 +89,7 @@ texte  {
     color: white;
    
 }
-.second img {
+.second .images {
     order: 2;
     
 }
@@ -109,21 +111,23 @@ texte  {
 } 
 
 
-.four img{
+.four .images {
     order: 4 ;
 }
 
 
 
 /* ---------------- MEDIAQUERIES -------------- */
-
+/* 
 @media screen and (max-width: 1024px) {
     .container .paragraphe {
         padding: 15px 30px;
-        font-size: 0.6rem;
         max-height: 350px;
     }
-
+    h3 {
+        font-size: 0.7rem;
+        padding-left: 30px;
+    } */
 
 
 
