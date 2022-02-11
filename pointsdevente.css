@@ -150,8 +150,8 @@ main {
     background: #750663;
     color: white;
     padding: 10px;
-    /* width: 30%; */
-    /* height: 40px; */
+    width: 20%; 
+     height: 40px;
     /* margin: 8px auto; */
     transition: all .5s ease;
 }
