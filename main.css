@@ -228,7 +228,7 @@ h3 {
     background: #750663;
     color: white;
     padding: 10px;
-    width: 25%;
+    width: 30%;
     margin: 60px auto;
     transition: all .5s ease;
 }
@@ -317,7 +317,9 @@ footer{
     background-color: #75066341
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {   
+/* Tablet */
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {   
     html{
         font-size: 18px;
     }
@@ -327,8 +329,146 @@ footer{
     .menuDesktop{
         display: none;
     }
-    .hamburger{
+    .hamburger{ /* div de base du menu hamburger qui s'ouvre */
         display: flex;
+        flex-direction: column;
+    }
+    #burger{
+        display: flex;
+    }
+
+    .menuBurger{
+        border-top: #d8d8d8 solid 1px;
+        box-shadow: 10px 5px 5px #d8d8d8;
+        padding: 10px 0;
+    }
+
+    #burger{ /* ici c'est le bloc - la zone où vont venir les lignes du burger */
+        width: 30px;
+        margin: 10px;
+        height: 12px;
+        position: relative;
+    }
+    #burger button{  /* c'est la ligne du burger du milieu*/
+        background: #403038;
+        border: none;
+        width: 100%;
+        height: 3px;
+        color: white;
+        font-size: 25px;
+        text-indent: -9999px; /* texte ne se voit plus car indenté en négatif... attention aux moteurs de recherche */
+        position: absolute;
+        top: 6px;
+        opacity: 1;
+        transition: .3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+    #burger:before{ /* c'est la ligne burger du haut*/
+        content: '';
+        background: #403038;
+        width: 100%;
+        height: 3px;
+        display: block;
+        position: absolute;
+        top: 0px;
+        transform-origin: 9px 5px;
+        transition: .3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+    #burger:after{ /* c'est la ligne burger du bas*/
+        content: '';
+        background: #403038;
+        width: 100%;
+        height: 3px;
+        display: block;
+        position: absolute;
+        top: 12px;
+        transform-origin: 7px -1px;
+        transition: .3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+
+    .opened #burger button{
+        opacity: 0;
+    }
+    .opened #burger:before{
+        transform: rotate(45deg);
+    }
+    .opened #burger:after{
+        transform: rotate(-45deg);
+    }
+    .opened ul{ /* ouverture du menu */
+        /* transform: scaleY(1); */
+        max-height: 100vh;
+    }
+
+    /* nav sous menu */
+    .subBurger{
+        display: flex;
+        flex-direction: column;
+    }
+    ul .subBurger { 
+        background: #edd961;
+        
+    }
+    .subBurger li a{
+        font-size: 0.7rem;
+        text-transform: capitalize;
+        border: none;
+        padding: 0 10px;
+        color: #403038;
+    }
+    .subBurger li:hover{
+        background: white;
+        border: none;
+    }
+    
+}
+
+
+/* Mobile */
+
+@media screen and (min-width: 375px) and (max-width: 600px){
+    html{
+        font-size: 16px;
+    }
+    .cta{
+        width: 50%;
+    }
+
+    /* Fil d'ariane (breadcrumb) */
+    .breadcrumb ul {
+        display: flex;
+        font-size: 0.6rem;
+        text-decoration: none;
+        list-style: none;
+        padding: 0;
+        color: #403038;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .breadcrumb ul li a{
+        font-size: 0.6rem;
+        font-weight: 300;
+        color: #403038;
+        text-decoration: none;
+    }
+
+    .breadcrumb li::before {
+        content: "> ";
+        margin-left: 5px;
+        color: #403038;
+    }
+        
+    .breadcrumb li:first-child::before {
+        content: "";
+    }
+
+    /* --------- Menu hamburger + sous menu ---------- */
+
+    .menuDesktop{
+        display: none;
+    }
+    .hamburger{ /* div de base du menu hamburger qui s'ouvre */
+        display: flex;
+        flex-direction: column;
     }
     #burger{
         display: flex;
@@ -414,136 +554,5 @@ footer{
         background: white;
         border: none;
     }
-    
-}
-
-
- 
-@media screen and (max-width : 767px){
-    html{
-        font-size: 16px;
-    }
-
-/* Fil d'ariane (breadcrumb) */
-.breadcrumb ul {
-    display: flex;
-    font-size: 0.6rem;
-    text-decoration: none;
-    list-style: none;
-    padding: 0;
-    color: #403038;
-    margin: 0;
-    margin-top: 10px;
-}
-.breadcrumb ul li a{
-    font-size: 0.6rem;
-    font-weight: 300;
-    color: #403038;
-    text-decoration: none;
-}
-
-.breadcrumb li::before {
-    content: "> ";
-    margin-left: 5px;
-    color: #403038;
-}
-    
-.breadcrumb li:first-child::before {
-    content: "";
-}
-
-/* --------- Menu hamburger + sous menu ---------- */
-
-.menuDesktop{
-    display: none;
-}
-.hamburger{
-    display: flex;
-}
-#burger{
-    display: flex;
-}
-
-.menuBurger{
-    border-top: #d8d8d8 solid 1px;
-    box-shadow: 10px 5px 5px #d8d8d8;
-    padding: 10px 0;
-}
-
-#burger{ /* ici c'est le bloc - la zone où vont venir les lignes du burger */
-    width: 30px;
-    margin: 10px;
-    height: 12px;
-    position: relative;
-}
-#burger button{  /* c'est la ligne du burger du milieu*/
-    background: #403038;
-    border: none;
-    width: 100%;
-    height: 3px;
-    color: white;
-    font-size: 25px;
-    text-indent: -9999px; /* texte ne se voit plus car indenté en négatif... attention aux moteurs de recherche */
-    position: absolute;
-    top: 6px;
-    opacity: 1;
-    transition: .3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
-#burger:before{ /* c'est la ligne burger du haut*/
-    content: '';
-    background: #403038;
-    width: 100%;
-    height: 3px;
-    display: block;
-    position: absolute;
-    top: 0px;
-    transform-origin: 9px 5px;
-    transition: .3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
-#burger:after{ /* c'est la ligne burger du bas*/
-    content: '';
-    background: #403038;
-    width: 100%;
-    height: 3px;
-    display: block;
-    position: absolute;
-    top: 12px;
-    transform-origin: 7px -1px;
-    transition: .3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
-
-.opened #burger button{
-    opacity: 0;
-}
-.opened #burger:before{
-    transform: rotate(45deg);
-}
-.opened #burger:after{
-    transform: rotate(-45deg);
-}
-.opened ul{ /* ouverture du menu */
-    /* transform: scaleY(1); */
-    max-height: 100vh;
-}
-
-/* nav sous menu */
-.subBurger{
-    display: block;
-}
-ul .subBurger { 
-    background: #edd961;
-}
-.subBurger li a{
-    font-size: 0.7rem;
-    text-transform: capitalize;
-    border: none;
-    padding: 0 10px;
-    color: #403038;
-}
-.subBurger li:hover{
-    background: white;
-    border: none;
-}
-
 
 }
