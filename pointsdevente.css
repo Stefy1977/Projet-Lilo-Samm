@@ -79,7 +79,44 @@ main {
 .mag {
     display: flex;
     justify-content: space-between;
+    margin: 30px 0px;
 }
+
+.tel:before{
+    content: "";
+    background-image: url(img/vector-téléphone.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    left: -40px;
+    top: 0.5px;
+}
+.tel {
+    position: relative;
+}
+
+.horaires:before{
+    content: "";
+    background-image: url(img/vector-horloge.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    left: -40px;
+    top: 0.5px;
+}
+
+.horaires {
+    position: relative;
+}
+
+
+
+
+
 
 
 .lieux {
