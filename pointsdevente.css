@@ -26,40 +26,98 @@
 
 
 /* --------------------------- MAIN ----------------------- */
-
+main {
+    width: 80%;
+    margin: auto;
+}
 
 /* ----- FIL ARIANNE -----*/
 .breadcrumb ul {
     display: flex;
+    font-size: 0.7rem;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    color: #403038;
+    margin: 0;
+    margin-top: 10px;
 }
-    
+
+.breadcrumb ul li a{
+    font-size: 0.7rem;
+    font-weight: 300;
+    color: #403038;
+    text-decoration: none;
+}
+
 .breadcrumb li::before {
     content: "<";
+    content: "> ";
+    margin-left: 5px;
+    color: #403038;
+    
 }
     
 .breadcrumb li:first-child::before {
     content: "";
 }
 
-/* -----FERMETURE FIL D'ARIANNE----- */
-
-/* ------------------ DIV CONTAINER LISTE DES MAGASINS */
+/* -------------------FERMETURE FIL D'ARIANNE----- */
 
 
 
+/* ------------------ DIV CONTAINER LISTE DES MAGASINS ------------------*/
 
+.listeMag {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
 
 
 /* ------------------ DIV MAGASIN ------------- */
+
 .mag {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-h3 {
-    color: #403038;
-    padding: 0px;
+
+.lieux {
+    width: 400px;
 }
+
+.donnees {
+    width: 250px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    background: #750663;
+    color: white;
+    width: 200px;
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    transition: all .5s ease;
+}
+
+.nomMag {
+    color: #750663;
+    padding: 0px;
+    font-weight: 500;
+}
+
+hr {
+    border: #750663 0.5px solid;
+}
+
 .adresse, .tel, .ouverture {
     color: #403038;
 }
