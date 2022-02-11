@@ -160,7 +160,7 @@ li:hover .sub{
 .headerImage p{
     text-align: center;
     font-family: 'Special Elite', cursive;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #403038;
     padding: 0;
     margin: 0;
@@ -322,6 +322,9 @@ footer{
 @media screen and (min-width: 600px) and (max-width: 1024px) {   
     html{
         font-size: 18px;
+    }
+    .cta{
+        width: 40%;
     }
 
     /* --------- Menu hamburger + sous menu ---------- */
