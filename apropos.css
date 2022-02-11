@@ -143,15 +143,31 @@ h3 {
 
 /* ---------------- MEDIAQUERIES -------------- */
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+/*------- TABLETTE------- */
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
     
-    
+    main {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        max-width: 880px;
+    }
+
     .container article {
+        
         flex-flow: column wrap;
         width: 400px;
         min-height: 400px;
     }
-
     
     .texte {
         min-height: 400px;
@@ -166,19 +182,22 @@ h3 {
     }
 }
 
+/* ----MOBILE ------ */
 
-@media screen and (max-width : 768px){
+
+@media screen and (min-width : 375px) and (max-width : 600px){
     main {
         width: 100%;
         margin-left: 180px;
     }
     .container {
         width: 300px;
+        align-items: center;
     }
 
    .container article {
         flex-flow: column wrap;
-        justify-content: center;
+       
         width: 300px;
         min-height: 300px;
     }
