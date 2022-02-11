@@ -41,4 +41,26 @@
     content: "";
 }
 
+/* -----FERMETURE FIL D'ARIANNE----- */
+
+/* ------------------ DIV CONTAINER LISTE DES MAGASINS */
+
+
+
+
+
+
+/* ------------------ DIV MAGASIN ------------- */
+.mag {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    color: #403038;
+    padding: 0px;
+}
+.adresse, .tel, .ouverture {
+    color: #403038;
+}
 
