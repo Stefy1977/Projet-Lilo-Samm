@@ -217,6 +217,9 @@
     .headerImage:after{
         height: 180px;
     }
+    .headerImage p{
+        max-width: 80%;
+    }
 
     /* main giftIdeas */
     .giftIdeas{
