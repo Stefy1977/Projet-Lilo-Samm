@@ -330,6 +330,10 @@ footer{
     }
     .cta{
         width: 40%;
+        margin: 50px auto;
+    }
+    h1{
+        padding: 30px 0;
     }
 
     /* --------- Menu hamburger + sous menu ---------- */
@@ -441,12 +445,13 @@ footer{
 
 /* Mobile */
 
-@media screen and (min-width: 375px) and (max-width: 600px){
+@media screen and (min-width: 360px) and (max-width: 600px){
     html{
         font-size: 16px;
     }
     .cta{
         width: 50%;
+        margin: 40px auto;
     }
     h1{
         padding: 20px 0;
