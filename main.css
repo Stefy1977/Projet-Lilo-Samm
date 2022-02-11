@@ -236,9 +236,9 @@ h3 {
 /* Footer */
 footer{
     background: #403038;
-    height: 300px;
+    /* height: 300px; */
     display: flex;
-    padding: 20px 80px;
+    padding: 80px 80px;
 }
 .footerBox{
     display: block;
@@ -247,8 +247,10 @@ footer{
 }
 .footerBox img{
     width: 50%;
+    padding-bottom: 20px;
 }
 .footerBox p{
+    margin: 0;
     font-size: 0.8rem;
     font-weight: 300;
     color: white;
@@ -261,6 +263,7 @@ footer{
     line-height: 1.8rem;
 }
 .footerBox ul{
+    margin: 0;
     list-style: none;
 }
 .facebook{
@@ -342,7 +345,7 @@ footer{
 
     .menuBurger{
         border-top: #d8d8d8 solid 1px;
-        box-shadow: 10px 5px 5px #d8d8d8;
+        border-bottom: #d8d8d8 solid 1px;
         padding: 10px 0;
     }
 
@@ -421,6 +424,14 @@ footer{
     .subBurger li:hover{
         background: white;
         border: none;
+    }
+
+    /* Footer */
+    footer{
+        padding: 60px 60px;
+    }
+    .footerBox img{
+        width: 60%;
     }
     
 }
@@ -479,7 +490,7 @@ footer{
 
     .menuBurger{
         border-top: #d8d8d8 solid 1px;
-        box-shadow: 10px 5px 5px #d8d8d8;
+        border-bottom: #d8d8d8 solid 1px;
         padding: 10px 0;
     }
 
@@ -556,6 +567,35 @@ footer{
     .subBurger li:hover{
         background: white;
         border: none;
+    }
+
+    /* Footer */
+    footer{
+        flex-direction: column;
+    }
+    .footerBox p{
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    .footerBox ul{
+        text-align: center;
+        padding: 0;
+    }
+    .footerBox li{
+        padding: 8px 0;
+    }
+    .footerBox{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+    .footerBox .facebook:before{
+        top: -4px;
+    }
+    .footerBox .instagram:before{
+        top: -4px;
     }
 
 }

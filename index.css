@@ -204,6 +204,11 @@
         margin-bottom: 20px;
     }
 
+    /* Infos */
+    .infosBox{
+        width: 50%;
+    }
+
 }
 
 /* Mobile */
@@ -267,4 +272,22 @@
     .polaroid img{
         display: none;
     }
+    .testimonials{
+        margin-bottom: 40px;
+    }
+
+    /* Infos */
+    .infos{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .infosBox{
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .infosBox figcaption{
+        padding-top: 10px;
+    }
+
 }
