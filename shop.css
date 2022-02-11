@@ -31,6 +31,7 @@ main{
 }
 
 /* Liste des catégories de produits */
+
 .category ul{
     display: flex;
     list-style: none;
@@ -270,7 +271,7 @@ span.promo{
 
 /* Mobile */
 
-@media screen and (min-width: 375px) and (max-width: 600px){
+@media screen and (min-width: 360px) and (max-width: 600px){
     /* Banner image */
     .headerImage{
         height: 100px;
@@ -281,6 +282,43 @@ span.promo{
     }
     .headerImage p{
         max-width: 80%;
+    }
+
+    /* Liste des catégories de produits */
+    .category ul{
+        flex-direction: column;
+    }
+    .category li{
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    /* Ligne articles trouvés et rechercher */
+    .lineSearch{
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    .lineSearch span{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .search{
+        margin: auto;
+        padding-bottom: 20px;
+    }
+
+    /* la grille de produits */
+    .buy{
+        margin-bottom: 60px;
+    }
+    .outOfStock{
+        margin-bottom: 60px;
+    }
+    .productGrid .infoNew{
+        width: 60px;
+    }
+    .productGrid .infoPromo{
+        width: 45px;
     }
 
 }
