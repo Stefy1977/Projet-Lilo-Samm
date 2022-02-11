@@ -29,7 +29,6 @@
 .articleFirst {
     display: flex;
     justify-content: center;
-    padding-top: 50px;
 }
 
 .articleSecond {
@@ -69,14 +68,14 @@
 .infoArticleFirst h5 {
     padding:0 170px;
     margin: 0;
-    font-size: 20px;
+    font-size: 1rem;
     color: #403038;
     font-weight: 500;
 }
 
 .infoArticleFirst p {
     padding: 0 170px 15px 170px;
-    font-size: 16px;
+    font-size: 0.8rem;
     color: #403038;
 }
 
@@ -88,14 +87,14 @@
     text-align: center;
     background: #8C337D;
     color: white;
-    font-size: 14px;
+    font-size: 0.7rem;
     text-transform: uppercase;
     text-decoration: none;
 }
 
 .firstDate {
     padding: 0px 170px;
-    font-size: 14px;
+    font-size: 0.7rem;
     font-weight: 100;
     color: #403038;
 }
@@ -103,19 +102,19 @@
 .infoArticleSecond h5 {
     padding:0 170px;
     margin: 0;
-    font-size: 20px;
+    font-size: 1rem;
     color: white;
 }
 
 .infoArticleSecond p {
     padding: 0 170px 15px 170px;
-    font-size: 16px;
+    font-size: 0.8rem;
     color: white;
 }
 
 .secondDate {
     padding: 0px 170px;
-    font-size: 14px;
+    font-size: 0.7rem;
     font-weight: 100;
     color: #ffffff;
 }
@@ -124,4 +123,195 @@
 main {
     width: 80%;
     margin: auto;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+.pagination a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #403038;
+}
+.pagination .previousPage{
+    padding: 0 20px;
+    position: relative;
+}
+.pagination .previousPage:after{
+    content: "";
+    position: absolute;
+    background-image: url(img/fleche-left-20px.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    top: 5px;
+}
+.pagination .nextPage{
+    padding: 0 20px;
+    position: relative;
+}
+.pagination .nextPage:before{
+    content: "";
+    position: absolute;
+    background-image: url(img/fleche-right-20px.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    left: -2px;
+}
+.page{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #403038;
+    padding: 0 20px;
+    padding-top: 3px;
+}
+
+/* ---------------- MEDIAQUERIES -------------- */
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {   
+
+    .articleFirst {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .articleSecond {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .articleFirst img {
+        width: 500px;
+        height: 500px;
+    }
+    
+    .articleSecond img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .infoArticleFirst {
+        width: 500px;
+        height: 500px;
+    }
+
+    .infoArticleSecond {
+        width: 500px;
+        height: 500px;
+    }
+
+    .infoArticleFirst h5 {
+        padding:0 100px;
+        font-size: 1.1rem;
+    }
+
+    .infoArticleFirst p {
+        padding: 0 100px 15px 100px;
+        font-size: 0.9rem;
+    }
+
+    .firstDate {
+        padding: 0px 100px;
+        font-size: 0.8rem;
+    }
+
+    .infoArticleSecond h5 {
+        padding:0 100px;
+        font-size: 1.1rem;
+    }
+
+    .infoArticleSecond p {
+        padding: 0 100px 15px 100px;
+        font-size: 0.9rem;
+    }
+
+    .secondDate {
+        padding: 0px 100px;
+        font-size: 0.8rem;
+    }
+
+    .boutonArticle {
+        width: 57%;
+        padding: 10px 10px;
+        font-size: 0.8rem;
+    }
+
+}
+
+
+ 
+@media screen and (min-width : 375px) and (max-width : 600px){
+
+    .articleFirst {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .articleSecond {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .articleFirst img {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .articleSecond img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .infoArticleFirst {
+        width: 300px;
+        height: 300px;
+    }
+
+    .infoArticleSecond {
+        width: 300px;
+        height: 300px;
+    }
+
+    .infoArticleFirst h5 {
+        padding:0 50px;
+    }
+
+    .infoArticleFirst p {
+        padding: 0 50px 15px 50px;
+        font-size: 0.6rem;
+    }
+
+    .firstDate {
+        padding: 0px 50px;
+    }
+
+    .infoArticleSecond h5 {
+        padding:0 50px;
+    }
+
+    .infoArticleSecond p {
+        padding: 0 50px 15px 50px;
+        font-size: 0.6rem;
+    }
+
+    .secondDate {
+        padding: 0px 50px;
+    }
+
+    .boutonArticle {
+        width: 57%;
+        padding: 10px 10px;
+    }
+
+    .info {
+        padding: 50px 0;
+    }
+    
 }

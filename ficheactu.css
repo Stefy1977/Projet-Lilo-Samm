@@ -92,18 +92,17 @@ main {
 }
 
 
-
 /* ---------------- MEDIAQUERIES -------------- */
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {   
+@media screen and (min-width: 600px) and (max-width: 1024px) {
 
 }
 
 
- 
-@media screen and (max-width : 767px){
-    .headerImage{
-        background-image: url(img/banner-mobile-actu02.jpg) /* < ici !*/
+@media screen and (min-width : 375px) and (max-width : 600px){
+
+.headerImage{
+        background-image: url(img/banner-mobile-actu02.jpg)
     }
 
     .pagination{
@@ -125,6 +124,7 @@ main {
         font-weight: 500;
         color: #403038;
         padding: 0 20px;
-        padding-top: 3px;
+        padding-top: 7px;
     }
+    
 }
