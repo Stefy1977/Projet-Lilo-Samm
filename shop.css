@@ -96,7 +96,7 @@ ul li.active{
 .productGrid{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     max-width: 1280px;
     margin: auto;
 }
@@ -107,7 +107,6 @@ ul li.active{
     display: block;
     position: relative;
     max-width: 280px;
-    padding: 0 20px;
 }
 .productGrid .infoNew{
     display: flex;
@@ -138,14 +137,15 @@ ul li.active{
     padding: 10px 0px;
     border-top: #403038 solid 1px;
     border-bottom: #403038 solid 1px;
+    margin-bottom: 80px;
 }
 .like{
     display: flex;
     position: absolute;
     width: 30px;
     height: 30px;
-    top: 0px;
-    right: 20px;
+    top: 0;
+    right: 0;
     padding: 5px;
     background-color: white;
 }
@@ -253,4 +253,34 @@ span.promo{
     color: #403038;
     padding: 0 20px;
     padding-top: 3px;
+}
+
+/* Tablet */
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    /* Banner image */
+    .headerImage{
+        height: 140px;
+        padding-top: 90px;
+    }
+    .headerImage:after{
+        height: 140px;
+    }
+}
+
+/* Mobile */
+
+@media screen and (min-width: 375px) and (max-width: 600px){
+    /* Banner image */
+    .headerImage{
+        height: 100px;
+        padding-top: 90px;
+    }
+    .headerImage:after{
+        height: 100px;
+    }
+    .headerImage p{
+        max-width: 80%;
+    }
+
 }
