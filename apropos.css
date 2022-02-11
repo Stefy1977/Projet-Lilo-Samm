@@ -158,6 +158,7 @@ h3 {
         height: 140px;
     }
     
+   
     /* -----------FIN HEADER ---------- */
 
 
@@ -212,6 +213,9 @@ h3 {
         height: 100px;
     }
     
+    .headerImage p {
+        max-width: 80%;
+    }
     
     /* -----------FIN HEADER ---------- */
 
