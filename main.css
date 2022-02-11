@@ -446,6 +446,9 @@ footer{
     .cta{
         width: 50%;
     }
+    h1{
+        padding: 20px 0;
+    }
 
     /* Fil d'ariane (breadcrumb) */
     .breadcrumb ul {
@@ -582,7 +585,7 @@ footer{
         padding: 0;
     }
     .footerBox li{
-        padding: 8px 0;
+        padding: 15px 0;
     }
     .footerBox{
         display: flex;
@@ -592,10 +595,13 @@ footer{
         padding-bottom: 40px;
     }
     .footerBox .facebook:before{
-        top: -4px;
+        left: 20px;
+        top: 20px;
     }
     .footerBox .instagram:before{
-        top: -4px;
+        left: 20px;
+        top: 20px;
     }
+
 
 }
