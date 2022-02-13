@@ -213,7 +213,7 @@
 
 /* Mobile */
 
-@media screen and (min-width: 375px) and (max-width: 600px){
+@media screen and (min-width: 360px) and (max-width: 600px){
     /* Banner image */
     .headerImage{
         height: 180px;
@@ -230,6 +230,7 @@
     .giftIdeas{
         flex-direction: column;
         align-items: center;
+        width: 80%;
     }
     .giftIdeasBloc{
         display: flex;

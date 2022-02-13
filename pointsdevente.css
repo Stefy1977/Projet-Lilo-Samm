@@ -31,6 +31,10 @@ main {
     margin: auto;
 }
 
+.adresse, .tel, .ouverture {
+    color: #403038;
+}
+
 /* ----- FIL ARIANNE -----*/
 .breadcrumb ul {
     display: flex;
@@ -79,46 +83,84 @@ main {
 .mag {
     display: flex;
     justify-content: space-between;
+    margin: 30px 0px;
 }
 
-
-.lieux {
-    width: 400px;
-}
-
-.donnees {
-    width: 250px;
-}
-
-.map {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 0.9rem;
-    font-weight: 300;
-    text-transform: uppercase;
-    text-decoration: none;
-    text-align: center;
-    background: #750663;
-    color: white;
-    width: 200px;
-    height: 40px;
-    margin-top: auto;
-    margin-bottom: auto;
-    transition: all .5s ease;
-}
-
+/* ------------- BLOC NOM DU MAG ET ADRESSE POSTALE---- */
 .nomMag {
     color: #750663;
     padding: 0px;
     font-weight: 500;
 }
 
+.lieux {
+    width: 400px;
+}
+
+/* ---------------  BLOC DONNEES  ----------- */
+
+.donnees {
+    width: 250px;
+} 
+
+.tel:before{
+    content: "";
+    background-image: url(img/vector-téléphone.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    left: -40px;
+    top: 0.5px;
+}
+.tel {
+    position: relative;
+}
+
+.horaires:before{
+    content: "";
+    background-image: url(img/vector-horloge.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    left: -40px;
+    top: 0.5px;
+}
+
+.horaires {
+    position: relative;
+}
+
+
+/* ---------------------- CTA ----------- */
+
+.cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    /* text-align: center; */
+    background: #750663;
+    color: white;
+    padding: 10px;
+    width: 20%; 
+     height: 40px;
+    /* margin: 8px auto; */
+    transition: all .5s ease;
+}
+
+
+/* ------------- ligne horizontale ------------- */
 hr {
     border: #750663 0.5px solid;
 }
 
-.adresse, .tel, .ouverture {
-    color: #403038;
-}
+
 
