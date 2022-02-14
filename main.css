@@ -535,6 +535,10 @@ footer{
         width: 50%;
         margin: 40px auto;
     }
+    .ctaConnexion {
+        width: 70%;
+        margin: 60px auto;
+    }
     h1{
         padding: 20px 0;
     }
