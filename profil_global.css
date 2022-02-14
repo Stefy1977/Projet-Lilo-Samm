@@ -29,14 +29,14 @@ main {
 }
 
 .profil {
-    width: 60%;
-    height: 50%;
+    width: 50%;
     margin: auto;
 }
 
 .profil ul{
     display: flex;
     list-style: none;
+    justify-content: center;
     margin: 0;
     padding: 0px;
     padding-bottom: 10px;
@@ -62,9 +62,9 @@ ul li.active{
 
 .profil li{
     background-color: #c6c1c4;
-    width: 100%;
     text-align: center;
-    padding: 120px 0px;
+    width: 250px;
+    height: 250px;
     margin-right: 10px;
     font-size: 0.8rem;
     font-weight: 300;
@@ -75,95 +75,42 @@ ul li.active{
     color: white;
 }
 
-/* .flexIcon {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-}
-
-.bgInfos span {
+.profilIntro {
     text-align: center;
+    font-size: 0.8rem;
+    padding-bottom: 56px;
 }
-
-.bgInfos {
-    position: relative;
-    background: chartreuse;
-    width: 50%;
-    height: 50%;
-}
-
-.bgInfos:before {
-    content: "";
-    background-image: url(img/mesinformations.svg);
-    background-repeat: no-repeat;
-    position: absolute;
-    display: block;
-    width: 80px;
-    height: 80px;
-    top: 5px;
-}
-
-.bgAdresses {
-    position: relative;
-    background: rgb(76, 131, 21);
-    width: 50%;
-    height: 50%;
-}
-
-.bgAdresses:before {
-    content: "";
-    background-image: url(img/mesadresses.svg);
-    background-repeat: no-repeat;
-    position: absolute;
-    display: block;
-    width: 80px;
-    height: 80px;
-    top: 5px;
-}
-
-.bgCommandes {
-    position: relative;
-    background: rgb(219, 65, 27);
-    width: 50%;
-    height: 50%;
-}
-
-.bgCommandes:before {
-    content: "";
-    background-image: url(img/mescommandes.svg);
-    background-repeat: no-repeat;
-    position: absolute;
-    display: block;
-    width: 80px;
-    height: 80px;
-    top: 5px;
-}
-
-.bgWishlist {
-    position: relative;
-    background: rgb(211, 7, 119);
-    width: 50%;
-    height: 50%;
-}
-
-.bgWishlist:before {
-    content: "";
-    background-image: url(img/mawhishlist.svg);
-    background-repeat: no-repeat;
-    position: absolute;
-    display: block;
-    width: 80px;
-    height: 80px;
-    top: 5px;
-} */
 
 /* ---------------- MEDIAQUERIES -------------- */
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
+    .profil li{
+        width: 200px;
+        height: 200px;
+    }
 
+    .profilIntro {
+        font-size: 0.8rem;
+    }
+
+    .profil {
+        width: 80%;
+        margin: auto;
+    }
 }
 
 
 @media screen and (min-width : 375px) and (max-width : 600px){
+    .profil li{
+        width: 150px;
+        height: 150px;
+    }
+
+    .profilIntro {
+        font-size: 0.8rem;
+    }
+
+    .profil {
+        width: 100%;
+    }
 }
