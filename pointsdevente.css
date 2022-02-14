@@ -100,9 +100,9 @@ main {
     padding: 0px;
     font-weight: 500;
     width: 250px;
-    /* block-size: 250px;
+    block-size: 250px;
     writing-mode: horizontal-tb;    
-    width: auto; */
+    width: auto;
 }
 
 .adresse {
@@ -118,7 +118,6 @@ main {
     margin-right: auto;
     position: relative;
 } 
-
 
 
 .tel:before{
@@ -219,21 +218,25 @@ hr {
     }
    
     .lieux {
-        max-width: 250px;
+        max-width: 180px;
         margin: 0 40px 0 30px;
         max-height: 200px;
     }
     .adresse {
-        min-width: 200px;
+        min-width: 180px;
     }
     .donnees {
         margin: 0 30px;
-        min-width: 200px;
+        min-width: 180px;
     }
-
+    .mag {
+        flex-wrap: wrap;
+    }
     .cta {
         min-width: 220px;
         max-height: 20px;
+        flex-grow: 1;
+        margin: 0 auto;
     } 
  
 }
@@ -243,6 +246,19 @@ hr {
 /* SMARTPHONE */
 
 @media screen and (min-width : 360px) and (max-width : 600px) {
+    /* ----------HEADER ------------ */
+
+    .headerImage{
+        height: 100px;
+        padding-top: 90px;
+    }
+    .headerImage:after{
+        height: 100px;
+    }
+    
+    .headerImage p {
+        max-width: 80%;
+    }
     /* .main{
         width: 100%;
         margin: auto;
