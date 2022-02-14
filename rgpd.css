@@ -22,10 +22,44 @@
 .headerImage p{
     z-index: 2;
 }
+
+
 /* ------------------------------------------------------------------------------------------------- */
 
 
 /* ------------------------------ CONDITIONS GENERALES DE VENTE MAIN -------------------------------------------------------------- */
+
+/* ----------  Fil d'ariane (breadcrumb) */
+.breadcrumb ul {
+    display: flex;
+    font-size: 0.7rem;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    color: #403038;
+    margin: 0;
+    margin-top: 10px;
+}
+.breadcrumb ul li a{
+    font-size: 0.7rem;
+    font-weight: 300;
+    color: #403038;
+    text-decoration: none;
+}
+
+.breadcrumb li::before {
+    content: "> ";
+    margin-left: 5px;
+    color: #403038;
+}
+    
+.breadcrumb li:first-child::before {
+    content: "";
+}
+
+
+
+
 .container {
     
     margin: auto;
@@ -46,19 +80,19 @@
     content: "";
     background-image: url(img/guillemetsOuverture.png);
     background-size: 100%;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     float:left ;
     min-width: auto;
     margin: 0px 20px 20px 0px;
 }
-.article4::before  {
+.p-4:after {
     content: "";
     background-image: url(img/guillemetsFerme.png);
     background-size: 100%;
-    width: 300px;
-    height: 300px;
-    float: right;
+    width: 200px;
+    height: 200px;
+    float: inline-end;
     min-width: auto;
     margin: 20px 0px 0px 20px;
 }
@@ -84,7 +118,7 @@
     .article1:before {
         display: none;
     }
-    .article4:after {
+    .article4::before {
         display: none;
     }
 }
@@ -97,6 +131,5 @@
     }
   
 }
-
 
 

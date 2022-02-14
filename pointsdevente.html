@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="pointsdevente.css">
-    <script src="main.js" defer></script>
+    <script src="js/header.js" defer></script>
+    <script src="js/footer.js" defer></script>
+    <script src="js/main.js" defer></script>
     <title>Points de vente</title>
 </head>
 
@@ -85,14 +87,16 @@
         <p><span>Mais où sont mes créations ?! <br> le point de vente près de chez vous !</span></p>
     </div>
     <main>
-        <!-- fil d'arianne -->
-        <nav aria-label="Breadcrumb" class="breadcrumb">
+    <!-- fil d'arianne -->
+         <!-- fil d'arianne -->
+         <div class="breadcrumb">
             <ul>
                 <li><a href="index.html">Accueil</a></li>
                 <li><span aria-current="page">Points de vente</span></li>
             </ul>
-        </nav>
+        </div>
         <!-- fin fil d'arianne -->
+       
 
 
         <!-- DIV CONTAINER LISTE DES MAGASINS -->
@@ -398,28 +402,7 @@
 
         
     </main>
-    <footer>
-        <div class="footerBox">
-            <img src="img/ladl-logo-white.svg" alt="logo les ateliers de Lilo">
-            <p>Rue Arthur Duquesne, 53<br>7032 Spiennes<br>Belgique<br>TVA: BE0XXX-XXX-XXX</p>
-        </div>
-        <div class="footerBox">
-            <ul>
-                <li><a href="#">Points de vente</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">CGDV</a></li>
-                <li><a href="#">RGPD</a></li>
-            </ul>
-        </div>
-        <div class="footerBox">
-            <p>Retrouvez-moi sur :</p>
-            <ul>
-                <li><a class="facebook" href="#">Facebook</a></li>
-                <li><a class="instagram" href="#">Instagram</a></li>
-            </ul>
-        </div>
-    </footer>
+    <main-footer></main-footer>
     <button onclick="topFunction()" id="scroll"></button>
 
 </body>
