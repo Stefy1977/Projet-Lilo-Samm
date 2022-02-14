@@ -581,6 +581,7 @@ footer{
     .hamburger{ /* div de base du menu hamburger qui s'ouvre */
         display: flex;
         flex-direction: column;
+        transition-duration: .5s;
     }
     #burger{
         display: flex;
@@ -590,6 +591,7 @@ footer{
         border-top: #d8d8d8 solid 1px;
         border-bottom: #d8d8d8 solid 1px;
         padding: 10px 0;
+        transition-duration: .5s;
     }
 
     #burger{ /* ici c'est le bloc - la zone où vont venir les lignes du burger */
