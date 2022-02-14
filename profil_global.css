@@ -75,6 +75,33 @@ ul li.active{
     color: white;
 }
 
+.profilIntro {
+    text-align: center;
+    font-size: 0.8rem;
+    padding-bottom: 56px;
+}
+
+.ctaConnexion {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    background: white;
+    color: #403038;
+    border: 1px solid #888;
+    padding: 10px;
+    width: 20%;
+    margin: 60px auto;
+    margin-bottom: 80px;
+    transition: all .5s ease;
+}
+
+.ctaConnexion img {
+    padding-right: 15px;
+}
+
 /* .flexIcon {
     display: flex;
     justify-content: center;
