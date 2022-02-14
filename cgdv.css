@@ -22,6 +22,8 @@
 .headerImage p{
     z-index: 2;
 }
+
+
 /* ------------------------------------------------------------------------------------------------- */
 
 
@@ -46,19 +48,19 @@
     content: "";
     background-image: url(img/guillemetsOuverture.png);
     background-size: 100%;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     float:left ;
     min-width: auto;
     margin: 0px 20px 20px 0px;
 }
-.article4::before  {
+.p-4:after {
     content: "";
     background-image: url(img/guillemetsFerme.png);
     background-size: 100%;
-    width: 300px;
-    height: 300px;
-    float: right;
+    width: 200px;
+    height: 200px;
+    float: inline-end;
     min-width: auto;
     margin: 20px 0px 0px 20px;
 }
@@ -84,7 +86,7 @@
     .article1:before {
         display: none;
     }
-    .article4:after {
+    .article4::before {
         display: none;
     }
 }
