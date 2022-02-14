@@ -29,3 +29,80 @@ main{
     width: 80%;
     margin: auto;
 }
+
+/* Formulaire */
+.formContact{
+    display: flex;
+    width: 100%;
+}
+
+.formPart{
+    display: block;
+    width: 50%;
+}
+
+label{
+    font-size: 0.8rem;
+    color: #403038;
+    font-weight: 300;
+}
+
+input{
+    width: 90%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+select{
+    margin-bottom: 20px;
+    padding: 8px 0;
+}
+
+.formessage{
+    height: 115px;
+}
+button{
+    border: none;
+}
+
+/* Tablet */
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    /* Banner image */
+    .headerImage{
+        height: 140px;
+        padding-top: 90px;
+    }
+    .headerImage:after{
+        height: 140px;
+    }
+}
+
+/* Mobile */
+
+@media screen and (min-width: 360px) and (max-width: 600px){
+    /* Banner image */
+    .headerImage{
+        height: 100px;
+        padding-top: 90px;
+    }
+    .headerImage:after{
+        height: 100px;
+    }
+    .headerImage p{
+        max-width: 80%;
+    }
+
+    /* Formulaire */
+    .formContact{
+        display: block;
+        width: 100%;
+    }
+
+    .formPart{
+        width: 100%;
+    }
+
+    input{
+        width: 98%;
+    }
+}

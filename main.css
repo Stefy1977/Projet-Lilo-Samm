@@ -348,6 +348,7 @@ footer{
     left: -40px;
     top: 0.5px;
 }
+
 /* Bouton scroll to top */
 
 #scroll{
@@ -660,6 +661,13 @@ footer{
     .footerBox .instagram:before{
         left: 20px;
         top: 20px;
+    }
+
+    /* Bouton scroll to top */
+    #scroll{
+        right: 20px;
+        width: 40px;
+        height: 40px;
     }
 
 
