@@ -34,10 +34,7 @@ main {
 
 /* ----- FIL ARIANNE -----*/
 
- nav.bread {
-    justify-content: left;
-}
-
+/* ----------  Fil d'ariane (breadcrumb) */
 .breadcrumb ul {
     display: flex;
     font-size: 0.7rem;
@@ -48,7 +45,6 @@ main {
     margin: 0;
     margin-top: 10px;
 }
-
 .breadcrumb ul li a{
     font-size: 0.7rem;
     font-weight: 300;
@@ -57,11 +53,9 @@ main {
 }
 
 .breadcrumb li::before {
-    content: "<";
-    /* content: "> "; */
+    content: "> ";
     margin-left: 5px;
     color: #403038;
-    
 }
     
 .breadcrumb li:first-child::before {
