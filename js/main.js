@@ -1,6 +1,6 @@
 // on va chercher notre bouton
 
-monBouton = document.getElementById("scroll");
+const monBouton = document.getElementById("scroll");
 
 // quand on scroll à plus de 20 px à partir du haut
 
@@ -29,6 +29,7 @@ function topFunction() {
 const $ = document.querySelector.bind(document);
 
 const burger=document.querySelector("#burger");
+console.log(burger);
 
 burger.addEventListener("click",showHideMenu);
 

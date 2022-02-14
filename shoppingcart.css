@@ -1,0 +1,116 @@
+body{
+    width: 500px;
+}
+
+.closebtn{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+.closebtn:before{
+    content: "";
+    position: absolute;
+    background-image: url(img/akar-icons_cross.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    /* padding: 10px; */
+}
+.overlay{
+    margin: 20px;
+}
+
+.titleCart{
+    display: block;
+    font-size: 1rem;
+    text-align: left;
+    border-bottom: solid 2px #403038;
+    padding-bottom: 25px;
+}
+
+.content-product{
+    display: flex;
+    padding: 20px 0;
+    border-bottom: solid 1px #403038;
+}
+.content-product img{
+    height: 150px;
+    width: 150px;
+}
+.product-infos{
+    padding-left: 10px;
+}
+figure{
+    margin: 0;
+    padding: 0;
+}
+.infos{
+    display: block;
+}
+.content-product .cat{
+    font-size: 0.7rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.titleProduct{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #403038;
+}
+.price{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #403038;
+}
+.quantity{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.number{
+    font-size: 0.8rem;
+    color: #403038;
+}
+.quantity button{
+    border: none;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    background-color: #ECEAEB;
+}
+.delete{
+    position: relative;
+    top: 5px;
+}
+.delete:before{
+    content: "";
+    position: absolute;
+    background-image: url(img/mdi_trash-can-outline.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+.subTotal{
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+    font-size: 1rem;
+    color: #403038;
+}
+.shippingFees{
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: #403038;
+    border-bottom: solid 1px #403038;
+}
+.total{
+    display: flex;
+    padding-top: 5px;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    color: #403038;
+    font-weight: 500;
+}
