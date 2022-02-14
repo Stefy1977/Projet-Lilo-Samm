@@ -111,6 +111,7 @@ ul .sub {
 }
 .sub li{
     white-space: nowrap;
+    padding: 2px 0;
 }
 .sub li a{
     font-size: 0.7rem;
