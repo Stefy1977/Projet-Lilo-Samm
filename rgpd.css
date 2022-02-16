@@ -86,15 +86,21 @@
     min-width: auto;
     margin: 0px 20px 20px 0px;
 }
-.p-4:after {
+
+.container article:last-of-type p{
+    display: flex;
+    align-items: flex-end;
+}
+.container article:last-of-type p:last-of-type:after {
     content: "";
+    display:block;
     background-image: url(img/guillemetsFerme.png);
-    background-size: 100%;
+    background-size: 200px;
     width: 200px;
     height: 200px;
-    float: inline-end;
-    min-width: auto;
     margin: 20px 0px 0px 20px;
+    flex-grow: 1;
+    flex-shrink: 0;
 }
 
 

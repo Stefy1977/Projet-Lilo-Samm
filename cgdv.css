@@ -72,7 +72,6 @@
     font-size: 0.8rem;
     font-weight: 300;
     margin: auto;
-    
 }
 
 .article1:before {
@@ -86,23 +85,33 @@
     min-width: auto;
     margin: 0px 20px 20px 0px;
 }
-.article4::after {
+.container article:last-of-type p{
+    display: flex;
+    align-items: flex-end;
+}
+.container article:last-of-type p:last-of-type:after {
     content: "";
+    display:block;
     background-image: url(img/guillemetsFerme.png);
     background-size: 200px;
     width: 200px;
     height: 200px;
-    float: right;
     margin: 20px 0px 0px 20px;
+    flex-grow: 1;
+    flex-shrink: 0;
     
+    
+
 }
+
+
 
 
 
 /* ------------------ MEDIAQUERIES ------------------- */
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 600px) and (max-width: 1024px) {
   
     .container div{
         flex-direction: column;
@@ -118,19 +127,25 @@
     .article1:before {
         display: none;
     }
-    .article4::before {
+    .article4::after {
         display: none;
     }
 }
 
 
  
-@media screen and (max-width : 768px){
+
+@media screen and (min-width : 320px) and (max-width : 600px){
     .container {
         width: 90%;
     }
+    .article1:before {
+        display: none;
+    }
+    .article4::after {
+        display: none;
+    }
   
 }
-
 
 
