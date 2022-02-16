@@ -59,10 +59,7 @@ main {
     color: #750663;
     padding: 0px;
     font-weight: 500;
-    width: 250px;
-    block-size: 250px;
-    writing-mode: horizontal-tb;    
-    width: auto;
+
 }
 
 .adresse {
@@ -115,6 +112,7 @@ main {
 
 .cta{
     height: 40px;
+    padding: 10px 10px 0px;
 }
 
 
@@ -133,7 +131,7 @@ hr {
 /* TABLETTE */
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
-    
+   
     
     /* ----------HEADER ------------ */
     .headerImage{
@@ -183,6 +181,7 @@ hr {
         max-height: 20px;
         flex-grow: 1;
         margin: 0 auto;
+        padding: 10px;
     } 
  
 }
@@ -192,6 +191,10 @@ hr {
 /* SMARTPHONE */
 
 @media screen and (min-width : 360px) and (max-width : 600px) {
+    html {
+        font-size: 0.8rem;
+    }
+    
     /* ----------HEADER ------------ */
 
     .headerImage{
@@ -203,13 +206,9 @@ hr {
     }
     
     .headerImage p {
-        max-width: 80%;
+        max-width: 70%;
     }
-    /* .main{
-        width: 100%;
-        margin: auto;
-        font-size: 0.5rem;   
-    } */
+   
     .listeMag {
         width: 100%;
         margin: auto;  
@@ -225,5 +224,10 @@ hr {
     .cta {
         min-width: 220px;
         max-height: 20px;
+        padding: 10px;
+        margin: 0px auto 0px 0px;
     }  
+    .nomMag {
+        width: 100%;
+    }
 }
