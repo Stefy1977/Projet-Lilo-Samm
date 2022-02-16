@@ -225,7 +225,7 @@ hr {
         min-width: 220px;
         max-height: 20px;
         padding: 10px;
-        margin-left: 0px;
+        margin: 0px auto 0px 0px;
     }  
     .nomMag {
         width: 100%;
