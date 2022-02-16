@@ -201,6 +201,10 @@ main {
  
 @media screen and (min-width : 375px) and (max-width : 600px){
 
+    .headerImage{
+        background-image: url(img/banner-mobile-blog.jpg); /* < ici !*/
+    }
+    
     .articleFirst {
         flex-direction: column;
         align-items: center;

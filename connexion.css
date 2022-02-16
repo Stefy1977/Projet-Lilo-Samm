@@ -1,0 +1,110 @@
+/* header banner image sur toutes les pages .css - changer juste le lien de l'image !*/
+.headerImage{
+    padding: 0;
+    padding-top: 80px;
+    margin: 0;
+    width: 100%;
+    height: 200px;
+    background-image: url(img/banner-connexion.jpg); /* < ici !*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.headerImage:after{
+    content: "";
+    background-color: #403038;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    opacity: 0.6;
+    z-index: 1;
+}
+.headerImage p{
+    z-index: 2;
+}
+/* ------------------------------------------------------------------------------------------------- */
+
+/* Main */
+main{
+    width: 80%;
+    margin: auto;
+}
+
+/* Formulaire */
+.formContact{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+label{
+    font-size: 0.8rem;
+    color: #403038;
+    font-weight: 300;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+select{
+    margin-bottom: 20px;
+    padding: 8px 0;
+}
+
+.formessage{
+    height: 115px;
+}
+button{
+    border: none;
+}
+.connexion{
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: 300;
+    color: #403038;
+}
+
+/* Tablet */
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    /* Banner image */
+    .headerImage{
+        height: 140px;
+        padding-top: 90px;
+    }
+    .headerImage:after{
+        height: 140px;
+    }
+}
+
+/* Mobile */
+
+@media screen and (min-width: 360px) and (max-width: 600px){
+    /* Banner image */
+    .headerImage{
+        height: 100px;
+        padding-top: 90px;
+    }
+    .headerImage:after{
+        height: 100px;
+    }
+    .headerImage p{
+        max-width: 80%;
+    }
+
+    /* Formulaire */
+    .formContact{
+        display: block;
+        width: 100%;
+    }
+
+    .formPart{
+        width: 100%;
+    }
+
+    input{
+        width: 98%;
+    }
+}

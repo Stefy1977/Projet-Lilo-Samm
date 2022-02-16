@@ -36,7 +36,7 @@ class MyHeader extends HTMLElement {
                         alt="icône de la wishlist donc des favoris"></a>
                 <a id="cart" href="#" title="mon panier d'achats"> <img src="img/mdi_shopping-outline.svg"
                         alt="icône du panier d'achat"></a>
-                <a href="#" title="me connecter au profil"><img src="img/mdi_account-circle-outline.svg"
+                <a href="connexion.html" title="me connecter au profil"><img src="img/mdi_account-circle-outline.svg"
                         alt="icône du profil pour se connecter"></a>
             </div>
         </nav>
