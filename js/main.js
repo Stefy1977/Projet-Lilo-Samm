@@ -36,3 +36,13 @@ burger.addEventListener("click",showHideMenu);
 function showHideMenu(){
    document.querySelector("html").classList.toggle('opened');
 }
+
+///////////////////////// Overlay panier (Cart) ///////////////////////////////////
+
+const cart=document.querySelector("#cart");
+
+cart.addEventListener("click",showCart);
+
+function showCart(){
+    document.querySelector(".overlay").classList.toggle('show');
+ }

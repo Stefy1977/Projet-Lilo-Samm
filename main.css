@@ -389,6 +389,151 @@ footer{
     background-color: #75066341
 }
 
+/* Overlay panier */
+
+.overlay.show{
+    display: block;
+}
+
+.overlay{
+    display: none;
+    background-color: #ffffffa1;
+    width: 1000vh;
+    height: 1000vh;
+}
+.overlayCart{
+    border-top: solid 1px #ECEAEB;
+    padding: 20px;
+    position: fixed;
+    top: 90px;
+    right: 0;
+    background-color: white;
+    border-radius: 0 0 0 20px;
+    box-shadow: -10px 10px 20px #C6C1C4;
+}
+.overlayCart .cta{
+    width: 50%;
+}
+.closebtn{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.closebtn:before{
+    content: "";
+    position: absolute;
+    background-image: url(img/akar-icons_cross.svg);
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+}
+
+.titleCart{
+    display: block;
+    font-size: 1rem;
+    text-align: left;
+    border-bottom: solid 2px #403038;
+    padding-bottom: 25px;
+}
+
+.content-product{
+    display: flex;
+    padding: 10px 0;
+    border-bottom: solid 1px #403038;
+}
+
+.content-product img{
+    height: 135px;
+    width: 135px;
+}
+
+.product-infos{
+    padding-left: 10px;
+}
+
+figure{
+    margin: 0;
+    padding: 0;
+}
+
+.product-infos .cartInfos{
+    display: block;
+}
+
+.content-product .cat{
+    font-size: 0.7rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.titleProduct{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #403038;
+}
+
+.price{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #403038;
+}
+
+.quantity{
+    display: flex;
+    padding-top: 15px;
+}
+
+.number{
+    padding: 0 10px;
+    font-size: 0.8rem;
+    color: #403038;
+}
+
+.quantity button{
+    border: none;
+    width: 30px;
+    height: 30px;
+    background-color: #ECEAEB;
+}
+.delete{
+    position: relative;
+    top: 5px;
+    padding-left: 20px;
+}
+.delete:before{
+    content: "";
+    position: absolute;
+    background-image: url(img/mdi_trash-can-outline.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+.subTotal{
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #403038;
+}
+.shippingFees{
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: #403038;
+    border-bottom: solid 2px #403038;
+}
+.total{
+    display: flex;
+    padding-top: 5px;
+    justify-content: space-between;
+    font-size: 1rem;
+    color: #403038;
+    font-weight: 500;
+}
+
 
 @media (max-width:1024px){
     
