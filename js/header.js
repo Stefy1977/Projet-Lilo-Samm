@@ -34,12 +34,72 @@ class MyHeader extends HTMLElement {
             <div class="userMenu">
                 <a href="#" title="mes favoris"> <img src="img/mdi_cards-heart-outline.svg"
                         alt="icône de la wishlist donc des favoris"></a>
-                <a href="shoppingcart.html" title="mon panier d'achats"> <img src="img/mdi_shopping-outline.svg"
+                <a id="cart" href="#" title="mon panier d'achats"> <img src="img/mdi_shopping-outline.svg"
                         alt="icône du panier d'achat"></a>
                 <a href="#" title="me connecter au profil"><img src="img/mdi_account-circle-outline.svg"
                         alt="icône du profil pour se connecter"></a>
             </div>
         </nav>
+
+        <div class="overlay">
+                <div class="overlayCart">
+                    <a href="" class="closebtn"></a>
+                    <span class="titleCart">Panier</span>
+                    <div class="overlay-content">
+                        <div class="content-product">
+                            <figure><img src="img/product/badge-a-fleur-de-peau.jpeg" alt=""></figure>
+                            <div class="product-infos">
+                                <div class="cartInfos">
+                                    <span class="cat">Badge</span><br>
+                                    <span class="titleProduct">"A fleur de peau de vache"</span><br>
+                                    <span class="price">5,00 €</span>
+                                </div>
+                                <div class="quantity">
+                                    <div>
+                                        <button>-</button>
+                                        <span class="number">1</span>
+                                        <button>+</button>
+                                    </div>
+                                    <a href="" class="delete"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overlay-content">
+                        <div class="content-product">
+                            <figure><img src="img/product/badge-humoureuse.jpg" alt=""></figure>
+                            <div class="product-infos">
+                                <div class="cartInfos">
+                                    <span class="cat">Badge</span><br>
+                                    <span class="titleProduct">"Je suis humoureuse"</span><br>
+                                    <span class="price">5,00 €</span>
+                                </div>
+                                <div class="quantity">
+                                    <div>
+                                        <button>-</button>
+                                        <span class="number">1</span>
+                                        <button>+</button>
+                                    </div>
+                                    <a href="" class="delete"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="subTotal">
+                        <span>Sous Total</span>
+                        <span class="price">10,00 €</span>
+                    </div>
+                    <div class="shippingFees">
+                        <span>Frais de port</span>
+                        <span>3,00 €</span>
+                    </div>
+                    <div class="total">
+                        <span>Total</span>
+                        <span>13,00 €</span>
+                    </div>
+                    <a href="" class="cta">Commander</a>
+                </div>
+            </div>
 
     </header>`
     }
