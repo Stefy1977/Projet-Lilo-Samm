@@ -39,20 +39,21 @@ main{
     padding: 0px;
     cursor: pointer;
 }
-
 ul li.active{
     background-color: #750663;
 }
-
+.category a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
 .category li{
     background-color: #c6c1c4;
     width: 100%;
     text-align: center;
-    padding: 10px 0px;
-    margin-right: 10px;
-    font-size: 0.8rem;
-    font-weight: 300;
-    color: white;
+    padding: 10px 10px;
+    margin-right: 10px;   
 }
 .category li:hover{
     background-color: #750663;

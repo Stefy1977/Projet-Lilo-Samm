@@ -29,7 +29,7 @@ function topFunction() {
 const $ = document.querySelector.bind(document);
 
 const burger=document.querySelector("#burger");
-console.log(burger);
+// console.log(burger);
 
 burger.addEventListener("click",showHideMenu);
 
