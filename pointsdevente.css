@@ -115,6 +115,7 @@ main {
 
 .cta{
     height: 40px;
+    padding: 10px 10px 0px;
 }
 
 
@@ -183,6 +184,7 @@ hr {
         max-height: 20px;
         flex-grow: 1;
         margin: 0 auto;
+        padding: 10px;
     } 
  
 }
@@ -225,5 +227,6 @@ hr {
     .cta {
         min-width: 220px;
         max-height: 20px;
+        padding: 10px;
     }  
 }
