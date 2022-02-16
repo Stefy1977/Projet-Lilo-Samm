@@ -148,7 +148,7 @@ main {
 
 /* ---------------------- CTA ----------- */
 
-.cta{
+/* .cta{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -163,7 +163,7 @@ main {
     width: 30%; 
     max-height: 40px;
     transition: all .5s ease;
-}
+} */
 
 
 /* ------------- ligne horizontale ------------- */
