@@ -234,21 +234,41 @@ h3 {
     text-decoration: none;
     text-align: center;
     background: white;
-    border: 1px solid #888;
+    border: 1px solid #403038;
+    color: #403038;
     padding: 10px;
-    width: 20%;
+    width: 30%;
     margin: 60px auto;
-    margin-bottom: 80px;
     transition: all .5s ease;
 }
 
-.ctaConnexion img {
-    padding-right: 15px;
+.ctaDeconnexion {
+    position: relative;
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    background: white;
+    border: 1px solid #403038;
+    color: #403038;
+    padding: 10px;
+    width: 30%;
+    margin: 60px auto;
+    /* margin-bottom: 80px; */
+    transition: all .5s ease;
 }
 
-.ctaConnexion a {
-    text-decoration: none;
-    color: #403038;
+.ctaDeconnexion:before{
+    position: absolute;
+    content: "";
+    background-image: url(img/deconnexion.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    top: 15px;
+    left: 15px;
 }
 
 /* Pagination fin de page */
@@ -654,11 +674,16 @@ figure{
         margin: 50px auto;
     }
     .ctaConnexion {
-        width: 30%;
-        margin: 60px auto;
+        width: 40%;
+        margin: 50px auto;
     }
     h1{
         padding: 30px 0;
+    }
+
+    .ctaDeconnexion {
+        width: 40%;
+        margin: 50px auto;
     }
 
 
@@ -684,8 +709,12 @@ figure{
         margin: 40px auto;
     }
     .ctaConnexion {
-        width: 70%;
-        margin: 60px auto;
+        width: 50%;
+        margin: 40px auto;
+    }
+    .ctaDeconnexion {
+        width: 50%;
+        margin: 40px auto;
     }
     h1{
         padding: 20px 0;

@@ -70,6 +70,10 @@ ul li.active{
     font-weight: 300;
     color: white;
 }
+.profil a{
+    text-decoration: none;
+    color: white;
+}
 .profil li:hover{
     background-color: #750663;
     color: white;
