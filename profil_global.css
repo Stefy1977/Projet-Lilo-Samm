@@ -29,7 +29,7 @@ main {
 }
 
 .profil {
-    width: 50%;
+    /* width: 50%; */
     margin: auto;
 }
 
@@ -98,7 +98,7 @@ ul li.active{
     }
 
     .profil {
-        width: 80%;
+        /* width: 80%; */
         margin: auto;
     }
 }
