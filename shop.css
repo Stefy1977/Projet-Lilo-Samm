@@ -219,6 +219,14 @@ span.promo{
     .headerImage:after{
         height: 140px;
     }
+
+    /* la grille de produits */
+    .productGrid .infoNew{
+        width: 70px;
+    }
+    .productGrid .infoPromo{
+        width: 55px;
+    }
 }
 
 /* Mobile */

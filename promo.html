@@ -6,79 +6,193 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="shop.css">
     <link rel="stylesheet" href="promo.css">
-    <script src="main.js" defer></script>
-    <title>Les promos</title>
+    <script src="js/header.js" defer></script>
+    <script src="js/footer.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <title>Promo</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="#" title="les ateliers de lilo"><img class="logo" src="img/ladl-logo-dark.svg" alt="logo"></a>
-            <ul class="hamburger">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="shop.html">Boutique</a>
-                    <ul class="sub">
-                        <li><a href="shop.html">Voir tout</a></li>
-                        <li><a href="bijoux.html">Bijoux</a></li>
-                        <li><a href="badges.html">Badges</a></li>
-                        <li><a href="papeterie.html">Papeterie</a></li>
-                        <li><a href="nouveautes.html">Nouveautés</a></li>
-                        <li><a href="promo.html">Promo</a></li>
-                    </ul>
-                </li>
-                <li><a href="apropos.html">A propos</a></li>
-                <li><a href="blog.html">Blog</a>
-                    <ul class="sub">
-                        <li><a href="blog.html">Actualités</a></li>
-                        <li><a href="evenements.html">Evènements</a></li>
-                    </ul>
-                </li>
-                <li><a href="ateliers.html">Ateliers</a></li>
-                <li><a href="pointsdevente.html">Points de vente</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <div class="userMenu">
-                <a href="#" title="mes favoris"> <img src="img/mdi_cards-heart-outline.svg"
-                        alt="icône de la wishlist donc des favoris"></a>
-                <a href="#" title="mon panier d'achats"> <img src="img/mdi_shopping-outline.svg"
-                        alt="icône du panier d'achat"></a>
-                <a href="#" title="me connecter au profil"><img src="img/mdi_account-circle-outline.svg"
-                        alt="icône du profil pour se connecter"></a>
-            </div>
-        </nav>
-    </header>
+    <main-header current="boutique"></main-header>
+
     <div class="headerImage">
-        <p><span>Des créations artisanales, authentiques et originales fabriquées avec amour en Belgique</span></p>
+        <p><span>Boutique</span></p>
     </div>
+
     <main>
-        <h1>Des idées cadeaux aux ateliers de Lilo</h1>
+        <div class="breadcrumb">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="">Boutique</a></li>
+                <li><span aria-current="page">Promo</span></li>
+            </ul>
+        </div>
+        <h1>Les promotions</h1>
         
-        
+        <div class="category">
+            <ul>
+                <li><a href="shop.html">Voir tout</a></li>
+                <li><a href="badges.html">Badges</a></li>
+                <li><a href="bijoux.html">Bijoux</a></li>
+                <li><a href="papeterie.html">Papeterie</a></li>
+                <li><a href="nouveautes.html">Nouveautés</a></li>
+                <li class="active"><a href="promo.html">Promo</a></li>
+            </ul>
+        </div>
+        <div class="lineSearch">
+            <span class="itemsFound">80 articles trouvés</span>
+            <div class="search">
+                <input type="search" id="site-search" name="q" placeholder="RECHERCHER" aria-label="Recherche dans les produits">
+                <button><img src="img/mdi_magnify.svg" alt="Bouton loupe de recherche"></button>
+            </div>
+        </div>
+
+        <section class="productGrid">
+            <div class="product">
+                <span class="infoPromo">Promo</span>
+                <a class="like" href=""><img src="img/mdi_cards-heart-outline.svg" alt=""></a>
+                <figure class="imageProduct"> 
+                    <a href="product.html"><img src="img/product/badge-connasse.jpg" alt="badge un petit peu connasse aujourd'hui"></a>
+                    <figcaption>Badge</figcaption>
+                </figure>
+                <div class="productTitle">
+                    <span>"Un petit peu connasse"</span>
+                    <span class="crossPrice">5,00€</span>
+                    <span class="promo">3,00€</span>
+                </div>
+                <a class="buy" href="#">Ajouter au panier</a>
+            </div>
+            <div class="product">
+                <span class="infoPromo">Promo</span>
+                <a class="like" href=""><img src="img/mdi_cards-heart-outline.svg" alt=""></a>
+                <figure class="imageProduct"> 
+                    <a href=""><img src="img/product/badge-a-fleur-de-peau.jpeg" alt="badge a fleur de peau"></a>
+                    <figcaption>Badge</figcaption>
+                </figure>
+                <div class="productTitle">
+                    <span>"A fleur de peau de vache"</span>
+                    <span class="price">5,00€</span>
+                </div>
+                <span class="outOfStock">Zut, c’est en rupture de stock...</span>
+            </div>
+            <div class="product">
+                <span class="infoPromo">Promo</span>
+                <a class="like" href=""><img src="img/mdi_cards-heart-outline.svg" alt=""></a>
+                <figure class="imageProduct"> 
+                    <a href=""><img src="img/product/badge-mille-feuille.jpeg" alt="badge il faut croitre en soi"></a>
+                    <figcaption>Badge</figcaption>
+                </figure>
+                <div class="productTitle">
+                    <span>"Mille-feuille émotionnel"</span>
+                    <span class="crossPrice">5,00€</span>
+                    <span class="promo">3,00€</span>
+                </div>
+                <a class="buy" href="#">Ajouter au panier</a>
+            </div>
+            <div class="product">
+                <span class="infoPromo">Promo</span>
+                <a class="like" href=""><img src="img/mdi_cards-heart-outline.svg" alt=""></a>
+                <figure class="imageProduct"> 
+                    <a href=""><img src="img/product/badge-bon-chips.jpg" alt="badge doré pailleté"></a>
+                    <figcaption>Badge</figcaption>
+                </figure>
+                <div class="productTitle">
+                    <span>"Bon chips, bon genre"</span>
+                    <span class="crossPrice">5,00€</span>
+                    <span class="promo">3,00€</span>
+                </div>
+                <a class="buy" href="#">Ajouter au panier</a>
+            </div>
+            <div class="product">
+                <span class="infoPromo">Promo</span>
+                <a class="like" href=""><img src="img/mdi_cards-heart-outline.svg" alt=""></a>
+                <figure class="imageProduct"> 
+                    <a href=""><img src="img/product/badge-tchin.jpg" alt="badge visuel apéro"></a>
+                    <figcaption>Badge</figcaption>
+                </figure>
+                <div class="productTitle">
+                    <span>"Tchin"</span>
+                    <span class="crossPrice">5,00€</span>
+                    <span class="promo">3,00€</span>
+                </div>
+                <a class="buy" href="#">Ajouter au panier</a>
+            </div>
+            <div class="product">
+                <span class="infoPromo">Promo</span>
+                <a class="like" href=""><img src="img/mdi_cards-heart-outline.svg" alt=""></a>
+                <figure class="imageProduct"> 
+                    <a href=""><img src="img/product/badge-beachgirl.jpg" alt="badge beach girl"></a>
+                    <figcaption>Badge</figcaption>
+                </figure>
+                <div class="productTitle">
+                    <span>"Beach girl"</span>
+                    <span class="crossPrice">5,00€</span>
+                    <span class="promo">3,00€</span>
+                </div>
+                <a class="buy" href="#">Ajouter au panier</a>
+            </div>
+            <div class="product">
+                <span class="infoPromo">Promo</span>
+                <a class="like" href=""><img src="img/mdi_cards-heart-outline.svg" alt=""></a>
+                <figure class="imageProduct"> 
+                    <a href=""><img src="img/product/badge-mondebrut.jpg" alt="badge monde de brut"></a>
+                    <figcaption>Badge</figcaption>
+                </figure>
+                <div class="productTitle">
+                    <span>"Monde de brut"</span>
+                    <span class="crossPrice">5,00€</span>
+                    <span class="promo">3,00€</span>
+                </div>
+                <a class="buy" href="#">Ajouter au panier</a>
+            </div>
+            <div class="product">
+                <span class="infoPromo">Promo</span>
+                <a class="like" href=""><img src="img/mdi_cards-heart-outline.svg" alt=""></a>
+                <figure class="imageProduct"> 
+                    <a href=""><img src="img/product/badge-humoureuse.jpg" alt="badge je suis humoureuse"></a>
+                    <figcaption>Badge</figcaption>
+                </figure>
+                <div class="productTitle">
+                    <span>"Je suis humoureuse"</span>
+                    <span class="crossPrice">5,00€</span>
+                    <span class="promo">3,00€</span>
+                </div>
+                <a class="buy" href="#">Ajouter au panier</a>
+            </div>
+            <div class="product">
+                <span class="infoPromo">Promo</span>
+                <a class="like" href=""><img src="img/mdi_cards-heart-outline.svg" alt=""></a>
+                <figure class="imageProduct"> 
+                    <a href=""><img src="img/product/badge-courageuse.jpg" alt="badge courageuse trouillarde"></a>
+                    <figcaption>Badge</figcaption>
+                </figure>
+                <div class="productTitle">
+                    <span>"Courageuse trouillarde"</span>
+                    <span class="crossPrice">5,00€</span>
+                    <span class="promo">3,00€</span>
+                </div>
+                <a class="buy" href="#">Ajouter au panier</a>
+            </div>
+        </section>
+
+        <section class="pagination" aria-label="pagination">
+            <span class="previousPage">
+                <a href="">Page précédente</a>
+            </span>
+            <span class="page">1/12</span>
+            <span class="nextPage">
+                <a href="">Page suivante</a>
+            </span>
+        </section>
+
     </main>
-    <footer>
-        <div class="footerBox">
-            <img src="img/ladl-logo-white.svg" alt="logo les ateliers de Lilo">
-            <p>Rue Arthur Duquesne, 53<br>7032 Spiennes<br>Belgique<br>TVA: BE0XXX-XXX-XXX</p>
-        </div>
-        <div class="footerBox">
-            <ul>
-                <li><a href="pointsdevente.html">Points de vente</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="cgdv.html">CGDV</a></li>
-                <li><a href="rgpd.html">RGPD</a></li>
-            </ul>
-        </div>
-        <div class="footerBox">
-            <p>Retrouvez-moi sur :</p>
-            <ul>
-                <li><a class="facebook" href="#">Facebook</a></li>
-                <li><a class="instagram" href="#">Instagram</a></li>
-            </ul>
-        </div>
-    </footer>
+    
+    <main-footer></main-footer>
+
     <button onclick="topFunction()" id="scroll"></button>
+
 </body>
 
 </html>
