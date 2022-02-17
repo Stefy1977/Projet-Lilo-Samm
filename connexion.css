@@ -65,6 +65,16 @@ button{
     font-weight: 300;
     color: #403038;
 }
+.forgetPass{
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+.forgetPass a{
+    text-decoration: none;
+    color: #403038;
+}
+
 
 /* Tablet */
 
