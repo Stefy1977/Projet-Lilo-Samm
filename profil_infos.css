@@ -60,12 +60,35 @@ ul li.active{
     color: white;
 }
 
+.cta {
+    width: 20%;
+    font-size: 0.7rem;
+    margin: 16px 60px 60px 60px;
+}
+
+.flexInfos {
+    display: flex;
+    justify-content: space-between;
+}
+
 .titreInfos {
-    border-bottom: 2px chartreuse solid;
+    font-size: 0.9rem;
+    color: #403038;
+}
+
+.line {
+    border-bottom: 2px #403038 solid;
 }
 
 .infosClient {
     padding-bottom: 50px;
+    font-size: 0.8rem;
+    color: #403038;
+}
+
+.texteClient {
+    font-size: 0.8rem;
+    color: #403038;
 }
 
 /* ---------------- MEDIAQUERIES -------------- */
