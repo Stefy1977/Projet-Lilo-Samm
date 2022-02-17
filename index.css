@@ -94,19 +94,19 @@
     top: 20px;
 }
 
-/* ::-webkit-scrollbar-track {
-    background-color: #F5F5F5;
+::-webkit-scrollbar-track {
+    background-color: #ECEAEB;
 }
 
 ::-webkit-scrollbar {
     height: 6px;
-    background-color: #F5F5F5;
+    background-color: #ECEAEB;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #7b7b7b;
+    background-color: #C6C1C4;
     border-radius: 3px;
-} */
+}
 
 
 
