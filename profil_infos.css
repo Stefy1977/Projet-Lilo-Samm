@@ -71,11 +71,34 @@ ul li.active{
 /* ---------------- MEDIAQUERIES -------------- */
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
+
+    /* Banner image */
+    .headerImage{
+        height: 140px;
+        padding-top: 90px;
+    }
+    
+    .headerImage:after{
+        height: 140px;
+    }
+    
 }
 
 
 @media screen and (min-width : 375px) and (max-width : 600px){
+
+    /* Banner image */
     .headerImage{
-        background-image: url(img/banner-profil-mobile.jpg) /* < ici !*/
+        height: 100px;
+        padding-top: 90px;
     }
+
+    .headerImage:after{
+        height: 100px;
+    }
+
+    .headerImage p{
+        max-width: 80%;
+    }
+
 }

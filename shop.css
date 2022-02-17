@@ -179,9 +179,11 @@ span.crossPrice{
     text-decoration: line-through;
     color: #c6c1c4;
     padding-right: 5px;
+    font-size: 0.9rem;
 }
 span.promo{
     color: #ff005c;
+    font-size: 0.9rem;
 }
 
 .buy{
