@@ -30,7 +30,7 @@
 /* ------------------------------ CONDITIONS GENERALES DE VENTE MAIN -------------------------------------------------------------- */
 
 /* ----------  Fil d'ariane (breadcrumb) */
-.breadcrumb ul {
+/* .breadcrumb ul {
     display: flex;
     font-size: 0.7rem;
     text-decoration: none;
@@ -55,19 +55,32 @@
     
 .breadcrumb li:first-child::before {
     content: "";
-}
+} */
 
 
 /* ---------- MAIN --------- */
 
-.container {
-    
+main{
+    width: 80%;
     margin: auto;
-    width: 60%; 
+}
+.container {
+    /* margin: auto; */
+    /* width: 60%;  */
     background-color: white;
     padding-bottom: 80px;
 }
-
+.article{
+    display: block;
+}
+.titleCgdv{
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #403038;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
 .container article p {
     font-size: 0.8rem;
     font-weight: 300;
@@ -75,12 +88,11 @@
 }
 
 .article1:before {
-    
     content: "";
     background-image: url(img/guillemetsOuverture.png);
     background-size: 100%;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     float:left ;
     min-width: auto;
     margin: 0px 20px 20px 0px;
@@ -93,26 +105,29 @@
     content: "";
     display:block;
     background-image: url(img/guillemetsFerme.png);
-    background-size: 200px;
-    width: 200px;
-    height: 200px;
+    background-size: 100%;
+    width: 180px;
+    height: 180px;
     margin: 20px 0px 0px 20px;
     flex-grow: 1;
     flex-shrink: 0;
-    
-    
-
 }
-
-
-
 
 
 /* ------------------ MEDIAQUERIES ------------------- */
 
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
-  
+    /* Banner image */
+    .headerImage{
+        height: 140px;
+        padding-top: 90px;
+    }
+    .headerImage:after{
+        height: 140px;
+    }
+
+    /* Main */
     .container div{
         flex-direction: column;
         height: auto;
@@ -127,24 +142,42 @@
     .article1:before {
         display: none;
     }
-    .article4::after {
+
+    .container article:last-of-type p:last-of-type:after{
         display: none;
     }
+    /* .article4::after {
+        display: none;
+    } */
 }
 
 
- 
-
 @media screen and (min-width : 320px) and (max-width : 600px){
+    /* Banner image */
+    .headerImage{
+        height: 100px;
+        padding-top: 90px;
+    }
+    .headerImage:after{
+        height: 100px;
+    }
+    .headerImage p{
+        max-width: 80%;
+    }
+
+    /* Main */
     .container {
         width: 90%;
     }
     .article1:before {
         display: none;
     }
-    .article4::after {
+    .container article:last-of-type p:last-of-type:after{
         display: none;
     }
+    /* .article4::after {
+        display: none;
+    } */
   
 }
 
