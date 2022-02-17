@@ -64,9 +64,9 @@ main{
 }
 .price{
     font-size: 1.4rem;
-    font-weight: 300;
+    font-weight: 500;
     color: #403038;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 .description{
     font-size: 0.9rem;
@@ -165,14 +165,16 @@ main{
     width: 100%;
 }
 .productTitle{
-    display: flex;
-    justify-content: space-between;
+    display: block;
 }
 .productTitle span{
     font-size: 0.8rem;
     font-weight: 500;
     color: #403038;
-    margin: 10px 0px;
+}
+.carousel-items .price{
+    font-size: 1rem;
+    padding-bottom: 5px;
 }
 .buy{
     display: block;
@@ -186,6 +188,7 @@ main{
     padding: 10px 0;
     width: 100%;
     margin: auto;
+    margin-top: 10px;
     margin-bottom: 40px;
     position: relative;
 }
@@ -198,6 +201,21 @@ main{
     height: 20px;
     left: 20px;
 }
+
+::-webkit-scrollbar-track {
+    background-color: #ECEAEB;
+}
+
+::-webkit-scrollbar {
+    height: 6px;
+    background-color: #ECEAEB;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #C6C1C4;
+    border-radius: 3px;
+}
+
 /* les infos sur le statut du produit */
 .carousel-item .infoNew{
     display: flex;
