@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="panier.css">
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/main.js" defer></script>
+    <title>Panier</title>
+</head>
+
+<body>
+    <main-header></main-header>
+
+    <div class="headerImage">
+        <p><span>Les petites gambettes... oups emplettes !</span></p>
+    </div>
+
+    <main>
+        <div class="breadcrumb">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><span aria-current="page">Panier</span></li>
+            </ul>
+        </div>
+
+        <h1>Mon panier</h1>
+
+        <div class="cartContent">
+
+            <section class="purchases">
+
+                <div class="partLeft">
+                    <div class="productImage">
+                        <span class="titleLine1">Produits</span>
+                        <figure><img src="img/product/badge-a-fleur-de-peau.jpeg" alt=""></figure>
+                    </div>
+
+                    <div class="product-infos">
+                        <span class="titleLine1">Prix unitaire</span>
+                        <div class="infos">
+                            <span class="cat">Badge</span><br>
+                            <span class="titleProduct">"A fleur de peau de vache"</span><br>
+                        </div>
+                        <div class="quantity">
+                            <div>
+                                <button>-</button>
+                                <span class="number">1</span>
+                                <button>+</button>
+                            </div>
+                            <a href="" class="delete"></a>
+                        </div>
+                    </div>
+
+                    <div class="totalTtc">
+                        <span class="titleLine1">Total TTC</span><br>
+                        <span class="price">5,00 €</span>
+                    </div>
+                </div>
+
+                <div class="partLeft">
+                    <div class="productImage">
+                        <figure><img src="img/product/badge-humoureuse.jpg" alt=""></figure>
+                    </div>
+
+                    <div class="product-infos">
+                        <div class="infos">
+                            <span class="cat">Badge</span><br>
+                            <span class="titleProduct">"Je suis humoureuse"</span><br>
+                        </div>
+                        <div class="quantity">
+                            <div>
+                                <button>-</button>
+                                <span class="number">1</span>
+                                <button>+</button>
+                            </div>
+                            <a href="" class="delete"></a>
+                        </div>
+                    </div>
+
+                    <div class="totalTtc">
+                        <span class="price">5,00 €</span>
+                    </div>
+                </div>
+
+            </section>
+    
+            <section class="orderSummary">
+
+                <span class="titleOrder">Résumé de ma commande</span>
+                <span class="nbrArticle">2 articles</span>
+                <div class="subTotal">
+                    <span>Sous Total</span>
+                    <span class="price">10,00 €</span>
+                </div>
+                <div class="shippingFees">
+                    <span>Frais de port</span>
+                    <span>3,00 €</span>
+                </div>
+                <div class="total">
+                    <span>Total</span>
+                    <span>13,00 €</span>
+                </div>
+                <div class="btnCart">
+                    <a href="" class="cta">Commander</a>
+                </div>
+    
+            </section>
+        </div>
+        
+
+        
+    </main>
+    
+    <main-footer></main-footer>
+
+    <button onclick="topFunction()" id="scroll"></button>
+
+</body>
+
+</html>
