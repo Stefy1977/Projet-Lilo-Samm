@@ -48,12 +48,33 @@ main {
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
 
+    /* Banner image */
+    .headerImage{
+        height: 140px;
+        padding-top: 90px;
+    }
+    
+    .headerImage:after{
+        height: 140px;
+    }
+
 }
 
 
 @media screen and (min-width : 375px) and (max-width : 600px){
 
-.headerImage{
-        background-image: url(img/banner-mobile-actu02.jpg)
+    /* Banner image */
+    .headerImage{
+        height: 100px;
+        padding-top: 90px;
     }
+
+    .headerImage:after{
+        height: 100px;
+    }
+
+    .headerImage p{
+        max-width: 80%;
+    }
+
 }
