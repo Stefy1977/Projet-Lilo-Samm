@@ -71,18 +71,16 @@ button{
 }
 .code {
     display: block;
+    flex: 1;
 }
 
-.code input {
-    width: 50%;
-}
 
 .ville {
-    display: block;
-    width: auto;
+    flex: 2;
+
 }
 .ville input {
-    width: auto;
+   width:100%;
 }
 
 /* ------------MEDIA QUERIES----------------- */
