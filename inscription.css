@@ -45,6 +45,7 @@ label{
     font-size: 0.8rem;
     color: #403038;
     font-weight: 300;
+    display: block;
 }
 
 input{
