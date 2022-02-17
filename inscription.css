@@ -45,6 +45,7 @@ label{
     font-size: 0.8rem;
     color: #403038;
     font-weight: 300;
+    display: block;
 }
 
 input{
@@ -52,14 +53,7 @@ input{
     height: 30px;
     margin-bottom: 20px;
 }
-select{
-    margin-bottom: 20px;
-    padding: 8px 0;
-}
 
-.formessage{
-    height: 115px;
-}
 button{
     border: none;
 }
@@ -71,18 +65,15 @@ button{
 }
 .code {
     display: block;
-}
-
-.code input {
-    width: 50%;
+    flex: 1;
 }
 
 .ville {
-    display: block;
-    width: auto;
+    flex: 2;
+
 }
 .ville input {
-    width: auto;
+   width:100%;
 }
 
 /* ------------MEDIA QUERIES----------------- */
@@ -96,6 +87,12 @@ button{
     }
     .headerImage:after{
         height: 140px;
+    }
+    .codePostalVille {
+        display: block;
+    }
+    .code  input {
+        width: 100%;
     }
 }
 
@@ -126,5 +123,14 @@ button{
 
     input{
         width: 98%;
+    }
+    .codePostalVille {
+        display: block;
+    }
+    .code  input {
+        width: 109%;
+    }
+    .ville input {
+        width: 109%;
     }
 }

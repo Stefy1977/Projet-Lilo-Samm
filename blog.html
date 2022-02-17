@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    
+
     <main-header current="blog"></main-header>
 
     <div class="headerImage">
@@ -29,40 +29,48 @@
             </ul>
         </div>
         <h1>Les actualités</h1>
-            <div class="articleFirst">
-                <img src="img/article_1.jpg" alt="musée ?">
+        <div class="contentActu">
+            <div class="article">
+                <figure class="articleImg">
+                    <img src="img/article1.jpg" alt="musée ?">
+                </figure>
                 <div class="infoArticleFirst">
-                    <div class="info">
-                        <time class="firstDate" datetime="2022-01-21">21 Janvier 2022</time>
-                        <h5>Brock'n'Roll<br>FACTORY</h5>
-                        <p>j’ai découvert le centre de la céramique Keramis, à La Louvière. <br>Ce lieu est à voir les amis!</p>
-                        <a class="boutonArticle" href="#">Lire plus</a>
-                    </div>
+                    <time class="firstDate" datetime="2022-01-21">21 Janvier 2022</time><br>
+                    <span class="titleArticle">Brock'n'Roll<br>FACTORY</span>
+                    <p>j’ai découvert le centre de la céramique Keramis, à La Louvière. <br>Ce lieu est à voir les amis!
+                    </p>
+                    <a class="cta" href="#">Lire plus</a>
+
                 </div>
             </div>
 
-            <div class="articleSecond">
-                <img src="img/article_2.jpg" alt="musée ?">
+            <div class="article">
                 <div class="infoArticleSecond">
-                    <div class="info">
-                        <time class="secondDate" datetime="2022-01-02">02 Fevrier 2022</time>
-                        <h5>Un petit peu de <br>moi...</h5>
-                        <p>Un truc que j’aime faire, c’est des collages et déchirer du papier. Ça me détend. Oui, vaut mieux ça...</p>
-                        <a class="boutonArticle" href="ficheactu.html">Lire plus</a>
-                    </div>
+                    <time class="secondDate" datetime="2022-01-02">02 Fevrier 2022</time><br>
+                    <span class="titleArticle">Un petit peu de <br>moi...</span>
+                    <p>Un truc que j’aime faire, c’est des collages et déchirer du papier. Ça me détend. Oui, vaut
+                        mieux
+                        ça...</p>
+                    <a class="cta" href="ficheactu.html">Lire plus</a>
                 </div>
+                <figure class="articleImg">
+                    <img src="img/article2.jpg" alt="musée ?">
+                </figure>
+
             </div>
 
-            <section class="pagination" aria-label="pagination">
-                <span class="previousPage">
-                    <a href="">Page précédente</a>
-                </span>
-                <span class="page">1/4</span>
-                <span class="nextPage">
-                    <a href="">Page suivante</a>
-                </span>
-            </section>
-        
+        </div>
+
+        <section class="pagination" aria-label="pagination">
+            <span class="previousPage">
+                <a href="">Page précédente</a>
+            </span>
+            <span class="page">1/4</span>
+            <span class="nextPage">
+                <a href="">Page suivante</a>
+            </span>
+        </section>
+
     </main>
 
     <main-footer></main-footer>
