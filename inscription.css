@@ -52,14 +52,7 @@ input{
     height: 30px;
     margin-bottom: 20px;
 }
-select{
-    margin-bottom: 20px;
-    padding: 8px 0;
-}
 
-.formessage{
-    height: 115px;
-}
 button{
     border: none;
 }
@@ -73,7 +66,6 @@ button{
     display: block;
     flex: 1;
 }
-
 
 .ville {
     flex: 2;
@@ -94,6 +86,12 @@ button{
     }
     .headerImage:after{
         height: 140px;
+    }
+    .codePostalVille {
+        display: block;
+    }
+    .code  input {
+        width: 100%;
     }
 }
 
@@ -124,5 +122,14 @@ button{
 
     input{
         width: 98%;
+    }
+    .codePostalVille {
+        display: block;
+    }
+    .code  input {
+        width: 109%;
+    }
+    .ville input {
+        width: 109%;
     }
 }
