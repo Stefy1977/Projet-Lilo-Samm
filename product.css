@@ -25,6 +25,11 @@
 /* ------------------------------------------------------------------------------------------------- */
 
 /* Main */
+main{
+    width: 80%;
+    margin: auto;
+    max-width: 1280px;
+}
 
 /* Block description du produit choisi */
 .productDescription{

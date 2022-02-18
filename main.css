@@ -117,13 +117,6 @@ li:hover .sub{
     min-width: 28px;
 }
 
-/* Main */
-main{
-    width: 80%;
-    margin: auto;
-    max-width: 1280px;
-}
-
 /* Fil d'ariane (breadcrumb) */
 .breadcrumb ul {
     display: flex;
