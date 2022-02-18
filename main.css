@@ -24,13 +24,17 @@ header{
     position: fixed;
     width: 100%;
     z-index: 10000;
+    background-color: white;
+    height: 90px;
+    border-bottom: solid 1px #ECEAEB;
 }
 nav{
-    position: relative;
     display: flex;
-    background-color: white;
-    justify-content: space-around;
-    /* padding: 0 80px; */
+    width: 93.75%;
+    max-width: 1280px;
+    margin: auto;
+    /* background-color: white; */
+    /* justify-content: space-around; */
     align-items: flex-end;
     padding-bottom: 10px;
 }
@@ -39,12 +43,10 @@ nav ul{
     display: flex;
     margin: 0;
     padding: 0;
-    /* align-items: flex-end; */
-    /* height: 80px; */
 }
 nav ul li{
     position: relative;
-    margin: 0px 15px;
+    margin: 0px 10px;
 }
 nav ul a{
     text-decoration: none;
@@ -200,14 +202,9 @@ h3 {
     font-size: 0.8rem;
     font-weight: 500;
     margin: 0px;
-    padding: 0px 0px 10px 50px;
+    padding: 0px 0px 1px 50px;
 }
-/* h5 {
-    font-size: 0.8rem;
-    font-weight: 500;
-    color: #403038;
-    margin: 10px 0px;
-} */
+
 
 /* bouton voir la boutique */
 .cta{
@@ -323,14 +320,19 @@ h3 {
 /* Footer */
 footer{
     background: #403038;
-    /* height: 300px; */
     display: flex;
-    padding: 80px 80px;
+    padding: 80px 0px;
+}
+.footer{
+    display: flex;
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
 }
 .footerBox{
     display: block;
-    margin: auto;
-    width: 25%;
+    /* margin: auto; */
+    width: 100%;
 }
 .footerBox img{
     width: 50%;
@@ -701,7 +703,7 @@ figure{
 
     /* Footer */
     footer{
-        padding: 60px 60px;
+        padding: 60px 0px;
     }
     .footerBox img{
         width: 60%;
@@ -715,6 +717,10 @@ figure{
 @media screen and (min-width: 360px) and (max-width: 600px){
     html{
         font-size: 16px;
+    }
+    .logo{
+        width: 100px;
+        min-width: 100px;
     }
     .cta{
         width: 50%;
@@ -763,8 +769,11 @@ figure{
     
 
     /* Footer */
-    footer{
+    .footer{
         flex-direction: column;
+    }
+    .footerBox img{
+        width: 40%;
     }
     .footerBox p{
         text-align: center;

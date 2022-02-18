@@ -24,38 +24,13 @@
 }
 /* ------------------------------------------------------------------------------------------------- */
 
-/*  ----- MAIN ----- */
-main {
+/* Main */
+main{
     width: 80%;
     margin: auto;
-}
-/* ----------  Fil d'ariane (breadcrumb) */
-.breadcrumb ul {
-    display: flex;
-    font-size: 0.7rem;
-    text-decoration: none;
-    list-style: none;
-    padding: 0;
-    color: #403038;
-    margin: 0;
-    margin-top: 10px;
-}
-.breadcrumb ul li a{
-    font-size: 0.7rem;
-    font-weight: 300;
-    color: #403038;
-    text-decoration: none;
+    max-width: 1280px;
 }
 
-.breadcrumb li::before {
-    content: "> ";
-    margin-left: 5px;
-    color: #403038;
-}
-    
-.breadcrumb li:first-child::before {
-    content: "";
-}
 .container {
     width: 880px;
     margin: 0 auto; 
@@ -66,9 +41,7 @@ main {
 
 .container > article {  
     display: flex;
-
 }
-
 
 .paragraphe {
     font-size: 0.8rem;
@@ -82,14 +55,6 @@ main {
     object-fit: cover;
     display: block;
 }
-
-h3 {
-    font-size: 0.8rem;
-    font-weight: 500;
-    margin: 0px;
-    padding: 0px 0px 1px 50px;
-}
-
 
 .texte  {
     display: flex;
