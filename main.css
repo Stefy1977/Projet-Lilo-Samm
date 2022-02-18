@@ -24,13 +24,16 @@ header{
     position: fixed;
     width: 100%;
     z-index: 10000;
+    background-color: white;
+    height: 90px;
 }
 nav{
-    position: relative;
     display: flex;
-    background-color: white;
-    justify-content: space-around;
-    /* padding: 0 80px; */
+    width: 93.75%;
+    max-width: 1280px;
+    margin: auto;
+    /* background-color: white; */
+    /* justify-content: space-around; */
     align-items: flex-end;
     padding-bottom: 10px;
 }
@@ -39,12 +42,10 @@ nav ul{
     display: flex;
     margin: 0;
     padding: 0;
-    /* align-items: flex-end; */
-    /* height: 80px; */
 }
 nav ul li{
     position: relative;
-    margin: 0px 15px;
+    margin: 0px 10px;
 }
 nav ul a{
     text-decoration: none;
@@ -323,9 +324,14 @@ h3 {
 /* Footer */
 footer{
     background: #403038;
-    /* height: 300px; */
     display: flex;
-    padding: 80px 80px;
+    padding: 80px 0px;
+}
+.footer{
+    display: flex;
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
 }
 .footerBox{
     display: block;
@@ -701,7 +707,7 @@ figure{
 
     /* Footer */
     footer{
-        padding: 60px 60px;
+        padding: 60px 0px;
     }
     .footerBox img{
         width: 60%;
@@ -715,6 +721,10 @@ figure{
 @media screen and (min-width: 360px) and (max-width: 600px){
     html{
         font-size: 16px;
+    }
+    .logo{
+        width: 100px;
+        min-width: 100px;
     }
     .cta{
         width: 50%;
@@ -763,8 +773,11 @@ figure{
     
 
     /* Footer */
-    footer{
+    .footer{
         flex-direction: column;
+    }
+    .footerBox img{
+        width: 40%;
     }
     .footerBox p{
         text-align: center;
