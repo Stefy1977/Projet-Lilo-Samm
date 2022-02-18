@@ -29,41 +29,8 @@
 
 /* ------------------------------ CONDITIONS GENERALES DE VENTE MAIN -------------------------------------------------------------- */
 
-/* ----------  Fil d'ariane (breadcrumb) */
-/* .breadcrumb ul {
-    display: flex;
-    font-size: 0.7rem;
-    text-decoration: none;
-    list-style: none;
-    padding: 0;
-    color: #403038;
-    margin: 0;
-    margin-top: 10px;
-}
-.breadcrumb ul li a{
-    font-size: 0.7rem;
-    font-weight: 300;
-    color: #403038;
-    text-decoration: none;
-}
-
-.breadcrumb li::before {
-    content: "> ";
-    margin-left: 5px;
-    color: #403038;
-}
-    
-.breadcrumb li:first-child::before {
-    content: "";
-} */
-
-
 /* ---------- MAIN --------- */
 
-main{
-    width: 80%;
-    margin: auto;
-}
 .container {
     /* margin: auto; */
     /* width: 60%;  */

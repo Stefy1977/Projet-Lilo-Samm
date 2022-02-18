@@ -27,11 +27,6 @@
 /* ------------------------------------------------------------------------------------------------- */
 /* Main */
 
-main {
-    width: 80%;
-    margin: auto;
-}
-
 .contentActu{
     display: block;
     justify-content: center;

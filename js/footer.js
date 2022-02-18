@@ -4,7 +4,7 @@ class MyFooter extends HTMLElement {
         <container class="footer">
             <div class="footerBox">
                 <img src="img/ladl-logo-white.svg" alt="logo les ateliers de Lilo">
-                <p>Rue Arthur Duquesne, 53<br>7032 Spiennes<br>Belgique<br>TVA: BE0XXX-XXX-XXX</p>
+                <p>Rue Arthur Duquesne, 53<br>7032 Spiennes<br>Belgique<br>TVA : BE0880.678.456</p>
             </div>
             <div class="footerBox">
                 <ul>

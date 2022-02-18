@@ -26,6 +26,7 @@ header{
     z-index: 10000;
     background-color: white;
     height: 90px;
+    border-bottom: solid 1px #ECEAEB;
 }
 nav{
     display: flex;
@@ -116,6 +117,13 @@ li:hover .sub{
     min-width: 28px;
 }
 
+/* Main */
+main{
+    width: 80%;
+    margin: auto;
+    max-width: 1280px;
+}
+
 /* Fil d'ariane (breadcrumb) */
 .breadcrumb ul {
     display: flex;
@@ -201,14 +209,9 @@ h3 {
     font-size: 0.8rem;
     font-weight: 500;
     margin: 0px;
-    padding: 0px 0px 10px 50px;
+    padding: 0px 0px 1px 50px;
 }
-/* h5 {
-    font-size: 0.8rem;
-    font-weight: 500;
-    color: #403038;
-    margin: 10px 0px;
-} */
+
 
 /* bouton voir la boutique */
 .cta{
@@ -335,8 +338,8 @@ footer{
 }
 .footerBox{
     display: block;
-    margin: auto;
-    width: 25%;
+    /* margin: auto; */
+    width: 100%;
 }
 .footerBox img{
     width: 50%;
