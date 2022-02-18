@@ -26,10 +26,11 @@
 
 
 /* --------------------------- MAIN ----------------------- */
-main {
+
+main{
     width: 80%;
     margin: auto;
-    color: #403038;
+    max-width: 1280px;
 }
 
 /* ------------------ DIV CONTAINER LISTE DES MAGASINS ------------------*/
