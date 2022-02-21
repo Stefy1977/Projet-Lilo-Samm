@@ -44,7 +44,10 @@ select{
 
 .formessage{
     height: 115px;
+    width: 100%;
 }
+
+
 button{
     border: none;
 }
