@@ -101,4 +101,12 @@ ul li.active{
     margin: 16px 0 60px 0;
     }
 
+    .profil ul{
+        flex-direction: column;
+    }
+    .profil li{
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
 }
