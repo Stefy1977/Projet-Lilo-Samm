@@ -1,10 +1,54 @@
 /* Header banner image */
 .headerImage{
     height: 200px;
-    background-image: url(img/banner-cgdv.jpg); /* < ici !*/
+    background-image: url(img/banner-faq.jpg); /* < ici !*/
 }
 .headerImage:after{
     height: 200px;
 }
 
 /* ----- Main ----- */
+
+
+main{
+    width: 80%;
+    margin: auto;
+    max-width: 1280px;
+}
+
+.profil ul{
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.profil a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
+}
+
+.profil li {
+    background-color: #c6c1c4;
+    margin-right: 10px;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+
+.flexIcon {
+    width: 200px;
+    height: 200px;
+}
+
+.commandes::before {
+    content: "";
+    background-image: url(img/faq-commandes.png);
+    position: absolute;
+}

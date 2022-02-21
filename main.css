@@ -621,10 +621,6 @@ figure{
     color: white;
 }
 
-.profilMobile {
-    display: none;
-}
-
 @media (max-width:1024px){
     
     /* --------- Menu hamburger + sous menu ---------- */
@@ -821,55 +817,6 @@ figure{
     .breadcrumb li:first-child::before {
         content: "";
     }
-    
-    .profil {
-        display: none;
-    }
-
-    .profilMobile {
-        display: block;
-        padding: 20px 0;
-        margin: 12.864px 0;
-    }
-
-    .profilMobile {
-        margin: auto;
-        width: 100%;
-    }
-    
-    .profilMobile ul{
-        justify-content: center;
-        /* padding-bottom: 10px; */
-        display: flex;
-        list-style: none;
-        margin: 0;
-        padding: 0 0 10px 0;
-        cursor: pointer;
-    }
-    
-    .profilMobile li{
-        width: 150px;
-        height: 150px;
-        background-color: #c6c1c4;
-        text-align: center;
-        margin-right: 10px;
-        font-size: 0.8rem;
-        font-weight: 300;
-        color: white;
-    }
-    
-    .profilMobile li:hover{
-        background-color: #750663;
-        color: white;
-    }
-    
-    .flexIcon {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    
 
     /* Footer */
     .footer{
