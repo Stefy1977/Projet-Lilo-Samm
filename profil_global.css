@@ -63,19 +63,6 @@ main{
     .headerImage:after{
         height: 140px;
     }
-    
-    .profil li{
-        width: 200px;
-        height: 200px;
-    }
-
-    .profilIntro {
-        font-size: 0.8rem;
-    }
-
-    .profil {
-        margin: auto;
-    }
 }
 
 
