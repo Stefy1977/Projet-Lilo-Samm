@@ -99,7 +99,7 @@ class MyHeader extends HTMLElement {
                     </div>
                     <div class="btnCart">
                         <a href="panier.html" class="ctaConnexion">Afficher le panier</a>
-                        <a href="" class="cta">Commander</a>
+                        <a href="tunnelcommande_infos.html" class="cta">Commander</a>
                     </div>
                 </div>
             </div>
