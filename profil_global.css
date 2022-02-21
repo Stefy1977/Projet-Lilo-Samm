@@ -15,18 +15,21 @@ main{
 }
 
 .profil {
-    /* width: 50%; */
     margin: auto;
 }
 
 .profil ul{
-    display: flex;
-    list-style: none;
     justify-content: center;
-    margin: 0;
-    padding: 0px;
     padding-bottom: 10px;
-    cursor: pointer;
+}
+
+.profil li{
+    width: 250px;
+    height: 250px;
+}
+.profil a{
+    text-decoration: none;
+    color: white;
 }
 
 .flexIcon {
@@ -40,29 +43,6 @@ main{
     width: 30%;
     height: 30%;
     padding-bottom: 15px;
-}
-
-ul li.active{
-    background-color: #750663;
-}
-
-.profil li{
-    background-color: #c6c1c4;
-    text-align: center;
-    width: 250px;
-    height: 250px;
-    margin-right: 10px;
-    font-size: 0.8rem;
-    font-weight: 300;
-    color: white;
-}
-.profil a{
-    text-decoration: none;
-    color: white;
-}
-.profil li:hover{
-    background-color: #750663;
-    color: white;
 }
 
 .profilIntro {
