@@ -1,30 +1,13 @@
-/* header banner image sur toutes les pages .css - changer juste le lien de l'image !*/
+/* Header banner image */
 .headerImage{
-    padding: 0;
-    padding-top: 80px;
-    margin: 0;
-    width: 100%;
     height: 200px;
-    background-image: url(img/banner-shop-all-products.jpg); /* < ici !*/
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
+    background-image: url(img/banner-shop-all-products.jpg); 
 }
 .headerImage:after{
-    content: "";
-    background-color: #403038;
-    width: 100%;
     height: 200px;
-    position: absolute;
-    opacity: 0.6;
-    z-index: 1;
 }
-.headerImage p{
-    z-index: 2;
-}
-/* ------------------------------------------------------------------------------------------------- */
 
-/* Main */
+/* ----- Main ----- */
 main{
     width: 80%;
     margin: auto;
