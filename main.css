@@ -597,6 +597,30 @@ figure{
     box-sizing: border-box;
 }
 
+/* Navigation profil (Mes infos, mes adresses, mes commandes, ma "Whishlist" */
+
+.profil ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.profil li{
+    background-color: #c6c1c4;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: white;
+}
+
+.profil li:hover{
+    background-color: #750663;
+    color: white;
+}
+
 
 @media (max-width:1024px){
     
