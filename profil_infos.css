@@ -92,4 +92,13 @@ ul li.active{
         max-width: 80%;
     }
 
+    .flexInfos {
+        display: block;
+    }
+
+    .cta {
+    width: 53%;
+    margin: 16px 0 60px 0;
+    }
+
 }
