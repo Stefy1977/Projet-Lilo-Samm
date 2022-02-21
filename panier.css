@@ -131,7 +131,7 @@ main{
     /* main */
     .cartContent{
         width: 100%;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .purchases{
         width: 100%;
