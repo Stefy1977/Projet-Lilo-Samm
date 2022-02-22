@@ -1,7 +1,7 @@
 /* Header banner image */
 .headerImage{
     height: 200px;
-    background-image: url(img/banner-gambettes.jpg); /* < ici !*/
+    background-image: url(img/banner-panier.jpg); /* < ici !*/
 }
 .headerImage:after{
     height: 200px;
@@ -97,7 +97,7 @@ main{
     /* main */
     .cartContent{
         width: 100%;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .purchases{
         width: 100%;

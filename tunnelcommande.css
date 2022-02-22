@@ -1,0 +1,45 @@
+/* Formulaire */
+.formContact{
+    display: flex;
+    width: 100%;
+}
+
+.formPart{
+    display: block;
+    width: 50%;
+}
+
+label{
+    font-size: 0.8rem;
+    color: #403038;
+    font-weight: 300;
+    display: block;
+}
+
+input{
+    width: 90%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+button{
+    border: none;
+}
+
+.codePostalVille {
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+}
+.code {
+    display: block;
+    flex: 1;
+}
+
+.ville {
+    flex: 2;
+
+}
+.ville input {
+   width:100%;
+}
