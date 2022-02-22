@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="blog-apropos-copy.css">
+    <script src="js/header.js" defer></script>
+    <script src="js/footer.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <title>Actualités</title>
+</head>
+
+<body>
+ 
+    <main-header current="apropos"></main-header>
+    
+    <div class="headerImage">
+        <p><span>Bla bla bla...<br>coups de cœur et états d’âme</span></p>
+    </div>
+    
+    <main>
+        <!-- fil d'arianne -->
+        <div class="breadcrumb">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><span aria-current="page">Actualités</span></li>
+            </ul>
+        </div>
+        <!-- fin fil d'arianne -->
+        <h1>Les actualités</h1>
+        
+
+        <!-- --------container de tous les carrés ----------- -->
+           <section class="container">
+
+
+               <!-- ----- Premier Bloc article-------- -->
+                <article class="first">
+                    <img class="images" src="img/blog-article1.jpg" alt="musée">
+                    <div class="texte">
+                        <time class="firstDate" datetime="2022-01-21">21 Janvier 2022</time>
+                        <h3>Brock'n'Roll<br>FACTORY</h3>
+                        <p class="paragraphe">j’ai découvert le centre de la céramique Keramis, à La Louvière. <br>Ce lieu est à voir les amis!
+                        </p>
+                        <a class="cta" href="#">Lire plus</a>
+                    </div> <!-- fermeture balise class texte -->
+                   
+                </article> <!-- fermeture balise class first -->
+
+
+                <!-- ---- deuxième bloc article  ---------- -->
+                <article class="second">
+                    <img class="images" src="img/blog-article2.jpg" alt="tasse de café">
+                    <div class="texte">
+                        <time class="secondDate" datetime="2022-01-02">02 Fevrier 2022</time>
+                        <h3>Un petit peu de <br>moi...</h3>
+                        <p class="paragraphe">Un truc que j’aime faire, c’est des collages et déchirer du papier. Ça me détend. Oui, vaut
+                            mieux
+                            ça...
+                        </p> 
+                        <a class="cta" href="#">Lire plus</a>
+                    </div>
+                </article>  
+            </section>  <!-- fin de la div container -->
+            <section class="pagination" aria-label="pagination">
+                <span class="previousPage">
+                    <a href="">Page précédente</a>
+                </span>
+                <span class="page">1/4</span>
+                <span class="nextPage">
+                    <a href="">Page suivante</a>
+                </span>
+            </section>
+    </main>
+    <main-footer></main-footer>
+    
+    <button onclick="topFunction()" id="scroll"></button>
+
+</body>
+
+</html>

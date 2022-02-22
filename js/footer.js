@@ -18,8 +18,8 @@ class MyFooter extends HTMLElement {
             <div class="footerBox">
                 <p>Retrouvez-moi sur :</p>
                 <ul>
-                    <li><a class="facebook" href="#">Facebook</a></li>
-                    <li><a class="instagram" href="#">Instagram</a></li>
+                    <li><a class="facebook" href="https://fr-fr.facebook.com/lesateliersdelilo/" target="_blank">Facebook</a></li>
+                    <li><a class="instagram" href="https://www.instagram.com/lesateliersdelilo/" target="_blank">Instagram</a></li>
                 </ul>
             </div>
         </container>
