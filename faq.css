@@ -16,9 +16,28 @@ main{
     max-width: 1280px;
 }
 
+
+.profil {
+    margin-bottom: 40px;
+}
+
 .profil ul{
     justify-content: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    max-width: 800px;
+    min-width: 70%;
+    margin: auto;
+}
+
+.flexIcon {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
 }
 
 .profil a{
@@ -28,25 +47,8 @@ main{
     justify-content: center;
     align-items: center;
     padding-bottom: 10%;
-    
 }
 
-.profil li {
-    background-color: #c6c1c4;
-    margin-right: 10px;
-    font-size: 0.8rem;
-    font-weight: 300;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    position: relative;
-}
-
-.flexIcon {
-    width: 200px;
-    height: 200px;
-}
 
 .profil a::before {
     content:'';
@@ -62,22 +64,93 @@ main{
 }
 
 .commandes::before {
-    background-image: url(img/faq-commandes.png);
+    background-image: url(img/faq-commandes.svg);
 }
 
 .livraison::before {
-    background-image: url(img/faq-livraison.png);
-    background-position: center 50px;
+    background-image: url(img/faq-livraison.svg);
 }
 
 .retours::before {
-    background-image: url(img/faq-retours.png);
+    background-image: url(img/faq-retours.svg);
 }
 
-.profil::before {
-    background-image: url(img/faq-profil.png);
+.compte::before {
+    background-image: url(img/faq-profil.svg);
 }
 
 .paiement::before {
-    background-image: url(img/faq-paiement.png);
+    background-image: url(img/faq-paiement.svg);
+}
+
+
+
+/* ------------------- MEDIA QUERIES ------------------- */
+
+
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+   
+    /* Banner image */
+    .headerImage{
+        height: 140px;
+        padding-top: 90px;
+    }
+    
+    .headerImage:after{
+        height: 140px;
+    }
+    
+    .profil {
+        margin: auto;
+        margin-bottom: 40px;
+       }
+
+    .flexIcon {
+       min-width: 200px;
+    }
+    
+    .profil ul {
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (min-width : 375px) and (max-width : 600px){
+    /* Banner image */
+    .headerImage{
+       height: 100px;
+       padding-top: 90px;
+   }
+
+   .headerImage:after{
+       height: 100px;
+   }
+
+   .headerImage p{
+       max-width: 80%;
+   }
+   
+   .profil {
+     margin: auto;
+     margin-bottom: 40px;
+    }
+
+   .flexIcon{
+       margin: 0px;
+       margin-bottom: 15px;
+   }
+
+   .profil ul {
+       flex-wrap: wrap;
+       padding-bottom: 0px;
+     
+   }
+
+   .profil a::before {
+       background-position: center 60px;
+       background-size: 80px;
+   }
+
 }
