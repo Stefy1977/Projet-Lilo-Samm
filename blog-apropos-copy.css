@@ -1,0 +1,213 @@
+/* Header banner image */
+.headerImage{
+    height: 200px;
+    background-image: url(img/banner-blog.jpg);
+}
+.headerImage:after{
+    height: 200px;
+}
+
+/* Main */
+
+main{
+    width: 80%;
+    margin: auto;
+    max-width: 1280px;
+}
+
+.container {
+    width: 880px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.container > article {  
+    display: flex;
+}
+
+.paragraphe {
+    font-size: 0.8rem;
+    font-weight: 300;
+    padding: 15px 50px;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.images {
+    object-fit: cover;
+    display: block;
+    width: 440px;
+}
+
+.texte  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texte .cta{
+    width: 150px;
+    justify-content: left;
+    margin: 0 auto;
+    /* width: 70%; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+time {
+    font-size: 0.7rem;
+    font-weight: 300;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+/*---------- Premier Bloc article" */
+
+
+.first {
+    background-color:#edd961 ;
+}
+.firstDate {
+    color: #403038;
+}
+
+
+
+
+/*---------- deuxième bloc article */
+.second {
+    background: #403038;
+    color: white;
+   
+}
+.second .images {
+    order: 2;
+    
+}
+.secondDate {
+    color: #ffffff;
+}
+
+
+
+/* ---------------- MEDIAQUERIES -------------- */
+
+
+
+/*------- TABLETTE------- */
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+ 
+   
+
+    /* ----------HEADER ------------ */
+    .headerImage{
+        height: 140px;
+        padding-top: 90px;
+    }
+    .headerImage:after{
+        height: 140px;
+    }
+    
+    /* --------- MAIN ----------- */
+    .main {
+        margin: 0 auto;
+    }
+
+    .container {
+        width: 100%;
+        margin-inline: auto;
+    }
+
+    .container img {
+        width: 50%;
+        height: 50%;
+    }
+
+    time {
+        padding-left: 30px;
+        margin: 0;
+    } 
+
+    h3 {
+        padding-left: 30px;
+    }
+
+    .texte{
+        min-height: 100%;
+    }
+    .paragraphe {
+        font-size: 0.7rem;
+        padding: 15px 20px;
+    }
+
+    .texte .cta{
+        margin: 20px auto;
+    }
+}
+
+
+/* ----MOBILE ------ */
+
+
+
+
+@media screen and (min-width : 360px) and (max-width : 600px){
+
+     /* ----------HEADER ------------ */
+
+    .headerImage{
+        height: 100px;
+        padding-top: 90px;
+    }
+    .headerImage:after{
+        height: 100px;
+    }
+    
+    .headerImage p {
+        max-width: 80%;
+    }
+    
+    /* -----------FIN HEADER ---------- */
+
+
+    /* ------ MAIN ------ */
+
+
+    .container {
+        box-sizing: border-box;
+        align-items: center;
+        width: auto;
+        margin-bottom: 40px;
+    }
+
+   .container article {
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        width: 300px;
+        min-height: 300px;
+    }
+   
+    .texte {
+        min-height: 300px;
+    }
+
+    .second .texte {
+        order: 2;
+    }
+
+    .four .texte {
+        order: 4;
+    }
+  
+}
+
+
+
+
+
+
+
