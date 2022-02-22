@@ -1,0 +1,137 @@
+/* Main */
+.controlTunnel{
+    display: flex;
+    max-width: 1280px;
+    margin: auto;
+}
+.leftPart{
+    width: 50%;
+    background-color: #E5E5E5;
+    padding: 20px;
+}
+
+/* Formulaire */
+.leftPart p{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #403038;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.connectYou a{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #8C337D;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.connectYou{
+    display: flex;
+}
+.titleAdress{
+    border-bottom: #403038 1px solid;
+}
+select{
+    width: 50%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+label{
+    font-size: 0.8rem;
+    color: #403038;
+    font-weight: 300;
+    display: block;
+}
+input{
+    width: 99%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+button{
+    border: none;
+}
+.codePostalVille {
+    display: flex;
+    flex-direction: row;
+}
+.code {
+    display: block;
+    flex: 1;
+}
+.code input{
+    width: 90%;
+}
+.ville {
+    flex: 2;
+}
+.ville input {
+   width: 99%;
+}
+.saveAdress{
+    display: flex;
+}
+.saveAdress input{
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+}
+form .secondBtn {
+    width: 50%;
+    margin: 40px 0;
+}
+
+/* partie droite résumé du panier */
+
+.resumCart{
+    width: 50%;
+    padding: 20px;
+}
+.resumCart .cta{
+    width: 100%;
+    box-sizing: border-box;
+}
+.titleResum{
+    display: block;
+    font-size: 1rem;
+    color: #403038;
+    text-align: left;
+    padding-bottom: 5px;
+}
+.numberArticle{
+    display: block;
+    font-size: 0.8rem;
+    color: #403038;
+    font-weight: 300;
+    padding-bottom: 20px;
+    border-bottom: #403038 1px solid;
+}
+
+/* Tablet */
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .connectYou{
+        display: block;
+    }
+    .connectYou a{
+        padding-left: 0px;
+    }
+}
+
+/* Mobile */
+
+@media screen and (min-width: 360px) and (max-width: 600px){
+    .controlTunnel{
+        display: flex;
+        flex-direction: column;
+    }
+    .leftPart{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .resumCart{
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+}

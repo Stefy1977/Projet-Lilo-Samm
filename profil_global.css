@@ -24,8 +24,8 @@ main{
 }
 
 .profil li{
-    width: 250px;
-    height: 250px;
+    width: 220px;
+    height: 220px;
 }
 .profil a{
     text-decoration: none;
@@ -48,7 +48,7 @@ main{
 .profilIntro {
     text-align: center;
     font-size: 0.8rem;
-    padding-bottom: 56px;
+    padding-bottom: 40px;
 }
 
 /* ---------------- MEDIAQUERIES -------------- */
@@ -84,10 +84,6 @@ main{
     .profil li{
         width: 150px;
         height: 150px;
-    }
-
-    .profilIntro {
-        font-size: 0.8rem;
     }
 
     .profil {

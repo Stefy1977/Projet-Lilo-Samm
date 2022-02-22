@@ -251,7 +251,7 @@ h3 {
     transition: all .5s ease;
 }
 /* bouton voir page profil global */
-.ctaConnexion {
+.secondBtn {
     display: block;
     font-size: 0.9rem;
     font-weight: 300;
@@ -584,7 +584,7 @@ figure{
     font-weight: 500;
 }
 
-.btnCart .ctaConnexion{
+.btnCart .secondBtn{
     width: 100%;
     font-size: 0.8rem;
     margin: 30px 0;
@@ -783,7 +783,7 @@ figure{
         margin: 40px auto;
     }
     .ctaDeconnexion {
-        width: 50%;
+        width: 60%;
         margin: 40px auto;
     }
     h1{
