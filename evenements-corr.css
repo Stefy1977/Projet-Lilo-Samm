@@ -1,0 +1,144 @@
+/* Header banner image */
+.headerImage{
+    height: 200px;
+    background-image: url(img/banner-evenements.jpg);
+}
+.headerImage:after{
+    height: 200px;
+}
+
+/* Main */
+main{
+    width: 80%;
+    margin: auto;
+    max-width: 1280px;
+}
+
+.flexEvenement {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1024px;
+    margin: auto;
+}
+.actu {
+    position: relative;
+    margin: 0 10px;
+    width: 280px;
+    height: 400px;
+    margin-bottom: 40px;
+}
+.actuPhoto {
+    width: 100%;
+}
+.blockDate {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 20%;
+    background: #EDD961;
+    margin: 0;
+    padding: 0 15px;
+}
+.date {
+    text-align: center;
+    color: #403038;
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin: 10px 0;
+}
+.blockInfo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #403038;
+    width: 100%;
+    min-height: 150px;
+}
+.titreActu {
+    color: white;
+    margin: 0;
+    font-weight: 500;
+    margin: 15px 20px;
+}
+.flexDate {
+    display: flex;
+    margin-top: auto;
+    margin-left: 20px;
+}
+.flexDate p {
+    font-size: 0.7rem;
+    margin: 0;
+    font-weight: 300;
+    padding-left: 8px;
+    color: white;
+}
+
+.flexLieu {
+    display: flex;
+    padding-top: 15px;
+    margin-left: 20px;
+}
+
+.flexLieu p {
+    font-size: 0.7rem;
+    margin: 0;
+    font-weight: 300;
+    padding-left: 15px;
+    color: white;
+}
+
+form {
+    display: flex;
+    justify-content: flex-end;
+    height: 30px;
+    padding: 20px 0;
+}
+
+
+
+/* ---------------- MEDIAQUERIES -------------- */
+
+/* Tablet */
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {   
+
+    /* Banner image */
+    .headerImage{
+        height: 140px;
+        padding-top: 90px;
+    }
+    .headerImage:after{
+        height: 140px;
+    }
+
+    /* Blocs évènements */
+
+}
+
+
+/* Mobile */
+
+@media screen and (min-width : 375px) and (max-width : 600px){
+
+    /* Banner image */
+    .headerImage{
+        height: 100px;
+        padding-top: 90px;
+    }
+    .headerImage:after{
+        height: 100px;
+    }
+    .headerImage p{
+        max-width: 80%;
+    }
+
+    /* Blocs évènements */
+    
+    .blockDate {
+        width: 16%;
+        height: 16%;
+        background: #EDD961;
+    }
+}

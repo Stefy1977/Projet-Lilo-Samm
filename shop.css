@@ -236,10 +236,12 @@ span.promo{
     /* Liste des catégories de produits */
     .category ul{
         flex-direction: column;
+        
     }
     .category li{
         margin-right: 0;
         margin-bottom: 5px;
+        box-sizing: border-box;
     }
 
     /* Ligne articles trouvés et rechercher */
