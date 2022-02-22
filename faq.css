@@ -18,16 +18,16 @@ main{
 
 
 .profil {
+    margin: auto;
     margin-bottom: 40px;
+    max-width: 800px;
 }
 
 .profil ul{
     justify-content: center;
     padding-bottom: 20px;
     flex-wrap: wrap;
-    max-width: 800px;
     min-width: 70%;
-    margin: auto;
 }
 
 .flexIcon {
@@ -140,6 +140,9 @@ main{
    .flexIcon{
        margin: 0px;
        margin-bottom: 15px;
+       width: 150px;
+       height: 150px;
+
    }
 
    .profil ul {
@@ -149,8 +152,9 @@ main{
    }
 
    .profil a::before {
-       background-position: center 60px;
-       background-size: 80px;
+       background-position: center 25px;
+       background-size: 40px;
+
    }
 
 }
