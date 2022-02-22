@@ -49,36 +49,35 @@ main{
 }
 
 .profil a::before {
+    content:'';
     background-repeat: no-repeat;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 60px;
-    right: -60px;
-    z-index: 2;
+    background-position: center 50px;
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    text-indent:-9999px;
+    width:100%;
+    height:100%;
 }
 
 .commandes::before {
-    content: "";
     background-image: url(img/faq-commandes.png);
 }
 
 .livraison::before {
-    content: "";
     background-image: url(img/faq-livraison.png);
+    background-position: center 50px;
 }
 
 .retours::before {
-    content: "";
     background-image: url(img/faq-retours.png);
 }
 
 .profil::before {
-    content: "";
     background-image: url(img/faq-profil.png);
 }
 
 .paiement::before {
-    content: "";
     background-image: url(img/faq-paiement.png);
 }
