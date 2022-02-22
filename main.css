@@ -250,6 +250,7 @@ h3 {
     margin: 60px auto;
     transition: all .5s ease;
 }
+
 /* bouton voir page profil global */
 .secondBtn {
     display: block;
@@ -739,7 +740,7 @@ figure{
         width: 40%;
         margin: 50px auto;
     }
-    .ctaConnexion {
+    .secondBtn {
         width: 40%;
         margin: 50px auto;
     }
@@ -778,7 +779,7 @@ figure{
         width: 50%;
         margin: 40px auto;
     }
-    .ctaConnexion {
+    .secondBtn {
         width: 50%;
         margin: 40px auto;
     }
