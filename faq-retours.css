@@ -83,7 +83,7 @@ main{
 }
 
 ul li.active{
-    background-color: #750663;
+    background-color: #403038;
 }
 
 .profil li{
@@ -122,15 +122,30 @@ ul li.active{
     margin-bottom: 20px;
 }
 
-.cta {
-    padding: 10px;
-    width: 50%;
-    margin: 20px auto;
-    font-size: 0.8rem;
+.versContact {
+    color: #403038;
+    text-decoration: #403038 underline;
+}
+
+/* -------------- MEDIA QUERIES ---------- */
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+
+    /* Banner image */
+    .headerImage{
+        height: 140px;
+        padding-top: 90px;
+    }
+    .headerImage:after{
+        height: 140px;
+    }
+   
+    .profil a::before {
+        display: none;
+    }
 }
 
 
-/* -------------- MEDIA QUERIES ---------- */
 
 
 @media screen and (min-width: 360px) and (max-width: 600px){
