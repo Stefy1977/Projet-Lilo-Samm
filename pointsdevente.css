@@ -179,7 +179,6 @@ hr {
         font-size: 0.8rem;
     }
     
-    /* ----------HEADER ------------ */
 
     .headerImage{
         height: 100px;
@@ -203,7 +202,7 @@ hr {
         margin-left: 15%
     }
     .lieux {
-        max-width: 250px;
+        width: 100%;
     }
     .cta {
         min-width: 220px;
