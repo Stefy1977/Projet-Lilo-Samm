@@ -132,6 +132,24 @@ ul li.active{
 
 /* -------------- MEDIA QUERIES ---------- */
 
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+
+    /* Banner image */
+    .headerImage{
+        height: 140px;
+        padding-top: 90px;
+    }
+    .headerImage:after{
+        height: 140px;
+    }
+   
+    .profil a::before {
+        display: none;
+    }
+}
+
+
+
 
 @media screen and (min-width: 360px) and (max-width: 600px){
 
