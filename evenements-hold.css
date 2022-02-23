@@ -1,0 +1,226 @@
+/* Header banner image */
+.headerImage{
+    height: 200px;
+    background-image: url(img/banner-evenements.jpg);
+}
+.headerImage:after{
+    height: 200px;
+}
+
+/* Main */
+main{
+    width: 80%;
+    margin: auto;
+    max-width: 1280px;
+}
+
+form {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 50px;
+    margin: 0 10px;
+}
+
+.actu {
+    position: relative;
+    margin: 0 10px;
+    padding-bottom: 50px;
+    width: 90%;
+}
+
+.actuPhoto {
+    width: 100%;
+}
+
+.textFloat {
+    position: absolute;
+    width: 100%;
+}
+
+.textInfo {
+    background: #403038;
+    color: white;
+    margin-top: 156px;
+    padding: 30px 54.5px 30px 30px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.date {
+    background: #EDD961;
+    margin: 0;
+    padding: 15px;
+    width: 24%;
+    text-align: center;
+    color: #403038;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.flexDate {
+    display: flex;
+    margin-top: auto;
+    align-items: center;
+}
+
+.flexDate p {
+    font-size: 11px;
+    margin: 0;
+    font-weight: 500;
+    padding-left: 8px;
+}
+
+.flexDate img {
+    text-align: center;
+}
+
+.flexLieu {
+    display: flex;
+    padding-top: 17px;
+    align-items: center;
+}
+
+.flexLieu p {
+    font-size: 11px;
+    margin: 0;
+    font-weight: 500;
+    padding-left: 15px;
+}
+
+.titreActu {
+    margin: 0;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+.flexEvenement {
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    margin: auto;
+    max-width: 1000px;
+    padding: 10px 0;
+}
+
+/* ---------------- MEDIAQUERIES -------------- */
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {   
+
+    main {
+        height: 3500px;
+        max-width: 700px;
+    }
+
+    /* Banner image */
+    .headerImage{
+        height: 140px;
+        padding-top: 90px;
+    }
+    
+    .headerImage:after{
+        height: 140px;
+    }
+
+    .flexEvenement {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .actu {
+        width: 60%;
+    }
+
+    .actuPhoto {
+        width: 100%;
+    }
+
+    .textInfo {
+        margin-top: 253px;
+    }
+
+    .date {
+        padding: 35px 25px 35px 25px;
+        font-size: 1.4rem;
+    }
+
+    .titreActu {
+        font-size: 1.4rem;
+    }
+
+    .flexDate p {
+        font-size: 0.8rem;
+    }
+
+    .flexLieu p {
+        font-size: 0.8rem;
+    }
+
+    form {
+        padding: 50px 130px 0 130px;
+    }
+
+}
+
+
+ 
+@media screen and (min-width : 375px) and (max-width : 600px){
+
+    main {
+        max-width: 500px;
+    }
+
+    /* Banner image */
+    .headerImage{
+        height: 100px;
+        padding-top: 90px;
+    }
+
+    .headerImage:after{
+        height: 100px;
+    }
+
+    .headerImage p{
+        max-width: 80%;
+    }
+    
+    .flexEvenement {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .actu {
+        width: 60%;
+    }
+
+    .actuPhoto {
+        width: 100%;
+    }
+
+    .textInfo {
+        margin-top: 253px;
+    }
+
+    .date {
+        padding: 35px 25px 35px 25px;
+    }
+
+    .titreActu {
+        font-size: 1.4rem;
+    }
+
+    .flexDate p {
+        font-size: 0.8rem;
+    }
+
+    .flexLieu p {
+        font-size: 0.8rem;
+    }
+
+    form {
+        padding: 50px 90px 0 90px;
+    }
+
+}
