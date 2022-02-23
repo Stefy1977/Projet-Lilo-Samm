@@ -26,14 +26,22 @@ main{
 }
 .eventBlock img{
     width: 100%;
+    display: block;
+    object-fit: cover;
+}
+.eventBlock p{
+    margin: 1em 0;
 }
 figure{
     width: 50%;
 }
+
 .eventDetails{
     padding-left: 50px;
     font-size: 0.9rem;
     color: #403038;
+    background-color: #ECEAEB;
+    width: 50%;
 }
 .text p{
     font-size: 1rem;
@@ -97,6 +105,17 @@ figure{
         height: 140px;
     }
 
+    /* Main */
+    figure{
+        width: 55%;
+    }
+    .eventDetails{
+        width: 45%;
+        font-size: 0.8rem;
+    }
+    .eventBlock p{
+        margin: 0.8em 0;
+    }
 
 }
 
@@ -126,7 +145,9 @@ figure{
         width: 100%;
     }
     .eventDetails{
-        padding-left: 30px;
+        padding-left: 40px;
+        width: 100%;
+        box-sizing: border-box;
     }
 
 
