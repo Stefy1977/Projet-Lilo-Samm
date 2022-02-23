@@ -1,0 +1,40 @@
+/* Header banner image */
+.headerImage{
+    height: 200px;
+    background-image: url(img/banner-faq.jpg); /* < ici !*/
+}
+.headerImage:after{
+    height: 200px;
+}
+
+/* ----- Main ----- */
+main{
+    width: 80%;
+    margin: auto;
+    max-width: 1280px;
+}
+
+
+.profil {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+ul li.active{
+    background-color: #750663;
+}
+
+.profil li{
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.contRetours{
+    display: flex;
+    width: 100%;
+}
+
+.bloc{
+    display: block;
+    width: 50%;
+}
