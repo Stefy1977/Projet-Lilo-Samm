@@ -14,6 +14,67 @@ main{
     max-width: 1280px;
 }
 
+/* navigation */
+
+
+.flexIcon {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+
+.profil a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.profil a::before {
+    content:'';
+    background-repeat: no-repeat;
+    background-position: 13px;
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    text-indent:-9999px;
+    width:100%;
+    height:100%;
+}
+
+.commandes::before {
+    background-image: url(img/faq-menu-commandes.svg);
+    background-size: 10%;
+}
+
+.livraison::before {
+    background-image: url(img/faq-menu-livraison.svg);
+    background-size: 13%;
+}
+
+.retours::before {
+    background-image: url(img/faq-menu-retours.svg);
+    background-size: 10%;
+}
+
+.compte::before {
+    background-image: url(img/faq-menu-profil.svg);
+    background-size: 12%;
+}
+
+.paiement::before {
+    background-image: url(img/faq-menu-paiements.svg);
+    background-size: 10%;
+}
+
+/* -------- contenu catégories -------- */
+
 
 .profil {
     padding-top: 25px;
