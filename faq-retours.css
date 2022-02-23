@@ -122,13 +122,10 @@ ul li.active{
     margin-bottom: 20px;
 }
 
-.cta {
-    padding: 10px;
-    width: 50%;
-    margin: 20px auto;
-    font-size: 0.8rem;
+.versContact {
+    color: #403038;
+    text-decoration: #403038 underline;
 }
-
 
 /* -------------- MEDIA QUERIES ---------- */
 
