@@ -234,6 +234,10 @@ h3 {
     padding: 0px 0px 1px 50px;
 }
 
+strong{
+    font-weight: 500;
+}
+
 
 /* bouton voir la boutique */
 .cta{

@@ -14,6 +14,7 @@ main{
     width: 80%;
     margin: auto;
     max-width: 1280px;
+    color: #403038;
 }
 
 
@@ -46,7 +47,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 20%;
+    padding-bottom: 25%;
 }
 
 
@@ -54,7 +55,6 @@ main{
     content:'';
     background-repeat: no-repeat;
     background-position: center 50px;
-    background-size: 30%;
     display:block;
     position:absolute;
     top:0;
@@ -66,22 +66,27 @@ main{
 
 .commandes::before {
     background-image: url(img/mescommandes.svg);
+    background-size: 30%;
 }
 
 .livraison::before {
     background-image: url(img/mesadresses.svg);
+    background-size: 38%;
 }
 
 .retours::before {
     background-image: url(img/faq-retours.svg);
+    background-size: 30%;
 }
 
 .compte::before {
     background-image: url(img/mesinformations.svg);
+    background-size: 30%;
 }
 
 .paiement::before {
     background-image: url(img/faq-paiement.svg);
+    background-size: 30%;
 }
 
 

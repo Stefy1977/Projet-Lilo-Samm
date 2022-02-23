@@ -1,0 +1,133 @@
+/* Header banner image */
+.headerImage{
+    height: 200px;
+    background-image: url(img/banner-evenements.jpg);
+}
+.headerImage:after{
+    height: 200px;
+}
+
+/* Main */
+main{
+    width: 80%;
+    margin: auto;
+    max-width: 1280px;
+}
+
+.date {
+    background: #EDD961;
+    padding: 10px 20px;
+}
+.eventDate{
+    padding-top: 40px;
+}
+.eventBlock{
+    display: flex;
+}
+.eventBlock img{
+    width: 100%;
+}
+figure{
+    width: 50%;
+}
+.eventDetails{
+    padding-left: 50px;
+    font-size: 0.9rem;
+    color: #403038;
+}
+.text p{
+    font-size: 1rem;
+    font-weight: 300;
+    color: #403038;
+    padding-bottom: 20px;
+}
+.eventDateHours{
+    position: relative;
+}
+.eventDateHours:before{
+    content: "";
+    position: absolute;
+    background-image: url(img/events/icone-horloge-purple.svg);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    top: 0px;
+    left: -30px;
+}
+.eventLocation{
+    position: relative;
+}
+.eventLocation:before{
+    content: "";
+    position: absolute;
+    background-image: url(img/events/icone-map-purple.svg);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    top: 0px;
+    left: -30px;
+}
+.eventContact{
+    position: relative;
+}
+.eventContact:before{
+    content: "";
+    position: absolute;
+    background-image: url(img/events/icone-info-purple.svg);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    top: 0px;
+    left: -30px;
+}
+
+
+/* ---------------- MEDIAQUERIES -------------- */
+
+/* Tablet */
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {   
+
+    /* Banner image */
+    .headerImage{
+        height: 140px;
+        padding-top: 90px;
+    }
+    .headerImage:after{
+        height: 140px;
+    }
+
+
+}
+
+
+/* Mobile */
+
+@media screen and (min-width : 375px) and (max-width : 600px){
+
+    /* Banner image */
+    .headerImage{
+        height: 100px;
+        padding-top: 90px;
+    }
+    .headerImage:after{
+        height: 100px;
+    }
+    .headerImage p{
+        max-width: 80%;
+    }
+
+    /* Main */
+    .eventBlock{
+        display: flex;
+        flex-direction: column;
+    }
+    figure{
+        width: 100%;
+    }
+    .eventDetails{
+        padding-left: 30px;
+    }
+
+
+}
