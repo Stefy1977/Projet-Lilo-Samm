@@ -94,6 +94,7 @@ ul li.active{
     display: flex;
     width: 100%;
     font-size: 0.8rem;
+    margin-bottom: 40px;
 }
 
 .bloc{
@@ -125,4 +126,31 @@ ul li.active{
     width: 50%;
     margin: 20px auto;
     font-size: 0.8rem;
+}
+
+
+/* -------------- MEDIA QUERIES ---------- */
+
+
+@media screen and (min-width: 360px) and (max-width: 600px){
+
+    .contRetours{
+        display: block;
+        width: 100%;
+        align-items: center;
+    }
+
+    .bloc {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .bloc:first-of-type {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .qr{
+        width: 100%;
+    }
 }
