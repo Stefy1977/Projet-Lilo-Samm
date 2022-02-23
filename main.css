@@ -759,16 +759,16 @@ figure{
 
     /* Nav menu */
     nav ul a{
-        font-size: 0.9rem;
+        font-size: 1.2rem;
     }
     nav ul li{
-        padding: 5px 0;
+        padding: 8px 0;
     }
     .sub li{
-        padding: 5px 0;
+        padding: 8px 0;
     }
     .sub li a{
-        font-size: 0.9rem;
+        font-size: 1.2rem;
     }
 
     /* Footer */
@@ -807,19 +807,19 @@ figure{
     h1{
         padding: 20px 0;
     }
-    
+
     /* Nav menu */
     nav ul a{
-        font-size: 0.9rem;
+        font-size: 1.2rem;
     }
     nav ul li{
-        padding: 5px 0;
+        padding: 8px 0;
     }
     .sub li{
-        padding: 5px 0;
+        padding: 8px 0;
     }
     .sub li a{
-        font-size: 0.9rem;
+        font-size: 1.2rem;
     }
 
     /* Fil d'ariane (breadcrumb) */
