@@ -24,21 +24,56 @@ main{
 .eventBlock{
     display: flex;
 }
+.eventBlock img{
+    width: 100%;
+}
+figure{
+    width: 50%;
+}
 .eventDetails{
     padding-left: 50px;
+    font-size: 0.9rem;
+    color: #403038;
 }
 .text p{
     font-size: 1rem;
     font-weight: 300;
     color: #403038;
+    padding-bottom: 20px;
 }
-.dateHours{
+.eventDateHours{
     position: relative;
 }
-.dateHours:before{
+.eventDateHours:before{
     content: "";
     position: absolute;
     background-image: url(img/events/icone-horloge-purple.svg);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    top: 0px;
+    left: -30px;
+}
+.eventLocation{
+    position: relative;
+}
+.eventLocation:before{
+    content: "";
+    position: absolute;
+    background-image: url(img/events/icone-map-purple.svg);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    top: 0px;
+    left: -30px;
+}
+.eventContact{
+    position: relative;
+}
+.eventContact:before{
+    content: "";
+    position: absolute;
+    background-image: url(img/events/icone-info-purple.svg);
     background-repeat: no-repeat;
     width: 40px;
     height: 40px;
@@ -80,6 +115,18 @@ main{
     }
     .headerImage p{
         max-width: 80%;
+    }
+
+    /* Main */
+    .eventBlock{
+        display: flex;
+        flex-direction: column;
+    }
+    figure{
+        width: 100%;
+    }
+    .eventDetails{
+        padding-left: 30px;
     }
 
 
