@@ -17,9 +17,18 @@ main{
 .flexEvenement {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     max-width: 1024px;
     margin: auto;
+}
+.cardLink{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-indent: -9999px;
+    width: 100%;
+    height: 100%;
 }
 .actu {
     position: relative;
@@ -93,7 +102,7 @@ form {
     display: flex;
     justify-content: flex-end;
     height: 30px;
-    padding: 20px 0;
+    padding-bottom: 20px;
 }
 
 
