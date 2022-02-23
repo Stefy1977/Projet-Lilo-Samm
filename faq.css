@@ -54,6 +54,7 @@ main{
     content:'';
     background-repeat: no-repeat;
     background-position: center 50px;
+    background-size: 40%;
     display:block;
     position:absolute;
     top:0;
@@ -113,6 +114,11 @@ main{
     .profil ul {
         width: 100%;
     }
+
+    .profil a::before {
+        background-position: center 25px;
+        /* background-size: 60px; */
+    }
 }
 
 
@@ -153,7 +159,7 @@ main{
 
    .profil a::before {
        background-position: center 25px;
-       background-size: 40px;
+       /* background-size: 60px; */
 
    }
 
