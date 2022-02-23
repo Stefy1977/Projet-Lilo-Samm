@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="profil_commandes.css">
+    <script src="js/header.js" defer></script>
+    <script src="js/footer.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <title>Mes commandes - compte</title>
+</head>
+
+<body>
+
+    <main-header></main-header>
+
+    <div class="headerImage">
+        <p><span>Mon compte !</span></p>
+    </div>
+    <main>
+        <h1>Bonjour Fany !</h1>
+        <div class="breadcrumb">
+            <ul>
+                <li><a href="profil_global.html">Mon compte</a></li>
+                <li><span aria-current="page">Mes adresses</span></li>
+            </ul>
+        </div>
+
+        <div class="profil">
+            <ul>
+                <li><a href="profil_infos.html">Mes informations</a></li>
+                <li><a href="#">Mes adresses</a></li>
+                <li class="active"><a href="#">Mes commandes</a></li>
+                <li><a href="#">Ma "Wishlist"</a></li>
+            </ul>
+        </div>
+
+        <div class="flexInfos">
+            <span>Mes commandes</span>
+            <span>Date de la commande</span>
+            <span>Total commande</span>
+            <span>Statut</span>
+            <span>Détails</span>
+        </div>
+        <div class="line"></div>
+
+        <div class="flexInfos">
+            <p>Commande n°1028</p>
+            <p>12/01/2022</p>
+            <p>€ 10,00</p>
+            <p>En préparation</p>
+            <a href="#"><img src="img/arrow_down_details_commandes.svg" alt="fleches"></a>
+        </div>
+        <div class="line"></div>
+
+        <div class="flexInfos">
+            <p>Commande n°1010</p>
+            <p>24/12/2021</p>
+            <p>€ 10,00</p>
+            <p>Envoyée</p>
+            <a href="""><img src="img/arrow_down_details_commandes.svg" alt="fleches"></a>
+        </div>
+        <div class="line"></div>
+
+        <a href="#" class="ctaDeconnexion">Se déconnecter</a>
+    </main>
+
+    <main-footer></main-footer>
+
+    <button onclick="topFunction()" id="scroll"></button>
+</body>
+
+</html>
