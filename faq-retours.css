@@ -93,9 +93,36 @@ ul li.active{
 .contRetours{
     display: flex;
     width: 100%;
+    font-size: 0.8rem;
 }
 
 .bloc{
     display: block;
     width: 50%;
+}
+
+.bloc:first-of-type {
+    margin: 0 20px 60px 0;
+}
+
+.qr {
+    display: block;
+}
+
+.question {
+    background-color: #ECEAEB; 
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.reponse {
+    font-size: 0.7rem;
+    margin-bottom: 20px;
+}
+
+.cta {
+    padding: 10px;
+    width: 50%;
+    margin: 20px auto;
+    font-size: 0.8rem;
 }
