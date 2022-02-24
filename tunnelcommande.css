@@ -89,7 +89,7 @@ form .secondBtn {
     padding: 20px;
 }
 .resumCart .cta{
-    width: 100%;
+    width: 50%;
     box-sizing: border-box;
 }
 .titleResum{
@@ -120,6 +120,10 @@ form .secondBtn {
     .breadcrumb ul{
         display: block;
     }
+    .resumCart .cta{
+        width: 100%;
+        box-sizing: border-box;
+    }
 }
 
 /* Mobile */
@@ -134,6 +138,10 @@ form .secondBtn {
         box-sizing: border-box;
     }
     .resumCart{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .resumCart .cta{
         width: 100%;
         box-sizing: border-box;
     }
