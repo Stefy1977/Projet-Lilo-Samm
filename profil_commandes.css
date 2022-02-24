@@ -1,0 +1,123 @@
+/* Header banner image */
+.headerImage{
+    height: 200px;
+    background-image: url(img/banner-profil.jpg); /* < ici !*/
+}
+.headerImage:after{
+    height: 200px;
+}
+
+/* ----- Main ----- */
+main{
+    width: 80%;
+    margin: auto;
+    max-width: 1280px;
+}
+
+.profil {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.profil a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li.active{
+    background-color: #403038;
+}
+
+.profil li{
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.cta {
+    width: 30%;
+    font-size: 0.7rem;
+    margin: 16px 0 60px 60px;
+}
+
+.flexInfos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexInfos span {
+    font-size: 0.9rem;
+    color: #403038;
+}
+
+.flexInfos p {
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #403038;
+}
+
+.line {
+    border-bottom: 2px #403038 solid;
+}
+
+.infosClient {
+    padding-bottom: 50px;
+    font-size: 0.8rem;
+    color: #403038;
+}
+
+.texteClient {
+    font-size: 0.8rem;
+    color: #403038;
+}
+
+/* ---------------- MEDIAQUERIES -------------- */
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+
+    /* Banner image */
+    .headerImage{
+        height: 140px;
+        padding-top: 90px;
+    }
+    
+    .headerImage:after{
+        height: 140px;
+    }
+    
+}
+
+
+@media screen and (min-width : 375px) and (max-width : 600px){
+
+    /* Banner image */
+    .headerImage{
+        height: 100px;
+        padding-top: 90px;
+    }
+
+    .headerImage:after{
+        height: 100px;
+    }
+
+    .headerImage p{
+        max-width: 80%;
+    }
+
+    .flexInfos {
+        display: block;
+    }
+
+    .cta {
+    width: 53%;
+    margin: 16px 0 60px 0;
+    }
+
+    .profil ul{
+        flex-direction: column;
+    }
+    .profil li{
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+}
