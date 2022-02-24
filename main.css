@@ -491,7 +491,7 @@ footer{
     font-size: 1rem;
     text-align: left;
     border-bottom: solid 2px #403038;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
 }
 
 .content-product{
@@ -829,6 +829,12 @@ figure{
     }
     .sub li a{
         font-size: 1rem;
+    }
+
+    /* Overlay Panier */
+    .content-product img{
+        height: 100px;
+        width: 100px;
     }
 
     /* Fil d'ariane (breadcrumb) */
