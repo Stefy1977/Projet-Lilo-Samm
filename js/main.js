@@ -29,13 +29,32 @@ function topFunction() {
 const $ = document.querySelector.bind(document);
 
 const burger=document.querySelector("#burger");
-// console.log(burger);
+// console.log('burger');
 
 burger.addEventListener("click",showHideMenu);
 
 function showHideMenu(){
    document.querySelector("html").classList.toggle('opened');
 }
+
+
+///////////////////////// Ouverture du Sous Menu burger ///////////////////////////////
+
+const opensubmenu=document.querySelector("#openSubMenu");
+
+if(opensubmenu.length > 0) {
+    console.log('ok div opensubmenu');
+}
+
+opensubmenu.addEventListener("click",showSubMenu);
+
+function showSubMenu(e){
+    e.preventDefault();
+    var truc = document.querySelector("#testSub");
+    console.log('opensubmenuFunction');
+   truc.classList.toggle('show');
+}
+
 
 ///////////////////////// Overlay panier (Cart) ///////////////////////////////////
 

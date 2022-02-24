@@ -654,6 +654,8 @@ figure{
         display: block;
     }
 
+    /* ----- Zone dessin burger ----- */
+
     /* ici c'est le bloc - la zone où vont venir les lignes du burger */
     #burger{ 
         display: flex;
@@ -713,12 +715,25 @@ figure{
     .opened #burger:after{
         transform: rotate(-45deg);
     }
-    .opened ul{ /* ouverture du menu */
-        /* transform: scaleY(1); */
-        max-height: 100vh;
-    }
 
-    /* nav sous menu */
+    /* ouverture du menu */
+    /* .opened ul{ 
+        max-height: 100vh;
+    } */
+
+    /* Nav menu */
+
+    nav ul a{
+        font-size: 1rem;
+    }
+    nav ul li{
+        padding: 8px 0;
+    }
+    .sub li{
+        padding: 8px 0;
+    }
+    
+    /* Nav sous menu */
    
     ul .sub { 
         display: flex;
@@ -728,11 +743,11 @@ figure{
         max-height: 100vh;
     }
     .sub li{
-        border-top:1px solid #C6C1C4;
+        border-bottom:1px solid #C6C1C4;
         width: 100%;
     }
     .sub li a{
-        font-size: 0.7rem;
+        font-size: 1rem;
         text-transform: capitalize;
         border: none;
         padding: 0 10px;
@@ -764,20 +779,6 @@ figure{
     .ctaDeconnexion {
         width: 40%;
         margin: 50px auto;
-    }
-
-    /* Nav menu */
-    nav ul a{
-        font-size: 1rem;
-    }
-    nav ul li{
-        padding: 8px 0;
-    }
-    .sub li{
-        padding: 8px 0;
-    }
-    .sub li a{
-        font-size: 1rem;
     }
 
     /* Footer */
@@ -817,19 +818,6 @@ figure{
         padding: 20px 0;
     }
 
-    /* Nav menu */
-    nav ul a{
-        font-size: 1rem;
-    }
-    nav ul li{
-        padding: 8px 0;
-    }
-    .sub li{
-        padding: 8px 0;
-    }
-    .sub li a{
-        font-size: 1rem;
-    }
 
     /* Overlay Panier */
     .content-product img{
