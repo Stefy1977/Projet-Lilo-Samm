@@ -25,10 +25,11 @@
         <div class="breadcrumb">
             <ul>
                 <li><a href="profil_global.html">Mon compte</a></li>
-                <li><span aria-current="page">Mes adresses</span></li>
+                <li><span aria-current="page">Ma "Wishlist"</span></li>
             </ul>
         </div>
 
+        <!-- Navigation profil -->
         <div class="profil">
             <ul>
                 <li><a href="profil_infos.html">Mes informations</a></li>
@@ -37,14 +38,44 @@
                 <li class="active"><a href="#">Ma "Wishlist"</a></li>
             </ul>
         </div>
+        <!-------------------------------------------------------------------->
 
+        <!-- Titre -->
         <span class="titreInfos">Ma "Wishlist"</span>
-        <div class="line"></div>
+        <div class="firstLine"></div>
+        <!-------------------------------------------------------------------->
+
+        <!-- Coup de coeur -->
+        <div class="flexInfos">
+            <div class="flexInfosProduct">
+                <img class="badgeWishlist" src="img/product/badge-bon-chips.jpg" alt="Badge - Bon chips">
+                <div class="infosTexte">
+                    <p class="texteClient">Badge “Bon chpis, bon genre”</p>
+                    <p class="textePrix">5,00 €</p>
+                    <a href="#"><img class="iconWishlist" src="img/heart_wishlist.svg" alt="Coup de coeur - icon"></a>
+                </div>
+            </div>
+            <a class="buy" href="#">Ajouter au panier</a>
+        </div>
+        <!-------------------------------------------------------------------->
+
+        <!-- Coup de coeur -->
+        <div class="secondLine"></div>
 
         <div class="flexInfos">
-            <p class="texteClient">Rue des Joncquilles, 27 <br> 1200 Woluwe-Saint-Lambert <br> Belgique</p>
-            <a href="#" class="cta">AJOUTER UNE ADRESSE</a>
+            <div class="flexInfosProduct">
+                <img class="badgeWishlist" src="img/product/badge-courageuse.jpg" alt="Badge - “Courageuse trouillarde”">
+                <div class="infosTexte">
+                    <p class="texteClient">Badge “Courageuse trouillarde”</p>
+                    <p class="textePrix">5,00 €</p>
+                    <a href="#"><img class="iconWishlist" src="img/heart_wishlist.svg" alt="Coup de coeur - icon"></a>
+                </div>
+            </div>
+            <a class="buy" href="#">Ajouter au panier</a>
         </div>
+
+        <div class="secondLine"></div>
+        <!-------------------------------------------------------------------->
 
         <a href="#" class="ctaDeconnexion">Se déconnecter</a>
     </main>

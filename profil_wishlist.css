@@ -8,11 +8,14 @@
 }
 
 /* ----- Main ----- */
+
 main{
     width: 80%;
     margin: auto;
     max-width: 1280px;
 }
+
+/* Navigation profil */
 
 .profil {
     padding-top: 25px;
@@ -33,10 +36,23 @@ ul li.active{
     padding: 10px 0px;
 }
 
-.cta {
-    width: 30%;
-    font-size: 0.7rem;
-    margin: 16px 0 60px 60px;
+/* ----------------------------------------------------------------- */
+
+/* Coup de coeur */
+
+.titreInfos {
+    font-size: 0.9rem;
+    color: #403038;
+}
+
+.firstLine {
+    border-bottom: 2px #403038 solid;
+    margin: 16px 0;
+}
+
+.secondLine {
+    border-bottom: 1px #403038 solid;
+    margin: 16px 0;
 }
 
 .flexInfos {
@@ -44,31 +60,73 @@ ul li.active{
     justify-content: space-between;
 }
 
-.titreInfos {
-    font-size: 0.9rem;
-    color: #403038;
+.flexInfosProduct {
+    display: flex;
 }
 
-.line {
-    border-bottom: 2px #403038 solid;
+.badgeWishlist {
+    width: 20%;
+    height: 95%;
 }
 
-.infosClient {
-    padding-bottom: 50px;
-    font-size: 0.8rem;
-    color: #403038;
+.infosTexte {
+    margin-left: 15px;
 }
 
 .texteClient {
     font-size: 0.8rem;
     color: #403038;
+    margin: 0;
 }
+
+.textePrix {
+    margin: 0;
+}
+
+.iconWishlist {
+    width: 10%;
+    padding-top: 80px;
+}
+
+/* ----------------------------------------------------------------- */
+
+/* Cta avec icone */
+
+.buy{
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    background: #750663;
+    color: white;
+    padding: 10px 0;
+    width: 30%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 112px;
+    margin-right: 0;
+    position: relative;
+}
+.buy:before{
+    content: "";
+    position: absolute;
+    background-image: url(img/mdi_shopping-outline-white.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    left: 20px;
+}
+
+/* ----------------------------------------------------------------- */
 
 /* ---------------- MEDIAQUERIES -------------- */
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
 
     /* Banner image */
+
     .headerImage{
         height: 140px;
         padding-top: 90px;
@@ -77,6 +135,32 @@ ul li.active{
     .headerImage:after{
         height: 140px;
     }
+
+    /* ----------------------------------------------------------------- */
+
+    /* Coup de coeur */
+
+    .flexInfos {
+        display: block;
+    }
+
+    .iconWishlist {
+        width: 10%;
+        padding-top: 94px;
+    }
+
+    /* ----------------------------------------------------------------- */
+
+    /* Cta avec icone */
+
+    .buy{
+        width: 45%;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    /* ----------------------------------------------------------------- */
+
     
 }
 
@@ -84,6 +168,7 @@ ul li.active{
 @media screen and (min-width : 375px) and (max-width : 600px){
 
     /* Banner image */
+
     .headerImage{
         height: 100px;
         padding-top: 90px;
@@ -97,14 +182,27 @@ ul li.active{
         max-width: 80%;
     }
 
+    /* ----------------------------------------------------------------- */
+
+    /* Coup de coeur */
+
     .flexInfos {
         display: block;
     }
 
-    .cta {
+    .iconWishlist {
+        width: 10%;
+        padding-top: 34px;
+    }
+
+    /* ----------------------------------------------------------------- */
+
+    /* .cta {
     width: 53%;
     margin: 16px 0 60px 0;
-    }
+    } */
+
+    /* Nav profil */
 
     .profil ul{
         flex-direction: column;
@@ -113,5 +211,7 @@ ul li.active{
         margin-right: 0;
         margin-bottom: 5px;
     }
+
+    /* ----------------------------------------------------------------- */
 
 }
