@@ -235,7 +235,8 @@ span.promo{
     }
 
     /* Liste des catégories de produits */
-    .category ul{
+    
+    /* .category ul{
         flex-direction: column;
         
     }
@@ -243,6 +244,16 @@ span.promo{
         margin-right: 0;
         margin-bottom: 5px;
         box-sizing: border-box;
+    } */
+
+    .category{
+        display: flex;
+        overflow-x: scroll;
+        padding: 1rem 0;
+        scroll-snap-type: x mandatory;
+    }
+    .category li{
+        width: 100px;
     }
 
     /* Ligne articles trouvés et rechercher */
