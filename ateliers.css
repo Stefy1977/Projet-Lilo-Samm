@@ -27,7 +27,7 @@ main{
 /* Bloc images */
 
 .workshopPictures{
-    column-width: 25vw;
+    column-width: 20vw;
     column-gap: 0px;
     margin: auto;
     padding-bottom: 80px;
