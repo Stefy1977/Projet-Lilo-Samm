@@ -9,6 +9,7 @@
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
+   
 }
 .headerImage:after{
     content: "";
@@ -19,21 +20,33 @@
     opacity: 0.6;
     z-index: 1;
 }
+
 .headerImage h1{
     z-index: 2;
 }
 /* ------------------------------------------------------------------------------------------------- */
 
-.errorButton {
-    z-index: 2;
-    margin: auto;
+.error {
+    font-family: 'Special Elite', cursive;
+    color: white;
+    font-size: 6rem;
+    margin-bottom: 0;
 }
 
-.errorButton a {
-    background: chartreuse;
-    max-width: 20%;
-    padding: 10px 10px;
-    justify-content: space-between;
-    text-decoration: none;
-    color: white;
+.headerImage p {
+    margin: 0 auto;
+}
+
+.errorButton {
+    z-index: 2;
+    margin: 30px auto 80px auto;
+  
+}
+
+.cta {
+    display: inline;
+}
+
+.errorButton a:first-of-type{
+    margin-right: 30px;
 }

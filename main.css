@@ -5,6 +5,8 @@
 
 html{
     font-size: 20px;
+    scroll-behavior: smooth;
+    
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -489,7 +491,7 @@ footer{
     font-size: 1rem;
     text-align: left;
     border-bottom: solid 2px #403038;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
 }
 
 .content-product{
@@ -652,27 +654,34 @@ figure{
         display: block;
     }
 
-    #burger{ /* ici c'est le bloc - la zone où vont venir les lignes du burger */
+    /* ----- Zone dessin burger ----- */
+
+    /* ici c'est le bloc - la zone où vont venir les lignes du burger */
+    #burger{ 
         display: flex;
         width: 30px;
         margin: 10px;
         height: 12px;
         position: relative;
     }
-    #burger button{  /* c'est la ligne du burger du milieu*/
+
+    /* c'est la ligne du burger du milieu*/
+    #burger button{  
         background: #403038;
         border: none;
         width: 100%;
         height: 3px;
         color: white;
-        font-size: 25px;
-        text-indent: -9999px; /* texte ne se voit plus car indenté en négatif... attention aux moteurs de recherche */
+        font-size: 15px;
+        text-indent: -9999px;
         position: absolute;
         top: 6px;
         opacity: 1;
         transition: .3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
     }
-    #burger:before{ /* c'est la ligne burger du haut*/
+
+    /* c'est la ligne burger du haut*/
+    #burger:before{
         content: '';
         background: #403038;
         width: 100%;
@@ -683,7 +692,9 @@ figure{
         transform-origin: 9px 5px;
         transition: .3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
     }
-    #burger:after{ /* c'est la ligne burger du bas*/
+    
+    /* c'est la ligne burger du bas*/
+    #burger:after{
         content: '';
         background: #403038;
         width: 100%;
@@ -704,12 +715,25 @@ figure{
     .opened #burger:after{
         transform: rotate(-45deg);
     }
-    .opened ul{ /* ouverture du menu */
-        /* transform: scaleY(1); */
-        max-height: 100vh;
-    }
 
-    /* nav sous menu */
+    /* ouverture du menu */
+    /* .opened ul{ 
+        max-height: 100vh;
+    } */
+
+    /* Nav menu */
+
+    nav ul a{
+        font-size: 1rem;
+    }
+    nav ul li{
+        padding: 8px 0;
+    }
+    .sub li{
+        padding: 8px 0;
+    }
+    
+    /* Nav sous menu */
    
     ul .sub { 
         display: flex;
@@ -719,11 +743,11 @@ figure{
         max-height: 100vh;
     }
     .sub li{
-        border-top:1px solid #C6C1C4;
+        border-bottom:1px solid #C6C1C4;
         width: 100%;
     }
     .sub li a{
-        font-size: 0.7rem;
+        font-size: 1rem;
         text-transform: capitalize;
         border: none;
         padding: 0 10px;
@@ -732,6 +756,7 @@ figure{
     .sub li:hover{
         background: white;
     }
+
 }
 
 /* Tablet */
@@ -755,20 +780,6 @@ figure{
     .ctaDeconnexion {
         width: 40%;
         margin: 50px auto;
-    }
-
-    /* Nav menu */
-    nav ul a{
-        font-size: 1rem;
-    }
-    nav ul li{
-        padding: 8px 0;
-    }
-    .sub li{
-        padding: 8px 0;
-    }
-    .sub li a{
-        font-size: 1rem;
     }
 
     /* Footer */
@@ -808,18 +819,11 @@ figure{
         padding: 20px 0;
     }
 
-    /* Nav menu */
-    nav ul a{
-        font-size: 1rem;
-    }
-    nav ul li{
-        padding: 8px 0;
-    }
-    .sub li{
-        padding: 8px 0;
-    }
-    .sub li a{
-        font-size: 1rem;
+
+    /* Overlay Panier */
+    .content-product img{
+        height: 100px;
+        width: 100px;
     }
 
     /* Fil d'ariane (breadcrumb) */

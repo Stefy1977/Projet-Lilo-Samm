@@ -9,8 +9,8 @@ class MyHeader extends HTMLElement {
             <a href="index.html" title="les ateliers de lilo"><img class="logo" src="img/ladl-logo-dark.svg" alt="logo"></a>
             <ul class="menuDesktop">
                 <li><a class="${current === "accueil" ? 'active' : ''}" href="index.html">Accueil</a></li>
-                <li><a class="${current === "boutique" ? 'active' : ''}" href="shop.html">Boutique</a>
-                    <ul class="sub">
+                <li><a id="openSubMenu" class="${current === "boutique" ? 'active' : ''}" href="shop.html">Boutique</a>
+                    <ul class="sub" id="subBoutique">
                         <li><a href="shop.html">Voir tout</a></li>
                         <li><a href="badges.html">Badges</a></li>
                         <li><a href="bijoux.html">Bijoux</a></li>
@@ -20,8 +20,8 @@ class MyHeader extends HTMLElement {
                     </ul>
                 </li>
                 <li><a class="${current === "apropos" ? 'active' : ''}" href="apropos.html">A propos</a></li>
-                <li><a class="${current === "blog" ? 'active' : ''}" href="blog.html">Blog</a>
-                    <ul class="sub">
+                <li><a class="${current === "blog" ? 'active' : ''}" href="#">Blog</a>
+                    <ul class="sub" id="subBlog">
                         <li><a href="blog.html">Actualités</a></li>
                         <li><a href="evenements.html">Evènements</a></li>
                     </ul>
