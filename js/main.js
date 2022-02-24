@@ -50,9 +50,9 @@ opensubmenu.addEventListener("click",showSubMenu);
 
 function showSubMenu(e){
     e.preventDefault();
-    var truc = document.querySelector("#testSub");
+    var truc = document.querySelector("#subBoutique");
     console.log('opensubmenuFunction');
-   truc.classList.toggle('show');
+   truc.classList.toggle('opened');
 }
 
 
