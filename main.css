@@ -459,6 +459,8 @@ footer{
     height: 1000vh;
 }
 .overlayCart{
+    overflow-y: scroll;
+    max-height: 70vh;
     border-top: solid 1px #ECEAEB;
     padding: 20px;
     position: fixed;
