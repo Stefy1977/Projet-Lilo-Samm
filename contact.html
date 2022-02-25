@@ -28,40 +28,40 @@
             </ul>
         </div>
         <h1>Une question ? Contactez-moi !</h1>
-        <form action="" class="formContact">
+        <form action="non-empty" class="formContact">
             <div class="formPart">
                 <div>
                     <label for="firstName">Prénom</label><br>
-                    <input type="text"><br>
+                    <input id="firstName" type="text"><br>
                 </div>
                 <div>
                     <label for="name">Nom</label><br>
-                    <input type="text"><br>
+                    <input id="name" type="text"><br>
                 </div>
                 <div>
                     <label for="email">E-mail</label><br>
-                    <input type="text">
+                    <input id="email" type="text">
                 </div>
             </div> <!--fermeture formPart-->
+
             <div class="formPart">
                 <div>
-                    <label for="theme">J'ai besoin de parler...</label><br>
-                    <select>
-                        <option value="">Boutique</option>
+                    <label for="theme">Choisir un thème :</label><br>
+                    <select id="theme">
+                        <option id="theme" value="">Boutique</option>
                         <option value="">Statut de ma commande</option>
                         <option value="">Ateliers en milieu scolaire</option>
                     </select><br>
                 </div>
                 <div>
-                    <label for="message">Exprimez-vous! (Mais pas trop, 1500 caractères max !)</label>
-                    <textarea class="formessage" name="story"
+                    <label for="message">Message (1500 caractères max)</label>
+                    <textarea id="message" class="formessage" name="story"
                             rows="5" cols="33">
-                   
                     </textarea>
                 </div>
             </div>
         </form>
-        <button type="submit" action="javascript:void(0);" class="cta">Envoyer</button>
+        <div type="submit" action="javascript:void(0);" class="cta">Envoyer</div>
         
     </main>
     
