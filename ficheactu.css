@@ -8,10 +8,24 @@
 }
 
 /* Main */
+
 main{
     width: 80%;
     margin: auto;
     max-width: 1280px;
+}
+
+/* ----------------------------------------------------------------- */
+
+/* L'article */
+
+.article {
+    padding: 40px 0 80px 0 ;
+}
+
+.date {
+    background: #EDD961;
+    padding: 10px 20px;
 }
 
 .textArticle {
@@ -21,15 +35,7 @@ main{
     margin: 0 auto;
 }
 
-.date {
-    background: #EDD961;
-    padding: 10px 20px;
-}
-
-.article {
-    padding: 40px 0 80px 0 ;
-}
-
+/* ----------------------------------------------------------------- */
 
 /* ---------------- MEDIAQUERIES -------------- */
 
