@@ -40,20 +40,41 @@ function showHideMenu(){
 
 ///////////////////////// Ouverture du Sous Menu burger ///////////////////////////////
 
-const opensubmenu=document.querySelector("#openSubMenu");
+// const opensubmenu=document.querySelector("#openSubMenu");
 
-if(opensubmenu.length > 0) {
-    console.log('ok div opensubmenu');
-}
+// if(opensubmenu.length > 0) {
+//     console.log('ok div opensubmenu');
+// }
 
-opensubmenu.addEventListener("click",showSubMenu);
+// opensubmenu.addEventListener("click",showSubMenu);
 
-function showSubMenu(e){
-    e.preventDefault();
-    var truc = document.querySelector("#subBoutique");
-    console.log('opensubmenuFunction');
-   truc.classList.toggle('opened');
-}
+// function showSubMenu(e){
+//     e.preventDefault();
+//     var truc = document.querySelector("#subBoutique");
+//     console.log('opensubmenuFunction');
+//    truc.classList.toggle('opened');
+// }
+
+let openSubMenu = document.getElementById("openSubMenu");
+let subBoutique = document.getElementById("subBoutique");
+openSubMenu.addEventListener("click", () => {
+    if(getComputedStyle(subBoutique).display != "none"){
+        subBoutique.style.display = "none";
+    } else {
+        subBoutique.style.display = "flex"
+    }
+})
+
+let openSubMenuBlog = document.getElementById("openSubMenuBlog");
+let subBlog = document.getElementById("subBlog");
+openSubMenuBlog.addEventListener("click", () => {
+    if(getComputedStyle(subBlog).display != "none"){
+        subBlog.style.display = "none";
+    } else {
+        subBlog.style.display = "flex"
+    }
+})
+
 
 
 ///////////////////////// Overlay panier (Cart) ///////////////////////////////////
@@ -64,4 +85,14 @@ cart.addEventListener("click",showCart);
 
 function showCart(){
     document.querySelector(".overlay").classList.toggle('show');
- }
+}
+
+/* Wishlist overlay */
+
+const fav=document.querySelector("#fav");
+
+fav.addEventListener("click", showFav);
+
+function showFav(){
+    document.querySelector(".overlayFav").classList.toggle('show');
+}

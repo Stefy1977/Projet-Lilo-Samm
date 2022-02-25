@@ -16,6 +16,20 @@ img{
     max-width: 100%;
 }
 
+.sr-only {
+	border: 0 !important;
+	clip: rect(1px, 1px, 1px, 1px) !important;
+	-webkit-clip-path: inset(50%) !important;
+			clip-path: inset(50%) !important;
+	height: 1px !important;
+	overflow: hidden !important;
+	padding: 0 !important;
+	position: absolute !important;
+	width: 1px !important;
+	white-space: nowrap !important;
+}
+
+
 /* header */
 
 #burger{
@@ -458,7 +472,10 @@ footer{
     width: 1000vh;
     height: 1000vh;
 }
-.overlayCart{
+
+.overlayIn{
+    overflow-y: scroll;
+    max-height: 70vh;   /* ajout d'une hauteur pour rendre le scroll fonctionnel */
     border-top: solid 1px #ECEAEB;
     padding: 20px;
     position: fixed;
@@ -468,7 +485,7 @@ footer{
     border-radius: 0 0 0 20px;
     box-shadow: -10px 10px 20px #C6C1C4;
 }
-.overlayCart .cta{
+.overlayIn .cta{
     width: 50%;
 }
 .closebtn{
@@ -603,6 +620,39 @@ figure{
     margin: 30px 0;
     box-sizing: border-box;
 }
+
+/* Spécifique aux favoris */
+
+.overlayFav.show{
+    display: block;
+}
+
+.overlayFav{
+    display: none;
+    background-color: #ffffffa1;
+    width: 1000vh;
+    height: 1000vh;
+}
+.overlayFav .content-product{
+    border-bottom: white 1px solid;
+}
+
+.overlayFav .delete{
+    padding-left: 0px;
+}
+
+.overlayFav .cta{
+    margin: auto;
+    margin-bottom: 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.overlayFav .secondBtn{
+    width: 100%;
+    box-sizing: border-box;
+}
+
 
 /* Navigation profil (Mes infos, mes adresses, mes commandes, ma "Whishlist" */
 
@@ -757,6 +807,41 @@ figure{
         background: white;
     }
 
+    .littleRow{
+        position: relative;
+    }
+    .littleRow:after{
+        content: "";
+        position: absolute;
+        background-image: url(img/mdi_chevron-down.svg);
+        background-repeat: no-repeat;
+        width: 20px;
+        height: 20px;
+        top: 10px;
+        left: 95px;
+    }
+    .littleRow2{
+        position: relative;
+    }
+    .littleRow2:after{
+        content: "";
+        position: absolute;
+        background-image: url(img/mdi_chevron-down.svg);
+        background-repeat: no-repeat;
+        width: 20px;
+        height: 20px;
+        top: 10px;
+        left: 55px;
+    }
+
+    /* action sous menu javascript */
+    #subBoutique{
+        display: none;
+    }
+    #subBlog{
+        display: none;
+    }
+
 }
 
 /* Tablet */
@@ -824,6 +909,11 @@ figure{
     .content-product img{
         height: 100px;
         width: 100px;
+    }
+
+    /* Overlay Favoris*/
+    .overlayFav .delete{
+        top: -10px;
     }
 
     /* Fil d'ariane (breadcrumb) */

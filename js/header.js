@@ -9,7 +9,7 @@ class MyHeader extends HTMLElement {
             <a href="index.html" title="les ateliers de lilo"><img class="logo" src="img/ladl-logo-dark.svg" alt="logo"></a>
             <ul class="menuDesktop">
                 <li><a class="${current === "accueil" ? 'active' : ''}" href="index.html">Accueil</a></li>
-                <li><a id="openSubMenu" class="${current === "boutique" ? 'active' : ''}" href="shop.html">Boutique</a>
+                <li class="littleRow"><a id="openSubMenu" class="${current === "boutique" ? 'active' : ''}" href="#">Boutique</a>
                     <ul class="sub" id="subBoutique">
                         <li><a href="shop.html">Voir tout</a></li>
                         <li><a href="badges.html">Badges</a></li>
@@ -20,7 +20,7 @@ class MyHeader extends HTMLElement {
                     </ul>
                 </li>
                 <li><a class="${current === "apropos" ? 'active' : ''}" href="apropos.html">A propos</a></li>
-                <li><a class="${current === "blog" ? 'active' : ''}" href="#">Blog</a>
+                <li class="littleRow2"><a id="openSubMenuBlog" class="${current === "blog" ? 'active' : ''}" href="#">Blog</a>
                     <ul class="sub" id="subBlog">
                         <li><a href="blog.html">Actualités</a></li>
                         <li><a href="evenements.html">Evènements</a></li>
@@ -32,17 +32,17 @@ class MyHeader extends HTMLElement {
             </ul>
 
             <div class="userMenu">
-                <a href="#" title="mes favoris"> <img src="img/mdi_cards-heart-outline.svg"
-                        alt="icône de la wishlist donc des favoris"></a>
-                <a id="cart" href="#" title="mon panier d'achats"> <img src="img/mdi_shopping-outline.svg"
-                        alt="icône du panier d'achat"></a>
-                <a href="connexion.html" title="me connecter au profil"><img src="img/mdi_account-circle-outline.svg"
-                        alt="icône du profil pour se connecter"></a>
+            <a id="fav" href="#" title="mes favoris"> <img src="img/mdi_cards-heart-outline.svg"
+                    alt="icône des favoris"> <span class="sr-only">Mes favoris</span> </a>
+            <a id="cart" href="#" title="mon panier d'achats"> <img src="img/mdi_shopping-outline.svg"
+                    alt="icône du panier d'achat"><span class="sr-only">Mon panier</span></a>
+            <a href="connexion.html" title="me connecter au profil"><img src="img/mdi_account-circle-outline.svg"
+                    alt="icône du profil pour se connecter"><span class="sr-only">Mon profil</span></a>
             </div>
         </nav>
 
         <div class="overlay">
-                <div class="overlayCart">
+                <div class="overlayIn">
                     <a href="" class="closebtn"></a>
                     <span class="titleCart">Panier</span>
                     <div class="overlay-content">
@@ -103,6 +103,47 @@ class MyHeader extends HTMLElement {
                     </div>
                 </div>
             </div>
+            
+        <div class="overlayFav">
+            <div class="overlayIn">
+                <a href="" class="closebtn"></a>
+                <span class="titleCart">Mes favoris</span>
+                <div class="overlay-content">
+                    <div class="content-product">
+                        <figure><img src="img/product/badge-courageuse.jpg" alt="badge courageuse trouillarde"></figure>
+                        <div class="product-infos">
+                            <div class="cartInfos">
+                                <span class="cat">Badge</span><br>
+                                <span class="titleProduct">"Courageuse trouillarde"</span><br>
+                                <span class="price">5,00 €</span>
+                            </div>
+                            <div class="quantity">
+                                <a title="supprimer" href="" class="delete"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="cta">ajouter au panier</a>
+                </div>
+
+                <div class="overlay-content">
+                    <div class="content-product">
+                        <figure><img src="img/product/badge-humoureuse.jpg" alt=""></figure>
+                        <div class="product-infos">
+                            <div class="cartInfos">
+                                <span class="cat">Badge</span><br>
+                                <span class="titleProduct">"Je suis humoureuse"</span><br>
+                                <span class="price">5,00 €</span>
+                            </div>
+                            <div class="quantity">
+                                <a title="supprimer" href="" class="delete"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="cta">ajouter au panier</a>
+                <a href="#" class="secondBtn">Aller vers mes favoris</a>
+            </div>
+        </div>
 
     </header>`
     }
