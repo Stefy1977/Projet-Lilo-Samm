@@ -155,11 +155,16 @@ ul li.active{
     display: flex;
     /* justify-content: space-between; */
 }
-.productTitle span{
+/* .productTitle span{
     font-size: 0.8rem;
     font-weight: 500;
     color: #403038;
     margin: 5px 0px;
+} */
+h3{
+    margin: 5px 0px;
+    padding: 0;
+    display: block;
 }
 span.crossPrice{
     text-decoration: line-through;
