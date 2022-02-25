@@ -16,6 +16,9 @@ main{
     color: #403038;
 }
 
+/* ----------------------------------------------------------------- */
+
+/* Container de tous les évènements */
 
 .container {
     width: 880px;
@@ -26,6 +29,10 @@ main{
 .container > article {  
     display: flex;
 }
+
+/* ----------------------------------------------------------------- */
+
+/* Bloc article */
 
 .paragraphe {
     font-size: 0.8rem;
@@ -65,6 +72,8 @@ time {
     padding-bottom: 10px;
 }
 
+/* ----------------------------------------------------------------- */
+
 /*---------- Premier Bloc article" */
 
 
@@ -74,6 +83,8 @@ time {
 .firstDate {
     color: #403038;
 }
+
+/* ----------------------------------------------------------------- */
 
 
 
@@ -92,6 +103,8 @@ time {
     color: #ffffff;
 }
 
+/* ----------------------------------------------------------------- */
+
 
 
 /* ---------------- MEDIAQUERIES -------------- */
@@ -105,6 +118,7 @@ time {
    
 
     /* ----------HEADER ------------ */
+
     .headerImage{
         height: 140px;
         padding-top: 90px;
@@ -112,11 +126,18 @@ time {
     .headerImage:after{
         height: 140px;
     }
+
+    /* ----------------------------------------------------------------- */
     
     /* --------- MAIN ----------- */
+
     .main {
         margin: 0 auto;
     }
+
+    /* ----------------------------------------------------------------- */
+
+    /* Container de tous les évènements */
 
     .container {
         width: 100%;
@@ -128,6 +149,14 @@ time {
         height: 50%;
     }
 
+    /* ----------------------------------------------------------------- */
+
+    /* Bloc article */
+
+    .texte{
+        min-height: 100%;
+    }
+
     time {
         padding-left: 30px;
         margin: 0;
@@ -137,9 +166,6 @@ time {
         padding-left: 30px;
     }
 
-    .texte{
-        min-height: 100%;
-    }
     .paragraphe {
         font-size: 0.7rem;
         padding: 15px 20px;
@@ -148,13 +174,13 @@ time {
     .texte .cta{
         margin: 20px auto;
     }
+
+    /* ----------------------------------------------------------------- */
+    
 }
 
 
 /* ----MOBILE ------ */
-
-
-
 
 @media screen and (min-width : 360px) and (max-width : 600px){
 
@@ -172,11 +198,10 @@ time {
         max-width: 80%;
     }
     
-    /* -----------FIN HEADER ---------- */
+    /* ----------------------------------------------------------------- */
 
 
-    /* ------ MAIN ------ */
-
+    /* Container de tous les évènements */
 
     .container {
         box-sizing: border-box;
@@ -192,6 +217,10 @@ time {
         width: 300px;
         min-height: 300px;
     }
+
+    /* ----------------------------------------------------------------- */
+
+    /* Bloc article */
    
     .texte {
         min-height: 300px;
@@ -204,6 +233,8 @@ time {
     .four .texte {
         order: 4;
     }
+
+    /* ----------------------------------------------------------------- */
   
 }
 
