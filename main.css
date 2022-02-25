@@ -757,6 +757,33 @@ figure{
         background: white;
     }
 
+    .littleRow{
+        position: relative;
+    }
+    .littleRow:after{
+        content: "";
+        position: absolute;
+        background-image: url(img/mdi_chevron-down.svg);
+        background-repeat: no-repeat;
+        width: 20px;
+        height: 20px;
+        top: 8px;
+        left: 80px;
+    }
+    .littleRow2{
+        position: relative;
+    }
+    .littleRow2:after{
+        content: "";
+        position: absolute;
+        background-image: url(img/mdi_chevron-down.svg);
+        background-repeat: no-repeat;
+        width: 20px;
+        height: 20px;
+        top: 8px;
+        left: 45px;
+    }
+
     /* action sous menu javascript */
     #subBoutique{
         display: none;

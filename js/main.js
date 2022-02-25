@@ -61,7 +61,7 @@ openSubMenu.addEventListener("click", () => {
     if(getComputedStyle(subBoutique).display != "none"){
         subBoutique.style.display = "none";
     } else {
-        subBoutique.style.display = "block"
+        subBoutique.style.display = "flex"
     }
 })
 
@@ -71,7 +71,7 @@ openSubMenuBlog.addEventListener("click", () => {
     if(getComputedStyle(subBlog).display != "none"){
         subBlog.style.display = "none";
     } else {
-        subBlog.style.display = "block"
+        subBlog.style.display = "flex"
     }
 })
 
