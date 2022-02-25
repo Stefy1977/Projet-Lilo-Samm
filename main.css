@@ -767,8 +767,8 @@ figure{
         background-repeat: no-repeat;
         width: 20px;
         height: 20px;
-        top: 8px;
-        left: 80px;
+        top: 10px;
+        left: 95px;
     }
     .littleRow2{
         position: relative;
@@ -780,8 +780,8 @@ figure{
         background-repeat: no-repeat;
         width: 20px;
         height: 20px;
-        top: 8px;
-        left: 45px;
+        top: 10px;
+        left: 55px;
     }
 
     /* action sous menu javascript */
