@@ -160,6 +160,38 @@ li:hover .sub{
     z-index: 2;
 }
 
+/* description sur les banners images */
+
+.headerImage p{
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 1rem;
+    color: #403038;
+    padding: 0;
+    margin: 0;
+    max-width: 50%;
+    margin: auto;
+    line-height: 2.2rem;
+}
+
+.headerImage p.error {
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 3rem;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    max-width: 50%;
+    margin: auto;
+    line-height: 2.2rem;
+}
+
+.headerImage p span{
+    background: white;
+    padding: 0.3rem;
+    box-shadow: 1rem 0px 0px white, -1rem 0px 0px white; /* pour ajouter du blanc à gauche et à droite afin que ça ne soit pas collé sur le bord du texte*/
+}
+
 /* ----- Main ----- */
 
 /* Fil d'ariane (breadcrumb) */
@@ -192,38 +224,6 @@ li:hover .sub{
     
 .breadcrumb li:first-child::before {
     content: "";
-}
-
-/* description sur les banners images */
-
-.headerImage p{
-    text-align: center;
-    font-family: 'Special Elite', cursive;
-    font-size: 1rem;
-    color: #403038;
-    padding: 0;
-    margin: 0;
-    max-width: 50%;
-    margin: auto;
-    line-height: 2.2rem;
-}
-
-.headerImage p.error {
-    text-align: center;
-    font-family: 'Special Elite', cursive;
-    font-size: 3rem;
-    color: #ffffff;
-    padding: 0;
-    margin: 0;
-    max-width: 50%;
-    margin: auto;
-    line-height: 2.2rem;
-}
-
-.headerImage p span{
-    background: white;
-    padding: 0.3rem;
-    box-shadow: 1rem 0px 0px white, -1rem 0px 0px white; /* pour ajouter du blanc à gauche et à droite afin que ça ne soit pas collé sur le bord du texte*/
 }
 
 /* les titres */
