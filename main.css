@@ -472,6 +472,7 @@ footer{
     width: 1000vh;
     height: 1000vh;
 }
+
 .overlayIn{
     overflow-y: scroll;
     max-height: 70vh;   /* ajout d'une hauteur pour rendre le scroll fonctionnel */
@@ -619,6 +620,39 @@ figure{
     margin: 30px 0;
     box-sizing: border-box;
 }
+
+/* Spécifique aux favoris */
+
+.overlayFav.show{
+    display: block;
+}
+
+.overlayFav{
+    display: none;
+    background-color: #ffffffa1;
+    width: 1000vh;
+    height: 1000vh;
+}
+.overlayFav .content-product{
+    border-bottom: white 1px solid;
+}
+
+.overlayFav .delete{
+    padding-left: 0px;
+}
+
+.overlayFav .cta{
+    margin: auto;
+    margin-bottom: 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.overlayFav .secondBtn{
+    width: 100%;
+    box-sizing: border-box;
+}
+
 
 /* Navigation profil (Mes infos, mes adresses, mes commandes, ma "Whishlist" */
 
@@ -875,6 +909,11 @@ figure{
     .content-product img{
         height: 100px;
         width: 100px;
+    }
+
+    /* Overlay Favoris*/
+    .overlayFav .delete{
+        top: -10px;
     }
 
     /* Fil d'ariane (breadcrumb) */
