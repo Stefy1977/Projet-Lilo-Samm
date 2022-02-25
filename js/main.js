@@ -85,4 +85,14 @@ cart.addEventListener("click",showCart);
 
 function showCart(){
     document.querySelector(".overlay").classList.toggle('show');
- }
+}
+
+/* Wishlist overlay */
+
+const fav=document.querySelector("#fav");
+
+fav.addEventListener("click", showFav);
+
+function showFav(){
+    document.querySelector(".overlayFav").classList.toggle('show');
+}
