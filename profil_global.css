@@ -8,11 +8,26 @@
 }
 
 /* ----- Main ----- */
+
 main{
     width: 80%;
     margin: auto;
     max-width: 1280px;
 }
+
+/* -------------------------------------------------------------------- */
+
+/* Intro */
+
+.profilIntro {
+    text-align: center;
+    font-size: 0.8rem;
+    padding-bottom: 40px;
+}
+
+/* -------------------------------------------------------------------- */
+
+/* Navigation profil */
 
 .profil {
     margin: auto;
@@ -45,11 +60,7 @@ main{
     padding-bottom: 15px;
 }
 
-.profilIntro {
-    text-align: center;
-    font-size: 0.8rem;
-    padding-bottom: 40px;
-}
+/* -------------------------------------------------------------------- */
 
 /* ---------------- MEDIAQUERIES -------------- */
 
