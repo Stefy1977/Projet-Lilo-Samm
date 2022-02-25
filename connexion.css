@@ -33,9 +33,6 @@ input{
     margin-bottom: 20px;
 }
 
-input:invalid {
-    background-color: pink;
-  }
 
 select{
     margin-bottom: 20px;
