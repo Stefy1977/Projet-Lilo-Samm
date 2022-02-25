@@ -757,6 +757,14 @@ figure{
         background: white;
     }
 
+    /* action sous menu javascript */
+    #subBoutique{
+        display: none;
+    }
+    #subBlog{
+        display: none;
+    }
+
 }
 
 /* Tablet */
