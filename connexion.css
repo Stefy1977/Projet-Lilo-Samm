@@ -32,6 +32,11 @@ input{
     height: 30px;
     margin-bottom: 20px;
 }
+
+input:invalid {
+    background-color: pink;
+  }
+
 select{
     margin-bottom: 20px;
     padding: 8px 0;
