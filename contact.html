@@ -32,20 +32,21 @@
             <div class="formPart">
                 <div>
                     <label for="firstName">Prénom</label><br>
-                    <input type="text"><br>
+                    <input id="firstName" type="text"><br>
                 </div>
                 <div>
                     <label for="name">Nom</label><br>
-                    <input type="text"><br>
+                    <input id="name" type="text"><br>
                 </div>
                 <div>
                     <label for="email">E-mail</label><br>
-                    <input type="text">
+                    <input id="email" type="text">
                 </div>
             </div> <!--fermeture formPart-->
+
             <div class="formPart">
                 <div>
-                    <label for="theme">J'ai besoin de parler...</label><br>
+                    <label for="theme">Choisir un thème :</label><br>
                     <select>
                         <option value="">Boutique</option>
                         <option value="">Statut de ma commande</option>
@@ -53,10 +54,9 @@
                     </select><br>
                 </div>
                 <div>
-                    <label for="message">Exprimez-vous! (Mais pas trop, 1500 caractères max !)</label>
-                    <textarea class="formessage" name="story"
+                    <label for="message">Message (1500 caractères max)</label>
+                    <textarea id="message" class="formessage" name="story"
                             rows="5" cols="33">
-                   
                     </textarea>
                 </div>
             </div>
