@@ -156,11 +156,12 @@
     align-items: center;
 }
 
-.infosBox figcaption{
+.infosBox span{
     color: #750663;
     font-size: 0.9rem;
     font-weight: 300;
-    padding-top: 20px;
+    padding-top: 10px;
+    display: block;
 }
 
 /* Tablet */
@@ -271,8 +272,9 @@
         width: 100%;
         padding-bottom: 40px;
     }
-    .infosBox figcaption{
+    .infosBox span{
         padding-top: 10px;
+        display: block;
     }
 
 }
