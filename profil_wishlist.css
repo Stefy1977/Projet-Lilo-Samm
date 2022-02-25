@@ -55,37 +55,32 @@ ul li.active{
     margin: 16px 0;
 }
 
-.flexInfos {
-    display: flex;
-    justify-content: space-between;
-}
-
-.flexInfosProduct {
+.flexWishlist {
     display: flex;
 }
 
 .badgeWishlist {
-    width: 20%;
-    height: 95%;
+    width: 25%;
 }
 
-.infosTexte {
-    margin-left: 15px;
+.flexInfosWhishlist {
+    margin-left: 25px;
 }
 
-.texteClient {
-    font-size: 0.8rem;
-    color: #403038;
-    margin: 0;
-}
-
-.textePrix {
+.titreInfosWishlist {
     margin: 0;
 }
 
 .iconWishlist {
-    width: 10%;
-    padding-top: 80px;
+    position: absolute;
+    top: 794px;
+    width: 5%;
+}
+
+.iconWishlist2 {
+    position: absolute;
+    top: 1023px;
+    width: 5%;
 }
 
 /* ----------------------------------------------------------------- */
@@ -105,7 +100,7 @@ ul li.active{
     width: 30%;
     margin: auto;
     margin-top: 10px;
-    margin-bottom: 112px;
+    margin-bottom: 132px;
     margin-right: 0;
     position: relative;
 }
@@ -140,13 +135,26 @@ ul li.active{
 
     /* Coup de coeur */
 
-    .flexInfos {
+    .flexWishlist {
         display: block;
     }
 
+    .flexInfosWhishlist {
+        display: inline-block;
+        width: 40%;
+        vertical-align: top;
+    }
+
+    .badgeWishlist {
+        display: inline-block;
+        width: 40%;
+        vertical-align: top;
+    }
+
     .iconWishlist {
-        width: 10%;
-        padding-top: 94px;
+        position: absolute;
+        top: 690px;
+        width: 5%;
     }
 
     /* ----------------------------------------------------------------- */
@@ -154,9 +162,9 @@ ul li.active{
     /* Cta avec icone */
 
     .buy{
-        width: 45%;
+        width: 55%;
         margin-left: 0;
-        margin-bottom: 0;
+        margin-top: 16px;
     }
 
     /* ----------------------------------------------------------------- */
@@ -186,21 +194,41 @@ ul li.active{
 
     /* Coup de coeur */
 
-    .flexInfos {
-        display: block;
+    .flexWishlist {
+    display: block;
     }
-
+    
+    .flexInfosWhishlist {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    }
+    
+    .badgeWishlist {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    }
+    
     .iconWishlist {
-        width: 10%;
-        padding-top: 34px;
+    position: absolute;
+    top: 690px;
+    width: 5%;
     }
-
+    
     /* ----------------------------------------------------------------- */
-
-    /* .cta {
-    width: 53%;
-    margin: 16px 0 60px 0;
-    } */
+    
+    /* Cta avec icone */
+    
+    .buy{
+    width: 85%;
+    margin: auto;
+    }
+    
+    /* ----------------------------------------------------------------- */
+    
+        
+    }
 
     /* Nav profil */
 
