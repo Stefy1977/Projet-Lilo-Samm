@@ -42,7 +42,7 @@ class MyHeader extends HTMLElement {
         </nav>
 
         <div class="overlay">
-                <div class="overlayCart">
+                <div class="overlayIn">
                     <a href="" class="closebtn"></a>
                     <span class="titleCart">Panier</span>
                     <div class="overlay-content">

@@ -472,7 +472,7 @@ footer{
     width: 1000vh;
     height: 1000vh;
 }
-.overlayCart{
+.overlayIn{
     overflow-y: scroll;
     max-height: 70vh;   /* ajout d'une hauteur pour rendre le scroll fonctionnel */
     border-top: solid 1px #ECEAEB;
@@ -484,7 +484,7 @@ footer{
     border-radius: 0 0 0 20px;
     box-shadow: -10px 10px 20px #C6C1C4;
 }
-.overlayCart .cta{
+.overlayIn .cta{
     width: 50%;
 }
 .closebtn{
