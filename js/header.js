@@ -32,12 +32,12 @@ class MyHeader extends HTMLElement {
             </ul>
 
             <div class="userMenu">
-                <a href="#" title="mes favoris"> <img src="img/mdi_cards-heart-outline.svg"
-                        alt="icône de la wishlist donc des favoris"></a>
-                <a id="cart" href="#" title="mon panier d'achats"> <img src="img/mdi_shopping-outline.svg"
-                        alt="icône du panier d'achat"></a>
-                <a href="connexion.html" title="me connecter au profil"><img src="img/mdi_account-circle-outline.svg"
-                        alt="icône du profil pour se connecter"></a>
+            <a href="#" title="mes favoris"> <img src="img/mdi_cards-heart-outline.svg"
+                    alt="icône des favoris"> <span class="sr-only">Mes favoris</span> </a>
+            <a id="cart" href="#" title="mon panier d'achats"> <img src="img/mdi_shopping-outline.svg"
+                    alt="icône du panier d'achat"><span class="sr-only">Mon panier</span></a>
+            <a href="connexion.html" title="me connecter au profil"><img src="img/mdi_account-circle-outline.svg"
+                    alt="icône du profil pour se connecter"><span class="sr-only">Mon profil</span></a>
             </div>
         </nav>
 
