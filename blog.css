@@ -63,8 +63,6 @@ main{
     margin-bottom: 30px;
 }
 
-
-
 time {
     font-size: 0.7rem;
     font-weight: 300;
@@ -93,11 +91,12 @@ time {
 .second {
     background: #403038;
     color: white;
-   
+}
+.second h3{
+    color: white;
 }
 .second .images {
     order: 2;
-    
 }
 .secondDate {
     color: #ffffff;
