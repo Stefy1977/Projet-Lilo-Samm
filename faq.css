@@ -128,7 +128,7 @@ main{
 
 
 
-@media screen and (min-width : 375px) and (max-width : 600px){
+@media screen and (min-width : 360px) and (max-width : 600px){
     /* Banner image */
     .headerImage{
        height: 100px;
@@ -163,8 +163,7 @@ main{
    }
 
    .profil a::before {
-       background-position: center 25px;
-       /* background-size: 60px; */
+       background-position: center 35px;
 
    }
 
