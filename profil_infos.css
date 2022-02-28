@@ -37,11 +37,54 @@ ul li.active{
     padding: 10px 0px;
 }
 
-.profil a {
-    text-decoration: none;
-    color: white;
+/* --- icônes dans navigation profil --- */
+
+.flexIcon {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
+.profil a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+}
+
+.profil a::before {
+    content:'';
+    background-repeat: no-repeat;
+    background-position: 13px;
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    text-indent:-9999px;
+    width:100%;
+    height:100%;
+}
+
+.infos::before {
+    background-image: url(img/infos-25px.svg);
+    background-size: 10%;
+}
+.adresses::before {
+    background-image: url(img/adresses-25px.svg);
+    background-size: 10%;
+}
+.commandes::before {
+    background-image: url(img/commandes-25px.svg);
+    background-size: 10%;
+}
+.favoris::before {
+    background-image: url(img/favoris-25px.svg);
+    background-size: 10%;
+}
 
 
 /* -------------------------------------------------------------------- */
@@ -96,6 +139,12 @@ ul li.active{
         height: 140px;
     }
 
+    /* Navigation profil */
+
+    .profil a::before {
+        display: none;
+    }
+
     /* -------------------------------------------------------------------- */
     
 }
@@ -129,6 +178,10 @@ ul li.active{
     .profil li{
         margin-right: 0;
         margin-bottom: 5px;
+    }
+
+    .profil a::before {
+        display: none;
     }
 
     /* -------------------------------------------------------------------- */
