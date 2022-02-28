@@ -198,6 +198,19 @@ ul li.active{
 
     /* ----------------------------------------------------------------- */
 
+    /* Nav profil */
+
+    .profil ul{
+        flex-direction: column;
+    }
+    
+    .profil li{
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    /* ----------------------------------------------------------------- */
+
     /* Coup de coeur */
 
     .flexWishlist {
@@ -235,17 +248,5 @@ ul li.active{
     
         
     }
-
-    /* Nav profil */
-
-    .profil ul{
-        flex-direction: column;
-    }
-    .profil li{
-        margin-right: 0;
-        margin-bottom: 5px;
-    }
-
-    /* ----------------------------------------------------------------- */
 
 }
