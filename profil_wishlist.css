@@ -1,11 +1,15 @@
 /* Header banner image */
+
 .headerImage{
     height: 200px;
     background-image: url(img/banner-profil.jpg); /* < ici !*/
 }
+
 .headerImage:after{
     height: 200px;
 }
+
+/* -------------------------------------------------------------------- */
 
 /* ----- Main ----- */
 
@@ -15,16 +19,13 @@ main{
     max-width: 1280px;
 }
 
+/* -------------------------------------------------------------------- */
+
 /* Navigation profil */
 
 .profil {
     padding-top: 25px;
     padding-bottom: 50px;
-}
-
-.profil a {
-    text-decoration: none;
-    color: white;
 }
 
 ul li.active{
@@ -34,6 +35,11 @@ ul li.active{
 .profil li{
     width: 100%;
     padding: 10px 0px;
+}
+
+.profil a {
+    text-decoration: none;
+    color: white;
 }
 
 /* ----------------------------------------------------------------- */

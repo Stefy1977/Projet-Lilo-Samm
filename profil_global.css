@@ -1,11 +1,15 @@
 /* Header banner image */
+
 .headerImage{
     height: 200px;
     background-image: url(img/banner-profil.jpg); /* < ici !*/
 }
+
 .headerImage:after{
     height: 200px;
 }
+
+/* -------------------------------------------------------------------- */
 
 /* ----- Main ----- */
 
@@ -42,6 +46,7 @@ main{
     width: 220px;
     height: 220px;
 }
+
 .profil a{
     text-decoration: none;
     color: white;
@@ -65,7 +70,9 @@ main{
 /* ---------------- MEDIAQUERIES -------------- */
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
+
     /* Banner image */
+
     .headerImage{
         height: 140px;
         padding-top: 90px;
@@ -74,11 +81,16 @@ main{
     .headerImage:after{
         height: 140px;
     }
+
+    /* -------------------------------------------------------------------- */
+
 }
 
 
 @media screen and (min-width : 375px) and (max-width : 600px){
-     /* Banner image */
+     
+    /* Banner image */
+    
      .headerImage{
         height: 100px;
         padding-top: 90px;
@@ -91,13 +103,20 @@ main{
     .headerImage p{
         max-width: 80%;
     }
+
+    /* -------------------------------------------------------------------- */
     
+    /* Navigation profil */
+
+    .profil {
+        width: 100%;
+    }
+
     .profil li{
         width: 150px;
         height: 150px;
     }
 
-    .profil {
-        width: 100%;
-    }
+    /* -------------------------------------------------------------------- */
+
 }

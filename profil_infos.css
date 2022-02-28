@@ -1,27 +1,31 @@
 /* Header banner image */
+
 .headerImage{
     height: 200px;
     background-image: url(img/banner-profil.jpg); /* < ici !*/
 }
+
 .headerImage:after{
     height: 200px;
 }
 
+/* -------------------------------------------------------------------- */
+
 /* ----- Main ----- */
+
 main{
     width: 80%;
     margin: auto;
     max-width: 1280px;
 }
 
+/* -------------------------------------------------------------------- */
+
+/* Navigation profil */
+
 .profil {
     padding-top: 25px;
     padding-bottom: 50px;
-}
-
-.profil a {
-    text-decoration: none;
-    color: white;
 }
 
 ul li.active{
@@ -33,15 +37,29 @@ ul li.active{
     padding: 10px 0px;
 }
 
-.cta {
-    width: 30%;
-    font-size: 0.7rem;
-    margin: 16px 0 60px 60px;
+.profil a {
+    text-decoration: none;
+    color: white;
 }
+
+/* -------------------------------------------------------------------- */
+
+/* Informations personelles */
 
 .flexInfos {
     display: flex;
     justify-content: space-between;
+}
+
+.texteClient {
+    font-size: 0.8rem;
+    color: #403038;
+}
+
+.cta {
+    width: 30%;
+    font-size: 0.7rem;
+    margin: 16px 0 60px 60px;
 }
 
 .titreInfos {
@@ -59,16 +77,14 @@ ul li.active{
     color: #403038;
 }
 
-.texteClient {
-    font-size: 0.8rem;
-    color: #403038;
-}
+/* -------------------------------------------------------------------- */
 
 /* ---------------- MEDIAQUERIES -------------- */
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
 
     /* Banner image */
+
     .headerImage{
         height: 140px;
         padding-top: 90px;
@@ -77,6 +93,8 @@ ul li.active{
     .headerImage:after{
         height: 140px;
     }
+
+    /* -------------------------------------------------------------------- */
     
 }
 
@@ -84,6 +102,7 @@ ul li.active{
 @media screen and (min-width : 375px) and (max-width : 600px){
 
     /* Banner image */
+
     .headerImage{
         height: 100px;
         padding-top: 90px;
@@ -97,6 +116,23 @@ ul li.active{
         max-width: 80%;
     }
 
+    /* -------------------------------------------------------------------- */
+
+    /* Navigation profil */
+
+    .profil ul{
+        flex-direction: column;
+    }
+
+    .profil li{
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    /* -------------------------------------------------------------------- */
+
+    /* Informations personelles */
+
     .flexInfos {
         display: block;
     }
@@ -106,12 +142,6 @@ ul li.active{
     margin: 16px 0 60px 0;
     }
 
-    .profil ul{
-        flex-direction: column;
-    }
-    .profil li{
-        margin-right: 0;
-        margin-bottom: 5px;
-    }
+    /* -------------------------------------------------------------------- */
 
 }
