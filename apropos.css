@@ -55,7 +55,10 @@ main{
 .second {
     background: #403038;
     color: white;
-   
+}
+
+.second h3 {
+    color: white;
 }
 .second .images {
     order: 2;
@@ -66,7 +69,10 @@ main{
 .third {
     background: #750663;
     color: white;
-    
+}
+
+.third h3 {
+    color: white;
 }
 
 /* ------- quatrième bloc  "Son challenge ?" */
