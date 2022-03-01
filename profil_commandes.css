@@ -23,7 +23,7 @@ main{
 
 /* Navigation profil */
 
-.profil {
+/* .profil {
     padding-top: 25px;
     padding-bottom: 50px;
 }
@@ -40,16 +40,16 @@ ul li.active{
 .profil a {
     text-decoration: none;
     color: white;
-}
+} */
 
 /* ----------------------------------------------------------------- */
 
 /* Commandes */
 
-.flexInfos {
+/* .flexInfos {
     display: flex;
     justify-content: space-between;
-}
+} */
 
 .flexInfos span {
     font-size: 0.9rem;
@@ -62,9 +62,9 @@ ul li.active{
     color: #403038;
 }
 
-.line {
+/* .line {
     border-bottom: 2px #403038 solid;
-}
+} */
 
 /* ----------------------------------------------------------------- */
 
@@ -88,7 +88,7 @@ ul li.active{
 }
 
 
-@media screen and (min-width : 375px) and (max-width : 600px){
+@media screen and (min-width : 360px) and (max-width : 600px){
 
     /* Banner image */
 
@@ -109,26 +109,26 @@ ul li.active{
 
     /* Navigation profil */
 
-    .profil ul{
+    /* .profil ul{
         flex-direction: column;
     }
     .profil li{
         margin-right: 0;
         margin-bottom: 5px;
-    }
+    } */
 
     /* ----------------------------------------------------------------- */
     
     /* Commandes */
 
-    .flexInfos {
+    /* .flexInfos {
         display: block;
     }
 
     .cta {
     width: 53%;
     margin: 16px 0 60px 0;
-    }
+    } */
 
     /* ----------------------------------------------------------------- */
 

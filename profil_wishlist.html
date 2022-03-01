@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="profil_infos.css">
     <link rel="stylesheet" href="profil_wishlist.css">
     <script src="js/header.js" defer></script>
     <script src="js/footer.js" defer></script>
@@ -43,10 +44,10 @@
 
         <div class="profil">
             <ul>
-                <li><a href="profil_infos.html">Mes informations</a></li>
-                <li><a href="profil_adresses.html">Mes adresses</a></li>
-                <li><a href="profil_commandes.html">Mes commandes</a></li>
-                <li class="active"><a href="profil_wishlist.html">Mes favoris</a></li>
+                <li class="flexIcon"><a class="infos" href="profil_infos.html">Mes informations</a></li>
+                <li class="flexIcon"><a class="adresses" href="profil_adresses.html">Mes adresses</a></li>
+                <li class="flexIcon"><a class="commandes" href="profil_commandes.html">Mes commandes</a></li>
+                <li class="active flexIcon"><a class="favoris" href="profil_wishlist.html">Mes favoris</a></li>
             </ul>
         </div>
         
@@ -66,8 +67,8 @@
             <img class="badgeWishlist" src="img/product/badge-bon-chips.jpg" alt="Badge - Bon chips">
 			
             <div class="flexInfosWhishlist">
-
-				<p class="titreInfosWishlist">Badge “Bon chips, bon genre”</p>
+                <span class="catWishlist">Badge</span>
+				<p class="titreInfosWishlist">“Bon chips, bon genre”</p>
                 <p>5,00 €</p>
                 <a class="iconWishlist" .href="#"><img src="img/heart_wishlist.svg" alt="Coup de coeur - icon"></a>
 

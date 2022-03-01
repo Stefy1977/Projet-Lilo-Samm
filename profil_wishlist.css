@@ -13,17 +13,17 @@
 
 /* ----- Main ----- */
 
-main{
+/* main{
     width: 80%;
     margin: auto;
     max-width: 1280px;
-}
+} */
 
 /* -------------------------------------------------------------------- */
 
 /* Navigation profil */
 
-.profil {
+/* .profil {
     padding-top: 25px;
     padding-bottom: 50px;
 }
@@ -40,7 +40,7 @@ ul li.active{
 .profil a {
     text-decoration: none;
     color: white;
-}
+} */
 
 /* ----------------------------------------------------------------- */
 
@@ -66,7 +66,7 @@ ul li.active{
 }
 
 .badgeWishlist {
-    width: 25%;
+    width: 20%;
 }
 
 .flexInfosWhishlist {
@@ -75,6 +75,13 @@ ul li.active{
 
 .titreInfosWishlist {
     margin: 0;
+}
+
+.catWishlist span{
+    font-size: 0.7rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-top: 5px;
 }
 
 .iconWishlist {
@@ -88,6 +95,7 @@ ul li.active{
     top: 1023px;
     width: 5%;
 }
+
 
 /* ----------------------------------------------------------------- */
 
@@ -106,10 +114,10 @@ ul li.active{
     width: 30%;
     margin: auto;
     margin-top: 10px;
-    margin-bottom: 132px;
     margin-right: 0;
     position: relative;
 }
+
 .buy:before{
     content: "";
     position: absolute;
@@ -153,7 +161,7 @@ ul li.active{
 
     .badgeWishlist {
         display: inline-block;
-        width: 40%;
+        width: 20%;
         vertical-align: top;
     }
 
@@ -179,7 +187,7 @@ ul li.active{
 }
 
 
-@media screen and (min-width : 375px) and (max-width : 600px){
+@media screen and (min-width : 360px) and (max-width : 600px){
 
     /* Banner image */
 
@@ -200,39 +208,39 @@ ul li.active{
 
     /* Nav profil */
 
-    .profil ul{
+    /* .profil ul{
         flex-direction: column;
     }
     
     .profil li{
         margin-right: 0;
         margin-bottom: 5px;
-    }
+    } */
 
     /* ----------------------------------------------------------------- */
 
     /* Coup de coeur */
 
     .flexWishlist {
-    display: block;
+        display: block;
     }
     
     .flexInfosWhishlist {
-    display: inline-block;
-    width: 40%;
-    vertical-align: top;
+        display: inline-block;
+        width: 40%;
+        vertical-align: top;
     }
     
     .badgeWishlist {
-    display: inline-block;
-    width: 40%;
-    vertical-align: top;
+        display: inline-block;
+        width: 40%;
+        vertical-align: top;
     }
     
     .iconWishlist {
-    position: absolute;
-    top: 690px;
-    width: 5%;
+        position: absolute;
+        top: 690px;
+        width: 5%;
     }
     
     /* ----------------------------------------------------------------- */
@@ -240,13 +248,13 @@ ul li.active{
     /* Cta avec icone */
     
     .buy{
-    width: 85%;
-    margin: auto;
+        width: 85%;
+        margin: auto;
     }
     
     /* ----------------------------------------------------------------- */
     
         
-    }
+    
 
 }

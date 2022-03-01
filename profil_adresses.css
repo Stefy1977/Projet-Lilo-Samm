@@ -13,17 +13,17 @@
 
 /* ----- Main ----- */
 
-main{
+/* main{
     width: 80%;
     margin: auto;
     max-width: 1280px;
-}
+} */
 
 /* -------------------------------------------------------------------- */
 
 /* Navigation profil */
 
-.profil {
+/* .profil {
     padding-top: 25px;
     padding-bottom: 50px;
 }
@@ -40,13 +40,13 @@ ul li.active{
 .profil a {
     text-decoration: none;
     color: white;
-}
+} */
 
 /* -------------------------------------------------------------------- */
 
 /* Adresses */
 
-.titreInfos {
+/* .titreInfos {
     font-size: 0.9rem;
     color: #403038;
 }
@@ -75,7 +75,7 @@ ul li.active{
     padding-bottom: 50px;
     font-size: 0.8rem;
     color: #403038;
-}
+} */
 
 /* -------------------------------------------------------------------- */
 
@@ -101,7 +101,7 @@ ul li.active{
 }
 
 
-@media screen and (min-width : 375px) and (max-width : 600px){
+@media screen and (min-width : 360px) and (max-width : 600px){
 
     /* Banner image */
 
@@ -122,27 +122,27 @@ ul li.active{
 
     /* Adresses */
 
-    .flexInfos {
+    /* .flexInfos {
         display: block;
     }
 
     .cta {
     width: 53%;
     margin: 16px 0 60px 0;
-    }
+    } */
 
     /* -------------------------------------------------------------------- */
 
     /* Navigation profil */
 
-    .profil ul{
+    /* .profil ul{
         flex-direction: column;
     }
 
     .profil li{
         margin-right: 0;
         margin-bottom: 5px;
-    }
+    } */
 
     /* -------------------------------------------------------------------- */
 
