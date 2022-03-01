@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="profil_infos.css">
-    <link rel="stylesheet" href="profil_commandes.css">
+    <link rel="stylesheet" href="profil_commandes-old.css">
     <script src="js/header.js" defer></script>
     <script src="js/footer.js" defer></script>
     <script src="js/main.js" defer></script>
@@ -18,11 +18,17 @@
 
     <main-header></main-header>
 
+    <!-- Header banner image -->
+
     <div class="headerImage">
         <p><span>Les bons comptes font les bons amis...</span></p>
     </div>
 
+    <!-------------------------------------------------------------------->
+
     <main>
+
+        <!-- Intro -->
 
         <h1>Bonjour Fany !</h1>
         <div class="breadcrumb">
@@ -31,6 +37,8 @@
                 <li><span aria-current="page">Mes adresses</span></li>
             </ul>
         </div>
+
+        <!-------------------------------------------------------------------->
 
         <!-- Navigation profil -->
 
@@ -43,37 +51,42 @@
             </ul>
         </div>
 
+        <!-------------------------------------------------------------------->
+
         <!-- Commandes -->
 
-        <div class="table">
-            <table>
-                <tr>
-                    <th>Mes commandes</th>
-                    <th>Date</th>
-                    <th>Total</th>
-                    <th>Statut</th>
-                    <th>Détails</th>
-                </tr>
-                <tr>
-                    <td>Commande n°1028</td>
-                    <td>12/01/2022</td>
-                    <td>€ 10,00</td>
-                    <td>En préparation</td>
-                    <td><a href="#"><img src="img/arrow_down_details_commandes.svg" alt="fleches"></a></td>
-                </tr>
-                <tr>
-                    <td>Commande n°1010</td>
-                    <td>24/12/2021</td>
-                    <td>€ 10,00</td>
-                    <td>Envoyée</td>
-                    <td><a href="#"><img src="img/arrow_down_details_commandes.svg" alt="fleches"></a></td>
-                </tr>
-            </table>
+        <div class="flexTitle">
+            <span>Mes commandes</span>
+            <span>Date de la commande</span>
+            <span>Total commande</span>
+            <span>Statut</span>
+            <span>Détails</span>
         </div>
+        <div class="line"></div>
+
+        <div class="contentflexInfos">
+            <span>Commande n°1028</span>
+            <span>12/01/2022</span>
+            <span>€ 10,00</span>
+            <span>En préparation</span>
+            <a href="#"><img src="img/arrow_down_details_commandes.svg" alt="fleches"></a>
+        </div>
+        <div class="line"></div>
+
+        <div class="contentflexInfos">
+            <span>Commande n°1010</span>
+            <span>24/12/2021</span>
+            <span>€ 10,00</span>
+            <span>Envoyée</span>
+            <a href="#"><img src="img/arrow_down_details_commandes.svg" alt="fleches"></a>
+        </div>
+        <div class="line"></div>
 
         <!-- Btn deconnexion -->
 
         <a href="#" class="ctaDeconnexion">Se déconnecter</a>
+
+        <!-------------------------------------------------------------------->
 
     </main>
 

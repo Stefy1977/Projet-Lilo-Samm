@@ -13,66 +13,33 @@
 
 /* ----- Main ----- */
 
-/* main{
-    width: 80%;
-    margin: auto;
-    max-width: 1280px;
-} */
-
-/* ----------------------------------------------------------------- */
-
-/* Navigation profil */
-
-/* .profil {
-    padding-top: 25px;
-    padding-bottom: 50px;
-}
-
-ul li.active{
-    background-color: #403038;
-}
-
-.profil li{
-    width: 100%;
-    padding: 10px 0px;
-}
-
-.profil a {
-    text-decoration: none;
-    color: white;
-} */
-
-/* ----------------------------------------------------------------- */
-
 /* Commandes */
 
-.flexTitle {
-    display: flex;
-    /* justify-content: space-between; */
+table{
+    border-collapse: collapse;
+    width: 100%;
 }
-
-.flexTitle span {
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #403038;
+}
+th:last-child{
+    text-align: right;
+}
+td:last-child{
+    text-align: right;
+}
+th{
     font-size: 0.9rem;
     font-weight: 500;
     color: #403038;
-    padding: 10px 0;
-    margin: auto;
 }
-.contentflexInfos{
-    display: flex;
-    /* justify-content: space-between; */
-}
-.contentflexInfos span {
+td{
     font-size: 0.8rem;
     font-weight: 300;
     color: #403038;
-    padding: 10px 0;
-    margin: auto;
 }
-
-/* .line {
-    border-bottom: 2px #403038 solid;
-} */
 
 /* ----------------------------------------------------------------- */
 
@@ -113,31 +80,24 @@ ul li.active{
         max-width: 80%;
     }
 
-    /* ----------------------------------------------------------------- */
-
-    /* Navigation profil */
-
-    /* .profil ul{
-        flex-direction: column;
+    .table{
+        overflow-x: scroll;
+        padding: 1rem 0;
+        scroll-snap-type: x mandatory;
     }
-    .profil li{
-        margin-right: 0;
-        margin-bottom: 5px;
-    } */
 
-    /* ----------------------------------------------------------------- */
+    ::-webkit-scrollbar-track {
+        background-color: #ECEAEB;
+    }
     
-    /* Commandes */
-
-    /* .flexInfos {
-        display: block;
+    ::-webkit-scrollbar {
+        height: 6px;
+        background-color: #ECEAEB;
     }
-
-    .cta {
-    width: 53%;
-    margin: 16px 0 60px 0;
-    } */
-
-    /* ----------------------------------------------------------------- */
+    
+    ::-webkit-scrollbar-thumb {
+        background-color: #C6C1C4;
+        border-radius: 3px;
+    }
 
 }

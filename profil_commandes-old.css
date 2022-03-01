@@ -1,0 +1,143 @@
+/* Header banner image */
+
+.headerImage{
+    height: 200px;
+    background-image: url(img/banner-profil.jpg); /* < ici !*/
+}
+
+.headerImage:after{
+    height: 200px;
+}
+
+/* ----------------------------------------------------------------- */
+
+/* ----- Main ----- */
+
+/* main{
+    width: 80%;
+    margin: auto;
+    max-width: 1280px;
+} */
+
+/* ----------------------------------------------------------------- */
+
+/* Navigation profil */
+
+/* .profil {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+ul li.active{
+    background-color: #403038;
+}
+
+.profil li{
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.profil a {
+    text-decoration: none;
+    color: white;
+} */
+
+/* ----------------------------------------------------------------- */
+
+/* Commandes */
+
+.flexTitle {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.flexTitle span {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #403038;
+    padding: 10px 0;
+    margin: auto;
+}
+.contentflexInfos{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.contentflexInfos span {
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #403038;
+    padding: 10px 0;
+    margin: auto;
+}
+
+/* .line {
+    border-bottom: 2px #403038 solid;
+} */
+
+/* ----------------------------------------------------------------- */
+
+/* ---------------- MEDIAQUERIES -------------- */
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+
+    /* Banner image */
+
+    .headerImage{
+        height: 140px;
+        padding-top: 90px;
+    }
+    
+    .headerImage:after{
+        height: 140px;
+    }
+
+    /* ----------------------------------------------------------------- */
+    
+}
+
+
+@media screen and (min-width : 360px) and (max-width : 600px){
+
+    /* Banner image */
+
+    .headerImage{
+        height: 100px;
+        padding-top: 90px;
+    }
+
+    .headerImage:after{
+        height: 100px;
+    }
+
+    .headerImage p{
+        max-width: 80%;
+    }
+
+    /* ----------------------------------------------------------------- */
+
+    /* Navigation profil */
+
+    /* .profil ul{
+        flex-direction: column;
+    }
+    .profil li{
+        margin-right: 0;
+        margin-bottom: 5px;
+    } */
+
+    /* ----------------------------------------------------------------- */
+    
+    /* Commandes */
+
+    /* .flexInfos {
+        display: block;
+    }
+
+    .cta {
+    width: 53%;
+    margin: 16px 0 60px 0;
+    } */
+
+    /* ----------------------------------------------------------------- */
+
+}

@@ -150,9 +150,8 @@ ul li.active{
 
 @media screen and (min-width: 360px) and (max-width: 600px){
 
-
     .profil {
-        display: flex;
+        padding-bottom: 10px;
     }
     .profil ul{
         flex-direction: column;
@@ -162,8 +161,6 @@ ul li.active{
         margin-right: 0;
         margin-bottom: 5px;
     }
-   
-
     .profil a::before {
         display: none;
  }
