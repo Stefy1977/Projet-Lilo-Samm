@@ -13,37 +13,6 @@
 
 /* ----- Main ----- */
 
-/* main{
-    width: 80%;
-    margin: auto;
-    max-width: 1280px;
-} */
-
-/* -------------------------------------------------------------------- */
-
-/* Navigation profil */
-
-/* .profil {
-    padding-top: 25px;
-    padding-bottom: 50px;
-}
-
-ul li.active{
-    background-color: #403038;
-}
-
-.profil li{
-    width: 100%;
-    padding: 10px 0px;
-}
-
-.profil a {
-    text-decoration: none;
-    color: white;
-} */
-
-/* ----------------------------------------------------------------- */
-
 /* Coup de coeur */
 
 .titreInfos {
@@ -53,7 +22,7 @@ ul li.active{
 
 .firstLine {
     border-bottom: 2px #403038 solid;
-    margin: 16px 0;
+    margin-bottom: 16px;
 }
 
 .secondLine {
@@ -195,21 +164,6 @@ ul li.active{
     .headerImage p{
         max-width: 80%;
     }
-
-    /* ----------------------------------------------------------------- */
-
-    /* Nav profil */
-
-    /* .profil ul{
-        flex-direction: column;
-    }
-    
-    .profil li{
-        margin-right: 0;
-        margin-bottom: 5px;
-    } */
-
-    /* ----------------------------------------------------------------- */
 
     /* Coup de coeur */
 
