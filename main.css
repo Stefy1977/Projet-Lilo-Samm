@@ -947,6 +947,17 @@ figure{
         content: "";
     }
 
+    /* Pagination */
+    .pagination .previousPage{
+        padding-right: 10px;
+    }
+    .pagination .nextPage{
+        padding-left: 10px;
+    }
+    .pagination .nextPage:before{
+        left: -10px;
+    }
+
     /* Footer */
     .footer{
         flex-direction: column;

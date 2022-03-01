@@ -31,7 +31,7 @@ main{
 .textArticle {
     font-size: 1rem;
     font-weight: 300;
-    width: 780px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
