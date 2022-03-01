@@ -27,7 +27,8 @@ main{
 /* Bloc images */
 
 .workshopPictures{
-    column-width: 20vw;
+    /* column-width: 22vw; */
+    column-count: 3;
     column-gap: 0px;
     margin: auto;
     padding-bottom: 80px;
@@ -38,7 +39,7 @@ figure img{
 }
 .workshopPictures figure{
     margin: 20px 10px;
-    max-height: 25vw;
+    /* max-height: 22vw; */
     overflow: hidden;
 }
 .workshopPictures figure:first-of-type{
@@ -76,12 +77,13 @@ figure img{
     /* Bloc images */
 
     .workshopPictures{
-        column-width: 65vw;
+        column-count: 1;
+        /* column-width: 65vw; */
         padding-bottom: 40px;
     }
     .workshopPictures figure{
         margin: 10px 5px;
-        max-height: 65vw;
+        /* max-height: 65vw; */
     }
     
 }
