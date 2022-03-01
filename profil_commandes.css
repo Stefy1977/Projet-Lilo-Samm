@@ -46,20 +46,28 @@ ul li.active{
 
 /* Commandes */
 
-/* .flexInfos {
+.flexTitle {
     display: flex;
-    justify-content: space-between;
-} */
-
-.flexInfos span {
-    font-size: 0.9rem;
-    color: #403038;
+    /* justify-content: space-between; */
 }
 
-.flexInfos p {
+.flexTitle span {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #403038;
+    padding: 10px 0;
+    margin: auto;
+}
+.contentflexInfos{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.contentflexInfos span {
     font-size: 0.8rem;
     font-weight: 300;
     color: #403038;
+    padding: 10px 0;
+    margin: auto;
 }
 
 /* .line {

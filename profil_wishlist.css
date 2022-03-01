@@ -75,6 +75,8 @@ ul li.active{
 
 .titreInfosWishlist {
     margin: 0;
+    font-size: 0.9rem;
+    font-weight: 500;
 }
 
 .flexInfosWhishlist span{
@@ -84,18 +86,16 @@ ul li.active{
     padding-top: 5px;
     color: #403038;
 }
-
-.iconWishlist {
-    position: absolute;
-    top: 794px;
-    width: 5%;
+.flexInfosWhishlist .prix{
+    font-size: 0.9rem;
+    font-weight: 500;
 }
 
-.iconWishlist2 {
-    position: absolute;
-    top: 1023px;
-    width: 5%;
+.iconWishlist{
+    display: block;
+    padding-top: 10px;
 }
+
 
 
 /* ----------------------------------------------------------------- */
@@ -150,10 +150,6 @@ ul li.active{
 
     /* Coup de coeur */
 
-    .flexWishlist {
-        display: block;
-    }
-
     .flexInfosWhishlist {
         display: inline-block;
         width: 40%;
@@ -166,18 +162,13 @@ ul li.active{
         vertical-align: top;
     }
 
-    .iconWishlist {
-        position: absolute;
-        top: 690px;
-        width: 5%;
-    }
 
     /* ----------------------------------------------------------------- */
 
     /* Cta avec icone */
 
     .buy{
-        width: 55%;
+        width: 40%;
         margin-left: 0;
         margin-top: 16px;
     }
@@ -223,25 +214,18 @@ ul li.active{
     /* Coup de coeur */
 
     .flexWishlist {
-        display: block;
+        display: inline-block;
     }
     
     .flexInfosWhishlist {
         display: inline-block;
-        width: 40%;
-        vertical-align: top;
+        margin-left: 10px;
     }
     
     .badgeWishlist {
         display: inline-block;
-        width: 40%;
+        width: 35%;
         vertical-align: top;
-    }
-    
-    .iconWishlist {
-        position: absolute;
-        top: 690px;
-        width: 5%;
     }
     
     /* ----------------------------------------------------------------- */
@@ -249,8 +233,9 @@ ul li.active{
     /* Cta avec icone */
     
     .buy{
-        width: 85%;
+        width: 100%;
         margin: auto;
+        margin-top: 10px;
     }
     
     /* ----------------------------------------------------------------- */
