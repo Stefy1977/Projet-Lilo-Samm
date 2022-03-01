@@ -22,7 +22,7 @@ main{
 }
 .bigImage{
     position: relative;
-    width: 50%;
+    max-width: 50%;
     padding-right: 20px;
 }
 .bigImage figure{
@@ -39,7 +39,7 @@ main{
 }
 .productDetails{
     display: block;
-    width: 50%;
+    max-width: 50%;
 }
 .titleProduct{
     font-size: 1rem;
@@ -243,6 +243,10 @@ main{
     .headerImage:after{
         height: 140px;
     }
+    /* Block description du produit choisi */
+    .shippingInfo{
+        margin: 0px 0px;
+    }
 }
 
 /* Mobile */
@@ -266,10 +270,17 @@ main{
         margin: 40px 0;
     }
     .bigImage{
-        width: 100%;
+        max-width: 100%;
+        padding-right: 0;
     }
     .productDetails{
-        width: 100%;
+        max-width: 100%;
+    }
+    .bigImage .like{
+        right: 0px;
+    }
+    .shippingInfo{
+        margin: 0px 0px;
     }
 
     /* Caroussel "nouveautés" */
