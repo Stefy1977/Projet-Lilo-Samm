@@ -19,7 +19,11 @@ main{
 }
 .date {
     background: #EDD961;
+<<<<<<< Updated upstream
     padding: 5px 15px;
+=======
+    padding: 8px 15px;
+>>>>>>> Stashed changes
     font-size: 0.8rem;
 }
 .eventDate{

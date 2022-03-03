@@ -1,7 +1,7 @@
 /* Header banner image */
 .headerImage{
     height: 200px;
-    background-image: url(img/banner-ficheactudeux.jpg);
+    background-image: url(img/banner-ficheactuun.jpg);
 }
 .headerImage:after{
     height: 200px;
