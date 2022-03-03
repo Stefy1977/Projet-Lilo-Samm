@@ -70,5 +70,9 @@ main{
     .headerImage p{
         max-width: 80%;
     }
+    .article {
+        padding: 40px 0 40px 0 ;
+    }
+    
 
 }
