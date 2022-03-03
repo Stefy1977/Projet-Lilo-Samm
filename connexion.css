@@ -60,6 +60,12 @@ button{
     text-decoration: none;
     color: #403038;
 }
+.secondBtn {
+    margin: 15px auto 80px;
+}
+.cta {
+    margin: 15px auto 70px;
+}
 
 
 /* Tablet */
@@ -72,6 +78,12 @@ button{
     }
     .headerImage:after{
         height: 140px;
+    }
+    .secondBtn {
+        margin: 15px auto 40px;
+    }
+    .cta {
+        margin: 15px auto 70px;
     }
 }
 
@@ -102,5 +114,11 @@ button{
 
     input{
         width: 98%;
+    }
+    .secondBtn {
+        margin: 15px auto 40px;
+    }
+    .cta {
+        margin: 15px auto 70px;
     }
 }
