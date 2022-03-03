@@ -150,6 +150,18 @@ ul li.active{
 
 @media screen and (min-width: 360px) and (max-width: 600px){
 
+    /* Banner image */
+    .headerImage{
+        height: 100px;
+        padding-top: 90px;
+    }
+    .headerImage:after{
+        height: 100px;
+    }
+    .headerImage p{
+        max-width: 80%;
+    }
+
     .profil {
         padding-bottom: 10px;
     }
