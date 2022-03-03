@@ -39,7 +39,7 @@ main{
 }
 .productDetails{
     display: block;
-    max-width: 100%;
+    width: 50%;
 }
 .titleProduct{
     font-size: 1rem;
@@ -274,7 +274,7 @@ main{
         padding-right: 0;
     }
     .productDetails{
-        max-width: 100%;
+        width: 100%;
     }
     .bigImage .like{
         right: 0px;
