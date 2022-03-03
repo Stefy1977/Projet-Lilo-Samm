@@ -95,6 +95,9 @@ figure{
     left: -30px;
 }
 
+.secondBtn {
+    margin: 60px auto 80px;
+}
 
 /* ---------------- MEDIAQUERIES -------------- */
 
@@ -164,5 +167,7 @@ figure{
         box-sizing: border-box;
     }
 
-
+    .secondBtn{
+    margin: 60px auto 40px;
+    }
 }
