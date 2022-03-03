@@ -65,8 +65,8 @@ main{
 .orderSummary{
     width: 40%;
     background-color: #ECEAEB;
-    padding: 10px;
-    margin-left: 20px;
+    padding: 20px;
+    margin-left: 40px;
 }
 .titleOrder{
     display: block;
@@ -96,7 +96,7 @@ main{
 
     /* main */
     .cartContent{
-        width: 100%;
+        width: 80%;
         flex-direction: column-reverse;
     }
     .purchases{
