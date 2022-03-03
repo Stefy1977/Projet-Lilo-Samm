@@ -9,15 +9,15 @@
 
 /* Main */
 main{
-    width: 80%;
+    width: 93.75%;
     margin: auto;
     max-width: 1280px;
     color: #403038;
 }
 
 .container {
-    /* margin: auto; */
-    /* width: 60%;  */
+    margin: auto;
+    max-width: 800px;
     background-color: white;
     padding-bottom: 80px;
 }
