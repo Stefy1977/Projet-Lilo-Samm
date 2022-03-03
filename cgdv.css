@@ -24,20 +24,29 @@ main{
 .article{
     display: block;
 }
-.titleCgdv{
+h3 {
+    padding: 30px 0px 10px 0px;
+}
+
+/* .titleCgdv{
     display: block;
     font-size: 1rem;
     font-weight: 500;
     color: #403038;
     padding-bottom: 10px;
     padding-top: 10px;
-}
-.container article p {
+} */
+
+article p {
     font-size: 0.8rem;
     font-weight: 300;
     margin: auto;
 }
-
+.article1 p{
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin: auto;
+}
 .article1:before {
     content: "";
     background-image: url(img/guillemetsOuverture.png);
@@ -79,7 +88,7 @@ main{
     }
 
     /* Main */
-    main {
+    .container {
         width: 80%;
     }
     .container div{
