@@ -95,6 +95,7 @@ ul li.active{
     display: block;
     position: relative;
     max-width: 280px;
+    margin: 0 10px;
 }
 .productGrid .infoNew{
     display: flex;
@@ -126,7 +127,10 @@ ul li.active{
     border-top: #403038 solid 1px;
     border-bottom: #403038 solid 1px;
     margin-bottom: 80px;
-    margin-top: 10px;
+    margin-top: 15px;
+}
+.imageProduct img{
+    margin-bottom: 15px;
 }
 .like{
     display: flex;
@@ -189,7 +193,7 @@ span.promo{
     padding: 10px 0;
     width: 100%;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 80px;
     position: relative;
 }
