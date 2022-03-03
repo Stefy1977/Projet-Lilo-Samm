@@ -20,7 +20,7 @@ main{
 
 .listeMag {
     margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 
@@ -211,7 +211,8 @@ hr {
     }
     .mag {
         flex-direction: column;
-        margin-left: 15%
+        margin-left: 15%;
+        margin-bottom: 40px;
     }
     .lieux {
         width: 100%;
