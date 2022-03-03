@@ -23,7 +23,7 @@ main{
 .container {
     width: 880px;
     margin: auto;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 }
 
 .container > article {  
@@ -173,7 +173,7 @@ time {
     .texte .cta{
         margin: 20px auto;
     }
-
+   
     /* ----------------------------------------------------------------- */
     
 }

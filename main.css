@@ -889,7 +889,7 @@ figure{
     /* .footerBox ul li{
         margin-bottom: 5px;
     } */
-    
+ 
 }
 
 
@@ -960,6 +960,9 @@ figure{
     }
 
     /* Pagination */
+    .pagination {
+        padding-bottom: 40px;
+    }
     .pagination .previousPage{
         padding-right: 10px;
     }
