@@ -79,6 +79,9 @@ main{
     }
 
     /* Main */
+    main {
+        width: 80%;
+    }
     .container div{
         flex-direction: column;
         height: auto;
