@@ -17,7 +17,9 @@ main{
 .date {
     background: #EDD961;
     padding: 10px 20px;
+    font-size: 0.8rem;
 }
+
 .eventDate{
     padding-top: 40px;
 }
