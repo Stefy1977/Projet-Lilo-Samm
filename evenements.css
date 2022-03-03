@@ -19,13 +19,34 @@ main{
 
 /* Filtre */
 
-form {
+.filtre ul{
     display: flex;
-    justify-content: flex-end;
-    height: 30px;
-    padding-bottom: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    cursor: pointer;
 }
-
+ul li.active{
+    background-color: #403038;
+}
+.filtre a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 0.8rem;
+    padding: 10px;
+}
+.filtre li{
+    background-color: #c6c1c4;
+    width: 100%;
+    text-align: center;
+    margin-right: 10px;   
+}
+.filtre li:hover{
+    background-color: #403038;
+    color: white;
+}
 /* ----------------------------------------------------------------- */
 
 /* Bloc évènements */
@@ -35,6 +56,7 @@ form {
     flex-wrap: wrap;
     justify-content: space-evenly;
     max-width: 1024px;
+    padding-top: 40px;
     margin: auto;
 }
 
