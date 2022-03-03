@@ -18,6 +18,7 @@ main{
 .container {
     width: 880px;
     margin: auto;
+    margin-bottom: 80px;
 }
 
 .container > article {  
