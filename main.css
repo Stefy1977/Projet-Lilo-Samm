@@ -394,6 +394,7 @@ footer{
 .footerBox p{
     margin: 0;
     font-size: 0.8rem;
+    line-height: 1.2rem;
     font-weight: 300;
     color: white;
 }
@@ -402,11 +403,14 @@ footer{
     color: white;
     font-size: 0.8rem;
     font-weight: 300;
-    line-height: 1.8rem;
+    line-height: 1.2rem;
 }
 .footerBox ul{
     margin: 0;
     list-style: none;
+}
+.footerBox ul li{
+    margin-bottom: 6px;
 }
 .facebook{
     position: relative;
@@ -876,6 +880,9 @@ figure{
     }
     .footerBox img{
         width: 100px;
+    }
+    .footerBox ul li{
+        margin-bottom: 5px;
     }
     
 }
