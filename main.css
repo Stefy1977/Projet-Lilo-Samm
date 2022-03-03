@@ -393,6 +393,7 @@ footer{
 }
 .footerBox p{
     margin: 0;
+    padding-bottom: 12px;
     font-size: 0.8rem;
     line-height: 1.2rem;
     font-weight: 300;
@@ -401,9 +402,6 @@ footer{
 .footerBox ul li a{
     text-decoration: none;
     color: white;
-    font-size: 0.8rem;
-    font-weight: 300;
-    line-height: 1.2rem;
 }
 .footerBox ul{
     margin: 0;
@@ -411,7 +409,10 @@ footer{
     list-style: none;
 }
 .footerBox ul li{
-    margin-bottom: 6px;
+    padding-bottom: 12px;
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 1.2rem;
 }
 .footerBox .links ul li{
     padding: 0;
@@ -885,9 +886,9 @@ figure{
     .footerBox img{
         width: 100px;
     }
-    .footerBox ul li{
+    /* .footerBox ul li{
         margin-bottom: 5px;
-    }
+    } */
     
 }
 
@@ -984,15 +985,18 @@ figure{
         text-align: center;
         padding: 0;
     }
-    .footerBox li{
+    .links li{
         padding: 15px 0;
+    }
+    .reseaux li{
+        padding: 25px 0;
     }
     .footerBox{
         display: flex;
         flex-direction: column;
         width: 100%;
         align-items: center;
-        padding-bottom: 40px;
+        margin-bottom: 40px;
     }
     .footerBox .facebook:before{
         left: 20px;
