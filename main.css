@@ -407,10 +407,14 @@ footer{
 }
 .footerBox ul{
     margin: 0;
+    /* padding: 0; */
     list-style: none;
 }
 .footerBox ul li{
     margin-bottom: 6px;
+}
+.footerBox .links ul li{
+    padding: 0;
 }
 .facebook{
     position: relative;

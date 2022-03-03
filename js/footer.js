@@ -7,7 +7,7 @@ class MyFooter extends HTMLElement {
                 <p>Rue Arthur Duquesne, 53<br>7032 Spiennes<br>Belgique<br>TVA : BE0880.678.456</p>
             </div>
             <div class="footerBox">
-                <ul>
+                <ul class="links">
                     <li><a href="pointsdevente.html">Points de vente</a></li>
                     <li><a href="faq.html">FAQ</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -17,7 +17,7 @@ class MyFooter extends HTMLElement {
             </div>
             <div class="footerBox">
                 <p>Retrouvez-moi sur :</p>
-                <ul>
+                <ul class="reseaux">
                     <li><a class="facebook" href="https://fr-fr.facebook.com/lesateliersdelilo/" target="_blank">Facebook</a></li>
                     <li><a class="instagram" href="https://www.instagram.com/lesateliersdelilo/" target="_blank">Instagram</a></li>
                 </ul>
