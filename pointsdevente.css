@@ -148,7 +148,7 @@ hr {
     .main{
         width: 100%;
         margin: auto;
-        font-size: 0.6rem;   
+        font-size: 0.8rem;   
     }
     
     .listeMag {
@@ -190,10 +190,7 @@ hr {
 /* SMARTPHONE */
 
 @media screen and (min-width : 360px) and (max-width : 600px) {
-    html {
-        font-size: 0.8rem;
-    }
-    
+
 
     .headerImage{
         height: 100px;
