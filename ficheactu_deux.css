@@ -72,6 +72,8 @@ main{
     }
     .article {
         padding: 40px 0 40px 0 ;
+        margin: auto;
+        max-width: 90%;
     }
     
 
