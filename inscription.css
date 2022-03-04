@@ -65,7 +65,9 @@ button{
 }
 
 
-
+.cta {
+    margin-bottom: 80px;
+}
 
 /*--------- mot de passe oeil -----------*/
 
@@ -158,5 +160,8 @@ button{
     }
     .ville input {
         width: 109%;
+    }
+    .cta {
+        margin-bottom: 40px;
     }
 }

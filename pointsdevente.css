@@ -19,8 +19,7 @@ main{
 /* ------------------ DIV CONTAINER LISTE DES MAGASINS ------------------*/
 
 .listeMag {
-    margin-top: 80px;
-    margin-bottom: 50px;
+    margin: 80px auto;
 }
 
 
@@ -206,9 +205,10 @@ hr {
    
     .listeMag {
         width: 100%;
-        margin: auto;  
+        margin: 40px auto;  
         margin: 20px 0px;
     }
+
     .mag {
         flex-direction: column;
         margin-left: 15%;
