@@ -131,6 +131,7 @@ main{
     .cartContent{
         width: 100%;
         flex-direction: column-reverse;
+        padding-bottom: 40px;
     }
     .purchases{
         width: 100%;
