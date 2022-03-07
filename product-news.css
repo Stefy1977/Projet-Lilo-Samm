@@ -1,0 +1,33 @@
+/* Header banner image */
+.headerImage{
+    background-image: url(img/banner-nouveautes.jpg); 
+}
+
+
+/* ----- Main ----- */
+
+/* les infos sur le statut du produit */
+
+.bigImage{
+    display: block;
+    position: relative;
+}
+.bigImage .infoNew{
+    display: flex;
+    width: 95px;
+    font-size: 0.8rem;
+    padding: 0px 10px;
+    background: #edd961;
+    position: absolute;
+    text-transform: uppercase;
+    top: 20px;
+}
+
+
+/* Mobile */
+
+@media screen and (min-width: 360px) and (max-width: 600px){
+    .bigImage .infoNew{
+        width: 75px;
+    }
+}
