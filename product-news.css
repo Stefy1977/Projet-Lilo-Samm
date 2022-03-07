@@ -14,7 +14,7 @@
 }
 .bigImage .infoNew{
     display: flex;
-    width: 95px;
+    width: 80px;
     font-size: 0.8rem;
     padding: 0px 10px;
     background: #edd961;
@@ -23,11 +23,18 @@
     top: 20px;
 }
 
+/* Tablet */
+
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    .bigImage .infoNew{
+        width: 70px;
+    }
+}
 
 /* Mobile */
 
 @media screen and (min-width: 360px) and (max-width: 600px){
     .bigImage .infoNew{
-        width: 75px;
+        width: 60px;
     }
 }
