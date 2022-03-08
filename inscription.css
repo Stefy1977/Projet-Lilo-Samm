@@ -21,7 +21,8 @@ main{
 /* Formulaire */
 .formContact{
     display: flex;
-    width: 100%;
+    margin: auto;
+    max-width: 880px;
 }
 
 .formPart{
