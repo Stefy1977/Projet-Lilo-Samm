@@ -19,6 +19,10 @@
     margin-top: 20px;
     margin-bottom: 5px;
 }
+.cta{
+    width: 60%;
+    margin: 40px auto;
+}
 
 .connectYou a{
     font-size: 0.9rem;
@@ -29,6 +33,13 @@
 }
 .connectYou{
     display: flex;
+}
+.simpleLink{
+    display: flex;
+    color: #403038;
+    font-size: 0.8rem;
+    font-weight: 500;
+    justify-content: center;
 }
 .titleAdress{
     border-bottom: #403038 1px solid;
@@ -124,11 +135,27 @@ form .secondBtn {
         width: 100%;
         box-sizing: border-box;
     }
+    .cta{
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+    }
 }
 
 /* Mobile */
 
 @media screen and (min-width: 360px) and (max-width: 600px){
+    .connectYou{
+        display: block;
+    }
+    .connectYou a{
+        padding-left: 0px;
+    }
+    .cta{
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+    }
     .controlTunnel{
         display: flex;
         flex-direction: column;
@@ -141,8 +168,8 @@ form .secondBtn {
         width: 100%;
         box-sizing: border-box;
     }
-    .resumCart .cta{
+    /* .resumCart .cta{
         width: 100%;
         box-sizing: border-box;
-    }
+    } */
 }
