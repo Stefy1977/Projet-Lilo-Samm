@@ -98,8 +98,8 @@ class MyHeader extends HTMLElement {
                         <span>13,00 €</span>
                     </div>
                     <div class="btnCart">
-                        <a href="panier.html" class="secondBtn">Afficher le panier</a>
                         <a href="tunnelcommande_infos.html" class="cta">Commander</a>
+                        <a href="panier.html" class="secondBtn">Afficher le panier</a>
                     </div>
                 </div>
             </div>
