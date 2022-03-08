@@ -282,7 +282,7 @@ strong{
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
-    background: white;
+    /* background: white; */
     border: 1px solid #403038;
     color: #403038;
     padding: 10px;
