@@ -14,7 +14,7 @@
 /* ----- Main ----- */
 
 main{
-    width: 80%;
+    width: 93.75%;
     margin: auto;
     max-width: 1280px;
 }
@@ -35,6 +35,9 @@ ul li.active{
 .profil li{
     width: 100%;
     padding: 10px 0px;
+}
+.profil li:last-child{
+    margin-right: 0;
 }
 
 /* --- icônes dans navigation profil --- */
