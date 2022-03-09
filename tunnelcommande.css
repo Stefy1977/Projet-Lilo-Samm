@@ -69,6 +69,7 @@ button{
 }
 .code {
     display: block;
+    margin-right: 10px;
     flex: 1;
 }
 .code input{
