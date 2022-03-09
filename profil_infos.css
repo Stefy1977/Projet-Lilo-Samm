@@ -106,7 +106,7 @@ ul li.active{
 
 .cta {
     font-size: 0.8rem;
-    margin: 16px 0 60px 60px;
+    margin: 16px 0 60px 0px;
 }
 
 .titreInfos {
@@ -146,6 +146,10 @@ ul li.active{
     .profil a::before {
         display: none;
     }
+
+    .cta {
+        width: 40%;
+        }
 
     /* -------------------------------------------------------------------- */
     
