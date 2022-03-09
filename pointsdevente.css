@@ -37,7 +37,7 @@ main{
 
 .lieux {
     width: 30%;
-    margin-right: 10%;
+    margin-right: 5%;
 }
 
 .nomMag {
@@ -68,7 +68,7 @@ main{
 /* ---------------  BLOC DONNEES  ----------- */
 
 .donnees {
-    width: 250px;
+    width: 280px;
     margin-right: auto;
     position: relative;
 } 
