@@ -1,7 +1,7 @@
 /* Header banner image */
 .headerImage{
     height: 200px;
-    background-image: url(img/banner-badges.jpg); 
+    background-image: url(img/banner-shop-all-products.jpg); 
 }
 .headerImage:after{
     height: 200px;
