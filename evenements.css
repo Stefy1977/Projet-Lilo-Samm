@@ -23,8 +23,9 @@ main{
     display: flex;
     list-style: none;
     margin: 0;
-    padding: 0px;
+    padding: 0;
     cursor: pointer;
+    padding-bottom: 50px;
 }
 ul li.active{
     background-color: #403038;
@@ -185,12 +186,13 @@ ul li.active{
 
     /* Navigation filtre */
 
-    .filtre {
+    /* .filtre {
         padding-bottom: 10px;
-    }
+    } */
 
     .filtre ul{
         flex-direction: column;
+        padding-bottom: 10px;
     }
 
     .filtre li{
