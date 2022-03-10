@@ -55,8 +55,8 @@ main{
 }
 
 .texte .cta{
-    width: 150px;
-    justify-content: left;
+    /* width: 150px; */
+    /* justify-content: left; */
     margin: 0 auto;
     /* width: 70%; */
     margin-top: 30px;
