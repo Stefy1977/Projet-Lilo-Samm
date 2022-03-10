@@ -99,6 +99,7 @@ ul li.active{
     background: #403038;
     width: 100%;
     min-height: 150px;
+    padding-bottom: 10px;
 }
 .titreActu {
     color: white;
