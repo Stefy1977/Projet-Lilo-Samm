@@ -19,6 +19,7 @@ main{
 /* ------------------ DIV CONTAINER LISTE DES MAGASINS ------------------*/
 
 .listeMag {
+    /* max-width: 880px; */
     margin: 80px auto;
 }
 
@@ -36,8 +37,8 @@ main{
 /* ------------- BLOC NOM DU MAG ET ADRESSE POSTALE---- */
 
 .lieux {
-    width: 30%;
-    margin-right: 5%;
+    width: 35%;
+    margin-right: 50px;
 }
 
 .nomMag {
@@ -48,7 +49,7 @@ main{
 }
 
 .adresse {
-    width: 300px;
+    /* width: 300px; */
     font-size: 1rem;
     font-weight: 300;
     color: #403038;
@@ -68,7 +69,7 @@ main{
 /* ---------------  BLOC DONNEES  ----------- */
 
 .donnees {
-    width: 280px;
+    /* width: 280px; */
     margin-right: auto;
     position: relative;
 } 
@@ -106,14 +107,6 @@ main{
 }
 
 
-/* ---------------------- CTA ----------- */
-
-.cta{
-    height: 40px;
-    padding: 10px 10px 0px;
-}
-
-
 /* ------------- ligne horizontale ------------- */
 hr {
     border: #750663 0.5px solid;
@@ -123,8 +116,6 @@ hr {
 
 
 /* -----------------------MEDIA QUERIES -------------------- */
-
-
 
 /* TABLETTE */
 
@@ -142,45 +133,40 @@ hr {
     
    
    /* ------------ MAIN -------------*/
-   
-   
-    .main{
+    /* .main{
         width: 100%;
         margin: auto;
         font-size: 0.8rem;   
-    }
+    } */
     
     .listeMag {
         margin: 30px 0px;
     }
 
-    .lieux .donnees {
+    /* .lieux .donnees {
         flex-wrap: wrap;
         margin-left: 20%;
-    }
+    } */
    
-    .lieux {
+    /* .lieux {
         max-width: 180px;
         margin: 0 40px 0 30px;
         max-height: 200px;
-    }
-    .adresse {
+    } */
+
+    /* .adresse {
         min-width: 180px;
-    }
-    .donnees {
+    } */
+
+    /* .donnees {
         margin: 0 30px;
         min-width: 180px;
-    }
-    .mag {
+    } */
+
+    /* .mag {
         flex-wrap: wrap;
-    }
-    .cta {
-        min-width: 220px;
-        max-height: 20px;
-        /* flex-grow: 1; */
-        margin: 0 auto;
-        padding: 10px;
-    } 
+    } */
+
  
 }
 
@@ -190,11 +176,11 @@ hr {
 
 @media screen and (min-width : 360px) and (max-width : 600px) {
 
-
     .headerImage{
         height: 100px;
         padding-top: 90px;
     }
+
     .headerImage:after{
         height: 100px;
     }
@@ -204,26 +190,35 @@ hr {
     }
    
     .listeMag {
-        width: 100%;
-        margin: 40px auto;  
-        margin: 20px 0px;
+        width: 80%;
+        margin: 20px auto;  
+        /* margin: 20px 0px; */
     }
 
     .mag {
         flex-direction: column;
-        margin-left: 15%;
+        /* margin-left: 15%; */
         margin-bottom: 40px;
     }
+
     .lieux {
         width: 100%;
     }
-    .cta {
-        min-width: 220px;
-        max-height: 20px;
-        padding: 10px;
-        margin: 0px auto 0px 0px;
-    }  
-    .nomMag {
-        width: 100%;
+
+    .donnees {
+        margin-left: 40px;
     }
+
+    .cta{
+        margin: 20px 0;
+    }
+
+    .ctaCenter {
+        text-align: left;
+        
+    }  
+
+    /* .nomMag {
+        width: 100%;
+    } */
 }
