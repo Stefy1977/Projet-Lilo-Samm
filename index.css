@@ -36,6 +36,10 @@
     font-weight: 300;
 }
 
+.giftLinkBlock:hover {
+    background-color:#5e054f;
+}
+
 .giftImgBlock img{
     max-width: 100%;
 
