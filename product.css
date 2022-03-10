@@ -39,7 +39,7 @@ main{
 }
 .productDetails{
     display: block;
-    width: 50%;
+    width: 30%;
 }
 .titleProduct{
     font-size: 1rem;
@@ -210,6 +210,7 @@ figure:hover+span {
     width: 20px;
     height: 20px;
     left: 20px;
+    top: 12px;
 }
 
 /* ::-webkit-scrollbar-track {
@@ -273,6 +274,12 @@ figure:hover+span {
     .shippingInfo{
         margin: 0px 0px;
     }
+    .productDetails{
+        width: 50%;
+    }
+    .buy:before{
+        top: 10px;
+    }
 }
 
 /* Mobile */
@@ -307,6 +314,10 @@ figure:hover+span {
     }
     .shippingInfo{
         margin: 0px 0px;
+    }
+
+    .buy:before{
+        top: 8px;
     }
 
     /* Caroussel "nouveautés" */
