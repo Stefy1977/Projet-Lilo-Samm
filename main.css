@@ -230,6 +230,11 @@ li:hover .sub{
     content: "";
 }
 
+.breadcrumb ul li a:hover {
+    color: #97037e;
+    transition: 0.3s;
+}
+
 /* les titres */
 h1{
     font-size: 1.2rem;
