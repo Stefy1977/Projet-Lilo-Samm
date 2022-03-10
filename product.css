@@ -199,6 +199,9 @@ figure:hover+span {
     margin-bottom: 40px;
     position: relative;
 }
+.buy:hover{
+    background-color: #5e054f;
+}
 .buy:before{
     content: "";
     position: absolute;
@@ -209,7 +212,7 @@ figure:hover+span {
     left: 20px;
 }
 
-::-webkit-scrollbar-track {
+/* ::-webkit-scrollbar-track {
     background-color: #ECEAEB;
 }
 
@@ -221,7 +224,7 @@ figure:hover+span {
 ::-webkit-scrollbar-thumb {
     background-color: #C6C1C4;
     border-radius: 3px;
-}
+} */
 
 /* les infos sur le statut du produit */
 .carousel-item .infoNew{

@@ -197,6 +197,9 @@ span.promo{
     margin-bottom: 80px;
     position: relative;
 }
+.buy:hover{
+    background-color: #5e054f;
+}
 .buy:before{
     content: "";
     position: absolute;
