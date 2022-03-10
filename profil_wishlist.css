@@ -88,6 +88,10 @@
     position: relative;
 }
 
+.buy:hover{
+    background-color: #5e054f;
+}
+
 .buy:before{
     content: "";
     position: absolute;
