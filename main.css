@@ -300,6 +300,11 @@ strong{
     transition: all .5s ease;
 }
 
+.secondBtn:hover {
+    transition: 0.3s;
+    box-shadow: 0 5px 10px 0 #C6C1C4;
+}
+
 .ctaDeconnexion {
     position: relative;
     display: block;
