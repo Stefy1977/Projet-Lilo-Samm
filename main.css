@@ -127,6 +127,7 @@ li:hover .sub{
     align-items: center;
     padding: 0px;
 }
+
 .userMenu a{
     display: block;
     margin: 0 15px;
@@ -268,8 +269,8 @@ strong{
 
 
 /* bouton voir la boutique */
-.cta{
-    display: block;
+.cta {
+    display: inline-block;
     font-size: 0.9rem;
     font-weight: 300;
     text-transform: uppercase;
@@ -277,10 +278,13 @@ strong{
     text-align: center;
     background: #750663;
     color: white;
-    padding: 10px;
-    width: 30%;
+    padding: 10px 20px;
+    /* width: 30%; */
     margin: 60px auto;
     transition: all .5s ease;
+}
+.ctaCenter{
+    text-align: center;
 }
 
 /* bouton voir page profil global */
@@ -877,7 +881,7 @@ figure{
         font-size: 18px;
     }
     .cta{
-        width: 40%;
+        /* width: 40%; */
         margin: 50px auto;
     }
     .secondBtn {
@@ -918,7 +922,7 @@ figure{
         min-width: 100px;
     }
     .cta{
-        width: 50%;
+        /* width: 50%; */
         margin: 40px auto;
     }
     .secondBtn {
