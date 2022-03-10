@@ -75,6 +75,10 @@ nav ul a{
 nav ul .menuDesktop a:hover{
     border-bottom: 3px solid #750663;
 }
+
+nav ul a:hover{
+    color: #97037e;
+}
 ul a.active{
     border-bottom: 3px solid #750663;
 }
