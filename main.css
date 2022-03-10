@@ -356,6 +356,10 @@ strong{
     font-weight: 300;
     color: #403038;
 }
+.pagination a:hover {
+    color: #97037e;
+    transition: 0.3s;
+}
 .pagination .previousPage{
     padding-right: 20px;
     position: relative;
