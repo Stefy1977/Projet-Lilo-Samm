@@ -205,6 +205,7 @@ span.promo{
     width: 20px;
     height: 20px;
     left: 20px;
+    top: 12px;
 }
 
 /* Tablet */
@@ -225,6 +226,9 @@ span.promo{
     }
     .productGrid .infoPromo{
         width: 55px;
+    }
+    .buy:before{
+        top: 10px;
     }
 }
 
@@ -281,6 +285,9 @@ span.promo{
     }
     .productGrid .infoPromo{
         width: 45px;
+    }
+    .buy:before{
+        top: 8px;
     }
 
 }
