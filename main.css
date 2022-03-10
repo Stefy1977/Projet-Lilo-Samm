@@ -652,13 +652,13 @@ figure{
 .btnCart .secondBtn{
     width: 100%;
     font-size: 0.8rem;
-    margin: 30px 0;
+    margin: 10px 0;
     box-sizing: border-box;
 }
 .btnCart .cta{
     width: 100%;
     font-size: 0.8rem;
-    margin: 30px 0;
+    margin: 20px 0;
     box-sizing: border-box;
 }
 
@@ -691,6 +691,7 @@ figure{
 
 .overlayFav .secondBtn{
     width: 100%;
+    margin: 10px 0;
     box-sizing: border-box;
 }
 
