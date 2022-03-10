@@ -286,6 +286,9 @@ strong{
 .ctaCenter{
     text-align: center;
 }
+.cta:hover{
+    background-color: #5e054f;
+}
 
 /* bouton voir page profil global */
 .secondBtn {
