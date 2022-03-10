@@ -24,9 +24,12 @@ main{
 }
 
 .date {
-    background: #EDD961;
-    padding: 5px 15px;
-    font-size: 0.8rem;
+    display:flex;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: 300;
+    padding-bottom: 30px;
+    color: #403038;
 }
 
 .textArticle {
