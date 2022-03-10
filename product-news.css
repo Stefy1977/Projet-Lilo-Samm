@@ -23,6 +23,28 @@
     top: 20px;
 }
 
+.carousel-items figure img {
+	-webkit-transform: scale(1.16);
+	transform: scale(1.16);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.carousel-items figure:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+
 /* Tablet */
 
 @media screen and (min-width: 600px) and (max-width: 1024px){
