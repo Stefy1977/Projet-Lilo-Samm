@@ -293,7 +293,7 @@ strong{
 
 /* bouton voir page profil global */
 .secondBtn {
-    display: block;
+    display: inline-block;
     font-size: 0.9rem;
     font-weight: 300;
     text-transform: uppercase;
@@ -302,8 +302,8 @@ strong{
     /* background: white; */
     border: 1px solid #403038;
     color: #403038;
-    padding: 10px;
-    width: 30%;
+    padding: 10px 40px;
+    /* width: 30%; */
     margin: 60px auto;
     transition: all .5s ease;
 }
@@ -743,6 +743,7 @@ figure{
         border-top: #d8d8d8 solid 1px;
         border-bottom: #d8d8d8 solid 1px;
         padding: 10px 0;
+        /* padding-left: 20px; */
     }
 
     .opened .menuDesktop{
@@ -822,7 +823,7 @@ figure{
         font-size: 1rem;
     }
     nav ul li{
-        padding: 8px 0;
+        padding: 8px 10px;
     }
     .sub li{
         padding: 8px 0;
@@ -900,7 +901,7 @@ figure{
         margin: 50px auto;
     }
     .secondBtn {
-        width: 40%;
+        /* width: 40%; */
         margin: 50px auto;
     }
     h1{
@@ -909,15 +910,9 @@ figure{
 
     .ctaDeconnexion {
         width: 40%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-        margin: 50px auto 80px;
-=======
+        /* margin: 50px auto 80px;
         margin: 50px auto;
->>>>>>> parent of 41805de (cta deco : margin 80px media tablette)
-=======
-        margin: 80px auto;
->>>>>>> parent of fc7f140 (cta deco re modif)
+        margin: 80px auto; */
     }
 
     /* Footer */
@@ -949,7 +944,7 @@ figure{
         margin: 40px auto;
     }
     .secondBtn {
-        width: 50%;
+        /* width: 50%; */
         margin: 40px auto;
     }
     .ctaDeconnexion {
