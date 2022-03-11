@@ -24,7 +24,9 @@
     .headerImage:after{
         height: 140px;
     }
-
+    .ctaDeconnexion {
+        margin-top: 10px;
+    }
 }
 
 
@@ -43,6 +45,9 @@
 
     .headerImage p{
         max-width: 80%;
+    }
+    .ctaDeconnexion {
+        margin-top: 10px;
     }
 
 }
