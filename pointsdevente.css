@@ -141,10 +141,13 @@ hr {
     } */
     
     .listeMag {
-        margin: 30px 0px;
+        margin: 0px;
     }
     .horaires {
         max-width: 170px;
+    }
+    .mag {
+        margin-bottom: 10px;
     }
 
     /* .lieux .donnees {
