@@ -909,7 +909,11 @@ figure{
 
     .ctaDeconnexion {
         width: 40%;
+<<<<<<< HEAD
         margin: 50px auto 80px;
+=======
+        margin: 50px auto;
+>>>>>>> parent of 41805de (cta deco : margin 80px media tablette)
     }
 
     /* Footer */
