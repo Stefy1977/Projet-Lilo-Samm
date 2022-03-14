@@ -20,14 +20,24 @@ main{
     display: flex;
     margin: auto;
     max-width: 880px;
+    margin-bottom: 80px;
 }
 
 .formPart{
     display: block;
     width: 50%;
 }
-
-
+.formPartGrey{
+    display: block;
+    margin: auto;
+    background-color: #ECEAEB;
+    padding: 0 40px;
+}
+.formPartTranspa{
+    display: block;
+    margin: auto;
+    padding: 0 40px;
+}
 
 label{
     font-size: 0.8rem;
@@ -37,47 +47,40 @@ label{
 }
 
 input{
-    width: 90%;
+    width: 100%;
     height: 30px;
     margin-bottom: 20px;
 }
-
 
 select{
     margin-bottom: 20px;
     padding: 8px 0;
 }
 
-.formessage{
-    height: 115px;
-}
-button{
-    border: none;
-}
+
 .connexion{
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-align: center;
-    font-weight: 300;
+    font-weight: 500;
     color: #403038;
+    padding-top: 20px;
     margin-bottom: 20px;
-    margin-right: 10%;
 }
 
-.forgetPass{
+.message{
     text-align: center;
     font-size: 0.7rem;
     font-weight: 300;
-    margin-right: 10%;
 }
-.forgetPass a{
+.message a{
     text-decoration: none;
     color: #403038;
 }
 .secondBtn {
-    margin: 15px 10% 80px auto;
+    margin-top: 20px;
 }
 .cta {
-    margin: 15px 10% 70px auto;
+    margin-top: 20px;
 }
 
 
@@ -92,12 +95,14 @@ button{
     .headerImage:after{
         height: 140px;
     }
-    .connexion {
+    /* .connexion {
         font-size: 0.8rem;
-    }
+    } */
+
     /* .secondBtn {
         margin: 15px auto 40px;
     } */
+
     /* .cta {
         margin: 15px auto 70px;
     } */
@@ -121,20 +126,13 @@ button{
     /* Formulaire */
     .formContact{
         display: block;
-        width: 80%;
+        margin-bottom: 40px;
     }
 
     .formPart{
         width: 100%;
     }
 
-    input{
-        width: 98%;
-    }
-    /* .secondBtn {
-        margin: 15px auto 40px;
-    } */
-    .cta {
-        margin: 15px auto 50px;
-    }
+
+
 }
