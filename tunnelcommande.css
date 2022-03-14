@@ -14,91 +14,7 @@
     border-bottom: #403038 solid 1px;
 }
 
-/* Formulaire */
-.leftPart p{
-    font-size: 0.9rem;
-    font-weight: 500;
-    color: #403038;
-    margin-top: 20px;
-    margin-bottom: 5px;
-}
-.recap{
-    margin-bottom: 40px;
-}
-.cta{
-    /* width: 60%; */
-    margin: 30px auto;
-}
 
-.connectYou a{
-    font-size: 0.9rem;
-    font-weight: 500;
-    color: #8C337D;
-    margin-top: 20px;
-    padding-left: 20px;
-}
-.connectYou{
-    display: flex;
-}
-.simpleLink{
-    display: flex;
-    color: #403038;
-    font-size: 0.8rem;
-    font-weight: 500;
-    justify-content: center;
-}
-.titleAdress{
-    border-bottom: #403038 1px solid;
-}
-select{
-    width: 50%;
-    height: 30px;
-    margin-bottom: 10px;
-}
-label{
-    font-size: 0.8rem;
-    color: #403038;
-    font-weight: 300;
-    display: block;
-}
-input{
-    width: 98%;
-    height: 30px;
-    margin-bottom: 10px;
-}
-button{
-    border: none;
-}
-.codePostalVille {
-    display: flex;
-    flex-direction: row;
-}
-.code {
-    display: block;
-    margin-right: 10px;
-    flex: 1;
-}
-.code input{
-    width: 90%;
-}
-.ville {
-    flex: 2;
-}
-.ville input {
-   width: 98%;
-}
-.saveAdress{
-    display: flex;
-}
-.saveAdress input{
-    width: auto;
-    height: auto;
-    margin-right: 10px;
-}
-form .secondBtn {
-    width: 50%;
-    margin: 40px 0;
-}
 
 /* partie droite résumé du panier */
 
@@ -106,10 +22,7 @@ form .secondBtn {
     width: 50%;
     padding: 20px;
 }
-/* .resumCart .cta{
-    width: 50%;
-    box-sizing: border-box;
-} */
+
 .titleResum{
     display: block;
     font-size: 1rem;
@@ -117,6 +30,7 @@ form .secondBtn {
     text-align: left;
     padding-bottom: 5px;
 }
+
 .numberArticle{
     display: block;
     font-size: 0.8rem;
@@ -143,8 +57,6 @@ form .secondBtn {
         box-sizing: border-box;
     }
     .cta{
-        /* width: 100%; */
-        /* box-sizing: border-box; */
         margin-bottom: 20px;
     }
 }
@@ -159,8 +71,6 @@ form .secondBtn {
         padding-left: 0px;
     }
     .cta{
-        /* width: 100%; */
-        /* box-sizing: border-box; */
         margin-bottom: 20px;
     }
     .controlTunnel{
@@ -175,8 +85,5 @@ form .secondBtn {
         width: 100%;
         box-sizing: border-box;
     }
-    /* .resumCart .cta{
-        width: 100%;
-        box-sizing: border-box;
-    } */
+    
 }
