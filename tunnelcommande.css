@@ -10,6 +10,9 @@
     background-color: #E5E5E5;
     padding: 20px;
 }
+.underline{
+    border-bottom: #403038 solid 1px;
+}
 
 /* Formulaire */
 .leftPart p{
@@ -19,9 +22,12 @@
     margin-top: 20px;
     margin-bottom: 5px;
 }
+.recap{
+    margin-bottom: 40px;
+}
 .cta{
-    width: 60%;
-    margin: 40px auto;
+    /* width: 60%; */
+    margin: 30px auto;
 }
 
 .connectYou a{
@@ -100,10 +106,10 @@ form .secondBtn {
     width: 50%;
     padding: 20px;
 }
-.resumCart .cta{
+/* .resumCart .cta{
     width: 50%;
     box-sizing: border-box;
-}
+} */
 .titleResum{
     display: block;
     font-size: 1rem;
@@ -137,8 +143,8 @@ form .secondBtn {
         box-sizing: border-box;
     }
     .cta{
-        width: 100%;
-        box-sizing: border-box;
+        /* width: 100%; */
+        /* box-sizing: border-box; */
         margin-bottom: 20px;
     }
 }
@@ -153,8 +159,8 @@ form .secondBtn {
         padding-left: 0px;
     }
     .cta{
-        width: 100%;
-        box-sizing: border-box;
+        /* width: 100%; */
+        /* box-sizing: border-box; */
         margin-bottom: 20px;
     }
     .controlTunnel{
