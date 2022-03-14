@@ -95,17 +95,6 @@ select{
     .headerImage:after{
         height: 140px;
     }
-    /* .connexion {
-        font-size: 0.8rem;
-    } */
-
-    /* .secondBtn {
-        margin: 15px auto 40px;
-    } */
-
-    /* .cta {
-        margin: 15px auto 70px;
-    } */
 }
 
 /* Mobile */
@@ -132,7 +121,5 @@ select{
     .formPart{
         width: 100%;
     }
-
-
 
 }

@@ -105,8 +105,7 @@ ul li.active{
 }
 
 .cta {
-    font-size: 0.8rem;
-    margin: 16px 0 60px 0px;
+    margin-top: 20px;
 }
 
 .ctaDeconnexion{
@@ -131,6 +130,7 @@ ul li.active{
 /* -------------------------------------------------------------------- */
 
 /* ---------------- MEDIAQUERIES -------------- */
+/* Tablette */
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
 
@@ -151,14 +151,14 @@ ul li.active{
         display: none;
     }
 
-    .cta {
+    /* .cta {
         width: 40%;
-        }
-
-    /* -------------------------------------------------------------------- */
+        } */
     
 }
 
+
+/* Mobile */
 
 @media screen and (min-width : 360px) and (max-width : 600px){
 
@@ -206,11 +206,11 @@ ul li.active{
         display: block;
     }
 
-    .cta {
+    /* .cta {
         width: 100%;
         margin: 16px 0 40px 0;
         box-sizing: border-box;
-    }
+    } */
 
     .ctaDeconnexion{
         margin-top: 0;
