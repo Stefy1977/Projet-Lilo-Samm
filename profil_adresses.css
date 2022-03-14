@@ -52,4 +52,11 @@ form{
         max-width: 80%;
     }
 
+    /* Formulaire (en plus) */
+
+    form{
+        width: 100%;
+        margin: 20px 0;
+    }
+
 }
