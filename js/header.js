@@ -47,11 +47,11 @@ class MyHeader extends HTMLElement {
                     <span class="titleCart">Panier</span>
                     <div class="overlay-content">
                         <div class="content-product">
-                            <figure><img src="img/product/badge-a-fleur-de-peau.jpeg" alt=""></figure>
+                            <figure><img src="img/product/badge-mille-feuille.jpeg" alt="badge Mille-feuille émotionnel"></figure>
                             <div class="product-infos">
                                 <div class="cartInfos">
                                     <span class="cat">Badge</span><br>
-                                    <span class="titleProduct">"A fleur de peau de vache"</span><br>
+                                    <span class="titleProduct">"Mille-feuille émotionnel"</span><br>
                                     <span class="price">5,00 €</span>
                                 </div>
                                 <div class="quantity">
@@ -67,12 +67,12 @@ class MyHeader extends HTMLElement {
                     </div>
                     <div class="overlay-content">
                         <div class="content-product">
-                            <figure><img src="img/product/badge-humoureuse.jpg" alt=""></figure>
+                            <figure><img src="img/product/tiny-bijoux/boucles-multicolor-deparaillees.jpg" alt="boucles d'oreilles multicolores deparaillées"></figure>
                             <div class="product-infos">
                                 <div class="cartInfos">
-                                    <span class="cat">Badge</span><br>
-                                    <span class="titleProduct">"Je suis humoureuse"</span><br>
-                                    <span class="price">5,00 €</span>
+                                    <span class="cat">Boucles d'oreilles</span><br>
+                                    <span class="titleProduct">"Pas deux les même!"</span><br>
+                                    <span class="price">22,00 €</span>
                                 </div>
                                 <div class="quantity">
                                     <div>
@@ -87,7 +87,7 @@ class MyHeader extends HTMLElement {
                     </div>
                     <div class="subTotal">
                         <span>Sous Total</span>
-                        <span class="price">10,00 €</span>
+                        <span class="price">27,00 €</span>
                     </div>
                     <div class="shippingFees">
                         <span>Frais de port</span>
@@ -95,10 +95,12 @@ class MyHeader extends HTMLElement {
                     </div>
                     <div class="total">
                         <span>Total</span>
-                        <span>13,00 €</span>
+                        <span>30,00 €</span>
                     </div>
                     <div class="btnCart">
                         <a href="tunnelcommande_infos.html" class="cta">Commander</a>
+                    </div>
+                    <div class="btnCart">
                         <a href="panier.html" class="secondBtn">Afficher le panier</a>
                     </div>
                 </div>
@@ -110,11 +112,11 @@ class MyHeader extends HTMLElement {
                 <span class="titleCart">Mes favoris</span>
                 <div class="overlay-content">
                     <div class="content-product">
-                        <figure><img src="img/product/badge-courageuse.jpg" alt="badge courageuse trouillarde"></figure>
+                        <figure><img src="img/product/badge-mille-feuille.jpeg" alt="badge mille-feuille émotionnel"></figure>
                         <div class="product-infos">
                             <div class="cartInfos">
                                 <span class="cat">Badge</span><br>
-                                <span class="titleProduct">"Courageuse trouillarde"</span><br>
+                                <span class="titleProduct">"Mille-feuille émotionnel"</span><br>
                                 <span class="price">5,00 €</span>
                             </div>
                             <div class="quantity">
@@ -122,17 +124,19 @@ class MyHeader extends HTMLElement {
                             </div>
                         </div>
                     </div>
-                    <a href="#" class="cta">ajouter au panier</a>
+                    <div class="ctaCenter">
+                        <a href="#" class="cta">ajouter au panier</a>
+                    </div>
                 </div>
 
                 <div class="overlay-content">
                     <div class="content-product">
-                        <figure><img src="img/product/badge-humoureuse.jpg" alt=""></figure>
+                        <figure><img src="img/product/tiny-bijoux/boucles-multicolor-deparaillees.jpg" alt="boucles d'oreilles multicolores déparaillées"></figure>
                         <div class="product-infos">
                             <div class="cartInfos">
-                                <span class="cat">Badge</span><br>
-                                <span class="titleProduct">"Je suis humoureuse"</span><br>
-                                <span class="price">5,00 €</span>
+                                <span class="cat">Boucles d'oreilles</span><br>
+                                <span class="titleProduct">"Pas deux les même!"</span><br>
+                                <span class="price">22,00 €</span>
                             </div>
                             <div class="quantity">
                                 <a title="supprimer" href="" class="delete"></a>
@@ -140,8 +144,12 @@ class MyHeader extends HTMLElement {
                         </div>
                     </div>
                 </div>
+                <div class="ctaCenter">
                 <a href="#" class="cta">ajouter au panier</a>
-                <a href="profil_wishlist.html" class="secondBtn">Aller vers mes favoris</a>
+                </div>
+                <div class="ctaCenter">
+                    <a href="profil_wishlist.html" class="secondBtn">Aller vers mes favoris</a>
+                </div>
             </div>
         </div>
 

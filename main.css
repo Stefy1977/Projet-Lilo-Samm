@@ -529,9 +529,7 @@ footer{
     border-radius: 0 0 0 20px;
     box-shadow: -10px 10px 20px #C6C1C4;
 }
-.overlayIn .cta{
-    width: 50%;
-}
+
 .closebtn{
     position: relative;
     display: flex;
@@ -652,17 +650,14 @@ figure{
     font-weight: 500;
 }
 
+.btnCart{
+    text-align: center;
+}
 .btnCart .secondBtn{
-    width: 100%;
-    font-size: 0.8rem;
     margin: 10px 0;
-    box-sizing: border-box;
 }
 .btnCart .cta{
-    width: 100%;
-    font-size: 0.8rem;
     margin: 20px 0;
-    box-sizing: border-box;
 }
 
 /* Spécifique aux favoris */
@@ -686,16 +681,16 @@ figure{
 }
 
 .overlayFav .cta{
-    margin: auto;
+    margin-top: 5px;
     margin-bottom: 40px;
-    width: 100%;
-    box-sizing: border-box;
+    /* width: 100%;
+    box-sizing: border-box; */
 }
 
 .overlayFav .secondBtn{
-    width: 100%;
+    /* width: 100%; */
     margin: 10px 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 
