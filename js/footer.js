@@ -3,7 +3,7 @@ class MyFooter extends HTMLElement {
         this.innerHTML = `<footer>
         <container class="footer">
             <div class="footerBox">
-                <img src="img/ladl-logo-white.svg" alt="logo les ateliers de Lilo">
+            <a href="index.html" title="les ateliers de lilo"><img src="img/ladl-logo-white.svg" alt="logo les ateliers de Lilo"></a>
                 <p>Rue Arthur Duquesne, 53<br>7032 Spiennes<br>Belgique<br>TVA : BE0880.678.456</p>
             </div>
             <div class="footerBox">
