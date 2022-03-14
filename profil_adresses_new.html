@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="profil_infos.css">
+    <link rel="stylesheet" href="profil_adresses.css">
+    <link rel="stylesheet" href="tunnelcommande.css">
+    <script src="js/header.js" defer></script>
+    <script src="js/footer.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <title>Mes adresses - compte</title>
+</head>
+
+<body>
+
+    <main-header></main-header>
+
+    <div class="headerImage">
+        <p><span>Les bons comptes font les bons amis...</span></p>
+    </div>
+    <main>
+
+        <!-- Intro -->
+
+
+        <div class="breadcrumb">
+            <ul>
+                <li><a href="profil_global.html">Mon compte</a></li>
+                <li><span aria-current="page">Mes adresses</span></li>
+            </ul>
+        </div>
+        <h1>Bonjour Fany !</h1>
+
+        <!-------------------------------------------------------------------->
+
+        <!-- Navigation profil -->
+
+        <div class="profil">
+            <ul>
+                <li class="flexIcon"><a class="infos" href="profil_infos.html">Mes informations</a></li>
+                <li class="active flexIcon"><a class="adresses" href="profil_adresses.html">Mes adresses</a></li>
+                <li class="flexIcon"><a class="commandes" href="profil_commandes.html">Mes commandes</a></li>
+                <li class="flexIcon"><a class="favoris" href="profil_wishlist.html">Mes favoris</a></li>
+            </ul>
+        </div>
+
+        <!-------------------------------------------------------------------->
+
+        <!-- Adresses -->
+
+        <span class="titreInfos">Adresse principale de livraison</span>
+        <div class="line"></div>
+
+        <div class="flexInfos">
+            <form>
+                <label for="theme">Pays</label>
+                <select>
+                    <option id="theme" value="">Belgique</option>
+                    <option value="">France</option>
+                    <option value="">Luxembourg</option>
+                </select>
+                <div>
+                    <label for="adress">Adresse</label>
+                    <input id="adress" type="text">
+                </div>
+                <div class="facultatif">
+                    <label for="facultatif">Appartement, suite, etc (facultatif)</label>
+                    <input id="facultatif" type="text">
+                </div>
+                <div class="codePostalVille">
+                    <div class="code">
+                        <label for="codePostal">Code postal</label>
+                        <input id="codePostal" type="number">
+                    </div>
+                    <div class="ville">
+                        <label for="ville">Ville</label>
+                        <input id="ville" type="text">
+                    </div>
+                </div>
+            
+            </form>
+
+
+            <div class="ctaCenter">
+                <a href="profil_adresses.html" class="cta">Enregistrer mon adresse</a>
+            </div>
+
+        </div>
+
+        <span class="titreInfos">Adresse supplémentaire</span>
+        <div class="line"></div>
+
+        <div class="flexInfos">
+            <p class="texteClient"></p>
+            <div class="ctaCenter">
+                <a href="#" class="cta">Ajouter une adresse</a>
+            </div>
+        </div>
+
+        <!-------------------------------------------------------------------->
+
+        <!-- Btn deconnexion -->
+
+        <div class="ctaCenter">
+            <a href="connexion.html" class="ctaDeconnexion">Se déconnecter</a>
+        </div>
+
+        <!-------------------------------------------------------------------->
+
+    </main>
+
+    <main-footer></main-footer>
+
+    <button onclick="topFunction()" id="scroll"></button>
+</body>
+
+</html>
