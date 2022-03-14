@@ -12,23 +12,32 @@ main{
     width: 93.75%;
     margin: auto;
     max-width: 1280px;
+    color: #403038;
 }
 
 /* Formulaire */
 .formContact{
-    display: block;
+    display: flex;
     margin: auto;
+    max-width: 880px;
+}
+
+.formPart{
+    display: block;
     width: 50%;
 }
+
+
 
 label{
     font-size: 0.8rem;
     color: #403038;
     font-weight: 300;
+    display: block;
 }
 
 input{
-    width: 100%;
+    width: 90%;
     height: 30px;
     margin-bottom: 20px;
 }
@@ -46,26 +55,29 @@ button{
     border: none;
 }
 .connexion{
-    font-size: 0.7rem;
+    font-size: 1rem;
     text-align: center;
     font-weight: 300;
     color: #403038;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
+    margin-right: 10%;
 }
+
 .forgetPass{
     text-align: center;
     font-size: 0.7rem;
     font-weight: 300;
+    margin-right: 10%;
 }
 .forgetPass a{
     text-decoration: none;
     color: #403038;
 }
 .secondBtn {
-    margin: 15px auto 80px;
+    margin: 15px 10% 80px auto;
 }
 .cta {
-    margin: 15px auto 70px;
+    margin: 15px 10% 70px auto;
 }
 
 
@@ -80,12 +92,15 @@ button{
     .headerImage:after{
         height: 140px;
     }
-    .secondBtn {
+    .connexion {
+        font-size: 0.8rem;
+    }
+    /* .secondBtn {
         margin: 15px auto 40px;
-    }
-    .cta {
+    } */
+    /* .cta {
         margin: 15px auto 70px;
-    }
+    } */
 }
 
 /* Mobile */
