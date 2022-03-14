@@ -99,6 +99,8 @@ class MyHeader extends HTMLElement {
                     </div>
                     <div class="btnCart">
                         <a href="tunnelcommande_infos.html" class="cta">Commander</a>
+                    </div>
+                    <div class="btnCart">
                         <a href="panier.html" class="secondBtn">Afficher le panier</a>
                     </div>
                 </div>
@@ -122,7 +124,9 @@ class MyHeader extends HTMLElement {
                             </div>
                         </div>
                     </div>
-                    <a href="#" class="cta">ajouter au panier</a>
+                    <div class="ctaCenter">
+                        <a href="#" class="cta">ajouter au panier</a>
+                    </div>
                 </div>
 
                 <div class="overlay-content">
@@ -140,8 +144,12 @@ class MyHeader extends HTMLElement {
                         </div>
                     </div>
                 </div>
+                <div class="ctaCenter">
                 <a href="#" class="cta">ajouter au panier</a>
-                <a href="profil_wishlist.html" class="secondBtn">Aller vers mes favoris</a>
+                </div>
+                <div class="ctaCenter">
+                    <a href="profil_wishlist.html" class="secondBtn">Aller vers mes favoris</a>
+                </div>
             </div>
         </div>
 
