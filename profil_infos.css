@@ -109,6 +109,10 @@ ul li.active{
     margin: 16px 0 60px 0px;
 }
 
+.ctaDeconnexion{
+    margin-top: 0;
+}
+
 .titreInfos {
     font-size: 0.9rem;
     color: #403038;
@@ -203,9 +207,13 @@ ul li.active{
     }
 
     .cta {
-    width: 100%;
-    margin: 16px 0 60px 0;
-    box-sizing: border-box;
+        width: 100%;
+        margin: 16px 0 40px 0;
+        box-sizing: border-box;
+    }
+
+    .ctaDeconnexion{
+        margin-top: 0;
     }
 
     /* -------------------------------------------------------------------- */

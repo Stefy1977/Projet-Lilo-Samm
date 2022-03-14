@@ -41,7 +41,7 @@ main{
 
 .profil ul{
     justify-content: center;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
     flex-wrap: wrap;
     max-width: 500px;
     margin: auto;
@@ -152,7 +152,7 @@ main{
     /* Main */
     .flexIcon{
         margin: 0px;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
         width: 140px;
         height: 140px;
     }

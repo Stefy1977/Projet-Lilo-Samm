@@ -46,10 +46,11 @@ button{
     border: none;
 }
 .connexion{
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     text-align: center;
     font-weight: 300;
     color: #403038;
+    margin-bottom: 0px;
 }
 .forgetPass{
     text-align: center;
@@ -115,10 +116,10 @@ button{
     input{
         width: 98%;
     }
-    .secondBtn {
+    /* .secondBtn {
         margin: 15px auto 40px;
-    }
+    } */
     .cta {
-        margin: 15px auto 70px;
+        margin: 15px auto 50px;
     }
 }
