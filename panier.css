@@ -28,6 +28,9 @@ main{
     padding: 10px 0;
     border-bottom: solid 1px #403038;
 }
+.partLeft:first-child{
+    border-top: solid 1px #403038;
+}
 .partLeft .cat{
     font-size: 0.7rem;
     font-weight: 300;
@@ -93,23 +96,6 @@ main{
     .headerImage:after{
         height: 140px;
     }
-
-    /* main */
-    .cartContent{
-        width: 80%;
-        flex-direction: column-reverse;
-    }
-    .purchases{
-        width: 100%;
-    }
-    .partLeft{
-        width: 100%;
-    }
-    .orderSummary{
-        width: 100%;
-        box-sizing: border-box;
-        margin-left: 0;
-    }
 }
 
 /* Mobile */
@@ -143,5 +129,8 @@ main{
         width: 100%;
         box-sizing: border-box;
         margin-left: 0;
+    }
+    .partLeft:first-child{
+        margin-top: 20px;
     }
 }

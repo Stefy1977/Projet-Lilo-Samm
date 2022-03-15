@@ -396,9 +396,9 @@ input{
     height: 30px;
     margin-bottom: 10px;
 }
-button{
+/* button{
     border: none;
-}
+} */
 .codePostalVille {
     display: flex;
     flex-direction: row;
