@@ -22,9 +22,9 @@ main{
     padding: 5px 15px;
     font-size: 0.8rem;
 }
-.eventDate{
+/* .eventDate{
     padding-top: 40px;
-}
+} */
 .eventBlock{
     display: flex;
 }
