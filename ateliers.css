@@ -74,6 +74,12 @@ figure img{
         max-width: 80%;
     }
 
+    /* Main */
+    .mainAteliers p{
+        max-width: 90%;
+        margin: auto;
+    }
+
     /* Bloc images */
 
     .workshopPictures{
