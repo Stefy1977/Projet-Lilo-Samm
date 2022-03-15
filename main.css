@@ -335,7 +335,7 @@ strong{
     transition: 0.3s;
     box-shadow: 0 5px 10px 0 #C6C1C4;
 }
-.ctaDeconnexion:before{
+/* .ctaDeconnexion:before{
     position: absolute;
     content: "";
     background-image: url(img/deconnexion.svg);
@@ -344,7 +344,7 @@ strong{
     height: 20px;
     top: 15px;
     left: 15px;
-}
+} */
 
 /* Les formulaires */
 
