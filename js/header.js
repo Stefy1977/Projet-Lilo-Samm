@@ -148,7 +148,7 @@ class MyHeader extends HTMLElement {
                 <a href="#" class="cta">ajouter au panier</a>
                 </div>
                 <div class="ctaCenter">
-                    <a href="profil_wishlist.html" class="secondBtn">Aller vers mes favoris</a>
+                    <a href="connexion.html" class="secondBtn">Aller vers mes favoris</a>
                 </div>
             </div>
         </div>
