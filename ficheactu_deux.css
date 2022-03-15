@@ -15,36 +15,6 @@ main{
     max-width: 1280px;
 }
 
-/* ----------------------------------------------------------------- */
-
-/* L'article */
-
-.article {
-    padding: 40px 0 80px 0 ;
-}
-
-.date {
-    display:flex;
-    justify-content: center;
-    font-size: 0.7rem;
-    font-weight: 500;
-    padding-bottom: 80px;
-    color: #C6C1C4;
-}
-
-h1 {
-    padding-bottom: 20px;
-    margin-bottom: 0px;
-}
-
-.textArticle {
-    font-size: 1rem;
-    font-weight: 300;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-/* ----------------------------------------------------------------- */
 
 /* ---------------- MEDIAQUERIES -------------- */
 
@@ -77,14 +47,6 @@ h1 {
 
     .headerImage p{
         max-width: 80%;
-    }
-    .article {
-        padding: 40px 0 40px 0 ;
-        margin: auto;
-        max-width: 90%;
-    }
-    .date {
-        padding-bottom: 40px;
     }
 
 }

@@ -19,8 +19,12 @@ main{
 
 /* L'article */
 
+h1{
+    padding-bottom: 0;
+}
+
 .article {
-    padding: 40px 0 80px 0 ;
+    margin-bottom: 60px;
 }
 
 .date {
@@ -28,14 +32,10 @@ main{
     justify-content: center;
     font-size: 0.7rem;
     font-weight: 500;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
     color: #C6C1C4;
 }
 
-h1 {
-    padding-bottom: 20px;
-    margin-bottom: 0px;
-}
 
 .textArticle {
     font-size: 1rem;
@@ -78,12 +78,13 @@ h1 {
     .headerImage p{
         max-width: 80%;
     }
-    .article {
-        padding: 40px 0 40px 0 ;
+
+    .article{
         margin: auto;
         max-width: 90%;
     }
-    .date {
+
+    .date{
         padding-bottom: 40px;
     }
     
