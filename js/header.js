@@ -2,6 +2,7 @@ class MyHeader extends HTMLElement {
     connectedCallback() {
         const current = this.getAttribute('current');
         this.innerHTML = `<header>
+      
         <nav>
             <div id="burger">
                 <button type="button">Menu</button>
