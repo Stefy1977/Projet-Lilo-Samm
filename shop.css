@@ -196,6 +196,7 @@ span.promo{
     margin-top: 15px;
     margin-bottom: 80px;
     position: relative;
+    transition: all .5s ease;
 }
 .buy:hover{
     background-color: #5e054f;

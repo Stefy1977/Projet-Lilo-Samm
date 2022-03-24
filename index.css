@@ -27,10 +27,11 @@
 }
 .giftLinkBlock{
     background: #750663;
+    transition: all .5s ease;
 }
 
 .giftLinkBlock a{
-    color: white;
+    color: hsl(0, 0%, 100%);
     text-decoration: none;
     font-size: 0.9rem;
     font-weight: 300;
