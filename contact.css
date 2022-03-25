@@ -39,9 +39,11 @@ input{
     margin-bottom: 20px;
 }
 select{
-    margin-bottom: 20px;
+    height: 35px;
+    margin-bottom: 18px;
     padding: 8px 0;
 }
+
 
 .formessage{
     height: 115px;
