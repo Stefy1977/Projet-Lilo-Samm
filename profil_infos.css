@@ -152,9 +152,6 @@ ul li.active{
         display: none;
     }
 
-    /* .cta {
-        width: 40%;
-        } */
     
 }
 
@@ -183,16 +180,20 @@ ul li.active{
     /* Navigation profil */
 
     .profil {
-        padding-bottom: 10px;
+        display: flex;
+        overflow-x: scroll;
+        padding: 1rem 0;
+        scroll-snap-type: x mandatory;
     }
 
-    .profil ul{
-        flex-direction: column;
-    }
+    /* .profil ul{
+        display: flex;
+        justify-content: space-between;
+    } */
 
     .profil li{
-        margin-right: 0;
-        margin-bottom: 5px;
+        min-width: 130px;
+        padding: 10px 0px;
     }
 
     .profil a::before {
@@ -205,6 +206,11 @@ ul li.active{
 
     .flexInfos {
         display: block;
+    }
+
+    .titreInfos{
+        display: block;
+        padding-top: 20px;
     }
 
     /* .cta {
