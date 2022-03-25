@@ -359,7 +359,6 @@ strong{
     margin-bottom: 40px;
 }
 
-
 .connectYou a{
     font-size: 0.9rem;
     font-weight: 500;
@@ -382,7 +381,7 @@ strong{
 }
 select{
     width: 50%;
-    height: 30px;
+    height: 35px;
     margin-bottom: 10px;
 }
 label{
