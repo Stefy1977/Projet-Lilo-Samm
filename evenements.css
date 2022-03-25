@@ -187,19 +187,18 @@ ul li.active{
 
     /* Navigation filtre */
 
-    /* .filtre {
-        padding-bottom: 10px;
-    } */
-
     .filtre ul{
-        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
         padding-bottom: 10px;
     }
 
     .filtre li{
+        padding: 0 8px;
+        width: auto;
         margin-right: 0;
-        margin-bottom: 5px;
     }
+
 
     .filtre a::before {
         display: none;
