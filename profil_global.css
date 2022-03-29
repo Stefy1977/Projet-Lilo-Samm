@@ -36,7 +36,7 @@ main{
 .profil {
     margin: auto;
     margin-bottom: 40px;
-    max-width: 800px;
+    /* max-width: 800px; */
 }
 
 .profil ul{
@@ -120,7 +120,7 @@ main{
     }
     
     .profil ul {
-        width: 100%;
+        max-width: 450px;
     }
 
     .profil a::before {
@@ -159,6 +159,7 @@ main{
    
     .profil ul {
         padding-bottom: 0px;
+        max-width: 350px;
     }
    
     .profil a::before {
