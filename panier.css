@@ -133,4 +133,8 @@ main{
     .partLeft:first-child{
         margin-top: 20px;
     }
+    .btnCart{
+        width: 88%;
+        margin: auto;
+    }
 }
