@@ -21,14 +21,15 @@ main{
 .profil {
     margin: auto;
     margin-bottom: 80px;
-    max-width: 800px;
 }
 
 .profil ul{
     justify-content: center;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
     flex-wrap: wrap;
-    min-width: 70%;
+    max-width: 800px;
+    margin: auto;
+    /* min-width: 70%; */
 }
 
 .flexIcon {
@@ -117,7 +118,7 @@ main{
     }
     
     .profil ul {
-        width: 100%;
+        max-width: 700px;
     }
 
     .profil a::before {
@@ -150,21 +151,17 @@ main{
 
    .flexIcon{
        margin: 0px;
-       margin-bottom: 15px;
+       margin-bottom: 10px;
        width: 140px;
        height: 140px;
-
    }
 
    .profil ul {
-       flex-wrap: wrap;
-       padding-bottom: 0px;
-     
+        max-width: 400px;
    }
 
    .profil a::before {
        background-position: center 35px;
-
    }
 
 }
