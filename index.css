@@ -26,13 +26,14 @@
     align-items: center;
 }
 .giftLinkBlock{
+    position: relative;
     background: #750663;
     transition: all .5s ease;
 }
 
-.giftLinkBlock a{
+.giftLinkBlock span{
     color: hsl(0, 0%, 100%);
-    text-decoration: none;
+    /* text-decoration: none; */
     font-size: 0.9rem;
     font-weight: 300;
 }
@@ -51,6 +52,16 @@
     height: 50%;
     display: block;
 }
+.cardLink{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-indent: -9999px;
+    width: 100%;
+    height: 100%;
+}
+
 
 /* Caroussel "nouveautés" */
 
