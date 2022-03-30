@@ -18,6 +18,9 @@
     .headerImage:after{
         height: 140px;
     }
+    .headerImage p{
+        max-width: 90%;
+    }
 }
 
 /* Mobile */
