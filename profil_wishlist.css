@@ -131,17 +131,33 @@
 
     /* Coup de coeur */
 
+    .flexWishlist {
+        display: inline-block;
+        width: 100%;
+    }
+
     .flexInfosWhishlist {
         display: inline-block;
-        width: 40%;
+        margin-left: 10px;
+    }
+    
+    .badgeWishlist {
+        display: inline-block;
+        width: 35%;
         vertical-align: top;
     }
 
-    .badgeWishlist {
+    /* .flexInfosWhishlist {
+        display: inline-block;
+        width: 40%;
+        vertical-align: top;
+    } */
+
+    /* .badgeWishlist {
         display: inline-block;
         width: 20%;
         vertical-align: top;
-    }
+    } */
 
 
     /* ----------------------------------------------------------------- */
@@ -149,8 +165,9 @@
     /* Cta avec icone */
 
     .buy{
-        width: 40%;
-        margin-left: 0;
+        width: 100%;
+        margin: auto;
+        /* margin-left: 0; */
         margin-top: 16px;
     }
     .buy:before{
