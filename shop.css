@@ -223,9 +223,6 @@ span.promo{
     .headerImage:after{
         height: 140px;
     }
-    .headerImage p{
-        max-width: 90%;
-    }
 
     /* la grille de produits */
     .productGrid .infoNew{
